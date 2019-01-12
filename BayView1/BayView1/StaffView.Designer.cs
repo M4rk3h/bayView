@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffView));
-            this.btnCustomer = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOldCust = new System.Windows.Forms.Button();
+            this.btnBookings = new System.Windows.Forms.Button();
             this.btnChange = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SysTimeLbl = new System.Windows.Forms.Label();
@@ -38,36 +38,36 @@
             this.label3 = new System.Windows.Forms.Label();
             this.BJTimeLbl = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnMark = new System.Windows.Forms.Button();
+            this.btnCustomers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnCustomer
+            // btnOldCust
             // 
-            this.btnCustomer.Location = new System.Drawing.Point(48, 71);
-            this.btnCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(180, 90);
-            this.btnCustomer.TabIndex = 0;
-            this.btnCustomer.Text = "Customers OLD";
-            this.btnCustomer.UseVisualStyleBackColor = true;
-            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
+            this.btnOldCust.Location = new System.Drawing.Point(48, 444);
+            this.btnOldCust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnOldCust.Name = "btnOldCust";
+            this.btnOldCust.Size = new System.Drawing.Size(140, 30);
+            this.btnOldCust.TabIndex = 2;
+            this.btnOldCust.Text = "Customers OLD";
+            this.btnOldCust.UseVisualStyleBackColor = true;
+            this.btnOldCust.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
-            // button1
+            // btnBookings
             // 
-            this.button1.Location = new System.Drawing.Point(300, 71);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 180);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Booking Rooms";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBookings.Location = new System.Drawing.Point(303, 71);
+            this.btnBookings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBookings.Name = "btnBookings";
+            this.btnBookings.Size = new System.Drawing.Size(180, 180);
+            this.btnBookings.TabIndex = 1;
+            this.btnBookings.Text = "Booking Rooms";
+            this.btnBookings.UseVisualStyleBackColor = true;
             // 
             // btnChange
             // 
-            this.btnChange.Location = new System.Drawing.Point(48, 446);
+            this.btnChange.Location = new System.Drawing.Point(227, 444);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(143, 28);
+            this.btnChange.Size = new System.Drawing.Size(140, 30);
             this.btnChange.TabIndex = 3;
             this.btnChange.Text = "Change Password";
             this.btnChange.UseVisualStyleBackColor = true;
@@ -121,32 +121,32 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(408, 446);
+            this.btnExit.Location = new System.Drawing.Point(408, 444);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 28);
+            this.btnExit.Size = new System.Drawing.Size(75, 30);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnMark
+            // btnCustomers
             // 
-            this.btnMark.Location = new System.Drawing.Point(48, 165);
-            this.btnMark.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnMark.Name = "btnMark";
-            this.btnMark.Size = new System.Drawing.Size(180, 90);
-            this.btnMark.TabIndex = 1;
-            this.btnMark.Text = "Customers";
-            this.btnMark.UseVisualStyleBackColor = true;
-            this.btnMark.Click += new System.EventHandler(this.btnMark_Click);
+            this.btnCustomers.Location = new System.Drawing.Point(48, 71);
+            this.btnCustomers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCustomers.Name = "btnCustomers";
+            this.btnCustomers.Size = new System.Drawing.Size(180, 180);
+            this.btnCustomers.TabIndex = 0;
+            this.btnCustomers.Text = "Customers";
+            this.btnCustomers.UseVisualStyleBackColor = true;
+            this.btnCustomers.Click += new System.EventHandler(this.btnMark_Click);
             // 
             // StaffView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(539, 485);
-            this.Controls.Add(this.btnMark);
+            this.Controls.Add(this.btnCustomers);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.BJTimeLbl);
             this.Controls.Add(this.label3);
@@ -154,8 +154,8 @@
             this.Controls.Add(this.SysTimeLbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnChange);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnCustomer);
+            this.Controls.Add(this.btnBookings);
+            this.Controls.Add(this.btnOldCust);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "StaffView";
@@ -168,8 +168,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCustomer;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOldCust;
+        private System.Windows.Forms.Button btnBookings;
         private System.Windows.Forms.Button btnChange;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label SysTimeLbl;
@@ -177,6 +177,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label BJTimeLbl;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnMark;
+        private System.Windows.Forms.Button btnCustomers;
     }
 }

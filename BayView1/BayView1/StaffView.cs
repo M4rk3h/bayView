@@ -20,10 +20,12 @@ namespace BayView1
             this.StartPosition = FormStartPosition.CenterScreen;
 
             label1.Text = "Welcome, " + GlobalData.GDUserName + " !";
+            //Local time.
             this.SysTimeLbl.Text = DateTime.Now.ToString();
+            //Trying to set time to Beijing.
             this.BJTimeLbl.Text = DateTimeOffset.UtcNow.UtcDateTime.ToString();
         }
-        
+
         private void btnCustomer_Click(object sender, EventArgs e)
         {
             Customer frmCustomer = new Customer();
