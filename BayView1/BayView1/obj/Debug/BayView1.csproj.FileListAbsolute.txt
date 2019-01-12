@@ -1,0 +1,265 @@
+E:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe.config
+E:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe
+E:\BayView1\BayView1\BayView1\bin\Debug\BayView1.pdb
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.exe
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.pdb
+E:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.dll
+E:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+E:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+E:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+E:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+E:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.xml
+E:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+E:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+E:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+G:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe.config
+G:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe
+G:\BayView1\BayView1\BayView1\bin\Debug\BayView1.pdb
+G:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.dll
+G:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+G:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+G:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+G:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+G:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.xml
+G:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+G:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+G:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.exe
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.pdb
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+E:\BayView1\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+D:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe.config
+D:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe
+D:\BayView1\BayView1\BayView1\bin\Debug\BayView1.pdb
+D:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.dll
+D:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+D:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+D:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+D:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+D:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.xml
+D:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+D:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+D:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csprojResolveAssemblyReference.cache
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.Cache
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.exe
+D:\BayView1\BayView1\BayView1\obj\Debug\BayView1.pdb
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+G:\BayView1\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+F:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe.config
+F:\BayView1\BayView1\BayView1\bin\Debug\BayView1.exe
+F:\BayView1\BayView1\BayView1\bin\Debug\BayView1.pdb
+F:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.dll
+F:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+F:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+F:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+F:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+F:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.xml
+F:\BayView1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+F:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+F:\BayView1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.exe
+F:\BayView1\BayView1\BayView1\obj\Debug\BayView1.pdb
+H:\BayView1\BayView1\bin\Debug\BayView1.exe.config
+H:\BayView1\BayView1\bin\Debug\BayView1.exe
+H:\BayView1\BayView1\bin\Debug\BayView1.pdb
+H:\BayView1\BayView1\bin\Debug\EntityFramework.dll
+H:\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+H:\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+H:\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+H:\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+H:\BayView1\BayView1\bin\Debug\EntityFramework.xml
+H:\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+H:\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+H:\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+H:\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+H:\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+H:\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+H:\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+H:\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+H:\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+H:\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+H:\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+H:\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+H:\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+H:\BayView1\BayView1\obj\Debug\BayView1.exe
+H:\BayView1\BayView1\obj\Debug\BayView1.pdb
+E:\BayView1\BayView1\bin\Debug\BayView1.exe.config
+E:\BayView1\BayView1\bin\Debug\BayView1.exe
+E:\BayView1\BayView1\bin\Debug\BayView1.pdb
+E:\BayView1\BayView1\bin\Debug\EntityFramework.dll
+E:\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+E:\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+E:\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+E:\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+E:\BayView1\BayView1\bin\Debug\EntityFramework.xml
+E:\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+E:\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+E:\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+E:\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+E:\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+E:\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+E:\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+E:\BayView1\BayView1\obj\Debug\BayView1.exe
+E:\BayView1\BayView1\obj\Debug\BayView1.pdb
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\BayView1.exe.config
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\BayView1.exe
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\BayView1.pdb
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.dll
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.xml
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.exe
+C:\Users\17076749.UNI\Downloads\BayView1\BayView1\obj\Debug\BayView1.pdb
+H:\BayView1\BayView1\obj\Debug\BayView1.Customer2.resources
+E:\BayView1\BayView1\obj\Debug\BayView1.Customer2.resources
+F:\BayView1\BayView1\bin\Debug\BayView1.exe.config
+F:\BayView1\BayView1\bin\Debug\BayView1.exe
+F:\BayView1\BayView1\bin\Debug\BayView1.pdb
+F:\BayView1\BayView1\bin\Debug\EntityFramework.dll
+F:\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+F:\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+F:\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+F:\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+F:\BayView1\BayView1\bin\Debug\EntityFramework.xml
+F:\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+F:\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+F:\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+F:\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+F:\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.Customer2.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+F:\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+F:\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+F:\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+F:\BayView1\BayView1\obj\Debug\BayView1.exe
+F:\BayView1\BayView1\obj\Debug\BayView1.pdb
+D:\Downloads\BayView1\BayView1\bin\Debug\BayView1.exe.config
+D:\Downloads\BayView1\BayView1\bin\Debug\BayView1.exe
+D:\Downloads\BayView1\BayView1\bin\Debug\BayView1.pdb
+D:\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.dll
+D:\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+D:\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.xml
+D:\Downloads\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+D:\Downloads\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.Customer2.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.exe
+D:\Downloads\BayView1\BayView1\obj\Debug\BayView1.pdb
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\BayView1.exe.config
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\BayView1.exe
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\BayView1.pdb
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\EntityFramework.dll
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\EntityFramework.xml
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.Customer2.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.exe
+C:\Users\Mark Baber\Desktop\NEW BOI\BayView1\BayView1\obj\Debug\BayView1.pdb
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\BayView1.exe.config
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\BayView1.exe
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\BayView1.pdb
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\EntityFramework.dll
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\EntityFramework.xml
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.csprojAssemblyReference.cache
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.Customer.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.Customer2.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.Form1.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.ManagerView.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.Properties.Resources.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.Resource1.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.StaffView.resources
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.csproj.GenerateResource.cache
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.csproj.CoreCompileInputs.cache
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.exe
+C:\Users\Mark Baber\Desktop\uni\BayView1\BayView1\obj\Debug\BayView1.pdb

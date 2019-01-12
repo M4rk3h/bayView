@@ -1,0 +1,10 @@
+/COM,ANSYS RELEASE Release 19.2      BUILD 19.2      UP20180808       11:51:31
+
+ *** FATAL ***                           CP =       0.062   TIME= 11:51:31
+ Parallel capability is not valid for this product.                      
+
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************
