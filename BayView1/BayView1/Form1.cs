@@ -23,9 +23,6 @@ namespace BayView1
         SQLiteConnection dbcon = 
             new SQLiteConnection(dbConnection.dbsource);
 
-        //used to hold the database file details
-        //string conString;
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             try
@@ -54,8 +51,14 @@ namespace BayView1
                             GlobalData.GDUserName = textBoxUsername.Text;
 
                             dbcon.Close();
+                            //Close connection to Database
+                            tsText.Image = Properties.Resources.green;
+                            //Display a Green Tick on the Syayus Bar
                             tsText.Text = "Welcome, " + textBoxUsername.Text + " ! Have a nice day!";
+                            //Change the text on the status bus with username entered.
                             MessageBox.Show("Login Successful. " + "Welcome, " + textBoxUsername.Text + "! Have a nice day!", "Login");
+                            //Display a message box with username entered.
+                            
 
                             StaffView staffView = new StaffView();
                             ManagerView managerView = new ManagerView();
@@ -95,8 +98,9 @@ namespace BayView1
         {
             timer1.Stop();
             //Change text of the status bar
-            //tsText.Text.ForeColor = "red";
-            tsText.Text = "## Login Failed, Please Try Again. ##";
+            
+            tsText.Image = Properties.Resources.red;
+            tsText.Text = "Login Failed, Please Try Again.";
         }
     }
 }

@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer2));
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bnAdd = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
@@ -64,8 +64,8 @@
             this.btnTest = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnDel = new System.Windows.Forms.Button();
+            this.txtActive = new System.Windows.Forms.TextBox();
             this.lblActive = new System.Windows.Forms.Label();
-            this.cbAct = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -73,7 +73,7 @@
             // 
             // bindingNavigator1
             // 
-            this.bindingNavigator1.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.bindingNavigator1.AddNewItem = this.bnAdd;
             this.bindingNavigator1.CountItem = this.bindingNavigatorCountItem;
             this.bindingNavigator1.DeleteItem = null;
             this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -87,7 +87,7 @@
             this.bindingNavigatorMoveNextItem,
             this.bindingNavigatorMoveLastItem,
             this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem});
+            this.bnAdd});
             this.bindingNavigator1.Location = new System.Drawing.Point(0, 0);
             this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -99,14 +99,15 @@
             this.bindingNavigator1.TabIndex = 0;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
-            // bindingNavigatorAddNewItem
+            // bnAdd
             // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(24, 24);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
+            this.bnAdd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bnAdd.Enabled = false;
+            this.bnAdd.Image = ((System.Drawing.Image)(resources.GetObject("bnAdd.Image")));
+            this.bnAdd.Name = "bnAdd";
+            this.bnAdd.RightToLeftAutoMirrorImage = true;
+            this.bnAdd.Size = new System.Drawing.Size(24, 24);
+            this.bnAdd.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
@@ -143,7 +144,7 @@
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(49, 27);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
@@ -180,10 +181,10 @@
             this.btnCancel.Enabled = false;
             this.btnCancel.Font = new System.Drawing.Font("Arial", 11F);
             this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCancel.Location = new System.Drawing.Point(542, 175);
+            this.btnCancel.Location = new System.Drawing.Point(541, 175);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(95, 40);
+            this.btnCancel.Size = new System.Drawing.Size(95, 39);
             this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -194,6 +195,7 @@
             this.cbFind.Enabled = false;
             this.cbFind.FormattingEnabled = true;
             this.cbFind.Location = new System.Drawing.Point(441, 53);
+            this.cbFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbFind.Name = "cbFind";
             this.cbFind.Size = new System.Drawing.Size(196, 24);
             this.cbFind.TabIndex = 2;
@@ -205,7 +207,7 @@
             this.btnClose.Location = new System.Drawing.Point(441, 267);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(196, 40);
+            this.btnClose.Size = new System.Drawing.Size(196, 39);
             this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -219,7 +221,7 @@
             this.btnSubmit.Location = new System.Drawing.Point(441, 175);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(95, 40);
+            this.btnSubmit.Size = new System.Drawing.Size(95, 39);
             this.btnSubmit.TabIndex = 10;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -233,7 +235,7 @@
             this.btnSearch.Location = new System.Drawing.Point(441, 82);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(196, 40);
+            this.btnSearch.Size = new System.Drawing.Size(196, 39);
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -242,7 +244,7 @@
             // txtPostCode
             // 
             this.txtPostCode.Enabled = false;
-            this.txtPostCode.Location = new System.Drawing.Point(128, 243);
+            this.txtPostCode.Location = new System.Drawing.Point(128, 242);
             this.txtPostCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPostCode.Name = "txtPostCode";
             this.txtPostCode.Size = new System.Drawing.Size(136, 22);
@@ -253,7 +255,7 @@
             this.lblPostcode.AutoSize = true;
             this.lblPostcode.Font = new System.Drawing.Font("Arial", 11F);
             this.lblPostcode.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblPostcode.Location = new System.Drawing.Point(25, 243);
+            this.lblPostcode.Location = new System.Drawing.Point(25, 242);
             this.lblPostcode.Name = "lblPostcode";
             this.lblPostcode.Size = new System.Drawing.Size(92, 22);
             this.lblPostcode.TabIndex = 47;
@@ -265,7 +267,7 @@
             this.txtEmail.Location = new System.Drawing.Point(128, 278);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(238, 22);
+            this.txtEmail.Size = new System.Drawing.Size(239, 22);
             this.txtEmail.TabIndex = 9;
             // 
             // lblEmail
@@ -282,7 +284,7 @@
             // txtPhone
             // 
             this.txtPhone.Enabled = false;
-            this.txtPhone.Location = new System.Drawing.Point(128, 211);
+            this.txtPhone.Location = new System.Drawing.Point(128, 210);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(136, 22);
@@ -322,7 +324,7 @@
             // txtFirstName
             // 
             this.txtFirstName.Enabled = false;
-            this.txtFirstName.Location = new System.Drawing.Point(128, 141);
+            this.txtFirstName.Location = new System.Drawing.Point(128, 142);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(136, 22);
@@ -342,7 +344,7 @@
             // txtTitle
             // 
             this.txtTitle.Enabled = false;
-            this.txtTitle.Location = new System.Drawing.Point(128, 104);
+            this.txtTitle.Location = new System.Drawing.Point(128, 103);
             this.txtTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(136, 22);
@@ -353,7 +355,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Arial", 11F);
             this.lblTitle.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblTitle.Location = new System.Drawing.Point(72, 104);
+            this.lblTitle.Location = new System.Drawing.Point(72, 103);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(45, 22);
             this.lblTitle.TabIndex = 42;
@@ -367,7 +369,7 @@
             this.btnEdit.Location = new System.Drawing.Point(441, 130);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(196, 40);
+            this.btnEdit.Size = new System.Drawing.Size(196, 39);
             this.btnEdit.TabIndex = 48;
             this.btnEdit.Text = "Edit Customer";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -415,44 +417,45 @@
             // btnDel
             // 
             this.btnDel.BackColor = System.Drawing.SystemColors.Control;
+            this.btnDel.Enabled = false;
             this.btnDel.Font = new System.Drawing.Font("Arial", 11F);
             this.btnDel.ForeColor = System.Drawing.Color.Red;
             this.btnDel.Location = new System.Drawing.Point(441, 219);
             this.btnDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(196, 40);
+            this.btnDel.Size = new System.Drawing.Size(196, 39);
             this.btnDel.TabIndex = 51;
             this.btnDel.Text = "DELETE";
             this.btnDel.UseVisualStyleBackColor = false;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // txtActive
+            // 
+            this.txtActive.Enabled = false;
+            this.txtActive.Location = new System.Drawing.Point(355, 103);
+            this.txtActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtActive.Name = "txtActive";
+            this.txtActive.Size = new System.Drawing.Size(44, 22);
+            this.txtActive.TabIndex = 52;
             // 
             // lblActive
             // 
             this.lblActive.AutoSize = true;
             this.lblActive.Font = new System.Drawing.Font("Arial", 11F);
             this.lblActive.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblActive.Location = new System.Drawing.Point(286, 104);
+            this.lblActive.Location = new System.Drawing.Point(287, 103);
             this.lblActive.Name = "lblActive";
             this.lblActive.Size = new System.Drawing.Size(62, 22);
-            this.lblActive.TabIndex = 42;
+            this.lblActive.TabIndex = 53;
             this.lblActive.Text = "Active";
-            // 
-            // cbAct
-            // 
-            this.cbAct.AutoSize = true;
-            this.cbAct.Location = new System.Drawing.Point(354, 109);
-            this.cbAct.Name = "cbAct";
-            this.cbAct.Size = new System.Drawing.Size(18, 17);
-            this.cbAct.TabIndex = 52;
-            this.cbAct.UseVisualStyleBackColor = true;
-            this.cbAct.CheckedChanged += new System.EventHandler(this.cbAct_CheckedChanged);
             // 
             // Customer2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 341);
-            this.Controls.Add(this.cbAct);
+            this.Controls.Add(this.txtActive);
+            this.Controls.Add(this.lblActive);
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnTest);
             this.Controls.Add(this.statusStrip1);
@@ -473,9 +476,9 @@
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.txtTitle);
-            this.Controls.Add(this.lblActive);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.bindingNavigator1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Customer2";
@@ -495,7 +498,7 @@
         #endregion
 
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
+        private System.Windows.Forms.ToolStripButton bnAdd;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
@@ -528,7 +531,7 @@
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.TextBox txtActive;
         private System.Windows.Forms.Label lblActive;
-        private System.Windows.Forms.CheckBox cbAct;
     }
 }

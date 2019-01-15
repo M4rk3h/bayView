@@ -29,6 +29,11 @@ namespace BayView1
 
         //SQLite Command called myCmd
         SQLiteCommand myCmd;
+        //Set the binding source globally
+        BindingSource bS = new BindingSource();
+
+        //Declare what row DataRow starts at
+        int rowAt = 0;
 
         private void Customer2_Load(object sender, EventArgs e)
         {
@@ -37,12 +42,12 @@ namespace BayView1
                 //Set details for dbCon
                 dbCon = new SQLiteConnection(dbDetails);
                 //Add required SQL
-                daCustomer = new SQLiteDataAdapter("Select * FROM Customers", dbCon);
+                //daCustomer = new SQLiteDataAdapter("Select * From Customers Where Active = 1", dbCon);
+                daCustomer = new SQLiteDataAdapter("Select * From Customers ", dbCon);
                 //Fill DataAdapter with data pulled from DataTable
                 daCustomer.Fill(dtCustomer);
-
+                //Set the Command Builder within the load.
                 SQLiteCommandBuilder cB = new SQLiteCommandBuilder(daCustomer);
-                BindingSource bS = new BindingSource();
 
                 bS.DataSource = dtCustomer;
                 bindingNavigator1.BindingSource = bS;
@@ -53,11 +58,11 @@ namespace BayView1
                 txtPhone.DataBindings.Add("Text", bS, "PhoneNo");
                 txtPostCode.DataBindings.Add("Text", bS, "PostCode");
                 txtEmail.DataBindings.Add("Text", bS, "Email");
-                cbAct.DataBindings.Add("Text", bS, "Active");
+                txtActive.DataBindings.Add("Text", bS, "Active");
             }
             catch
             {
-                MessageBox.Show("Error on customer 2");
+                MessageBox.Show("Error on customer 2 Load");
             }
         }
 
@@ -69,6 +74,7 @@ namespace BayView1
             txtPhone.Enabled = true;
             txtEmail.Enabled = true;
             txtPostCode.Enabled = true;
+            txtActive.Enabled = true;
         }
 
         public void clearAllText()
@@ -88,6 +94,8 @@ namespace BayView1
             btnEdit.Enabled = true;
             btnSubmit.Enabled = true;
             btnCancel.Enabled = true;
+            btnDel.Enabled = true;
+            bnAdd.Enabled = true;
         }
 
         public void disableAll()
@@ -98,17 +106,38 @@ namespace BayView1
             txtPhone.Enabled = false;
             txtPostCode.Enabled = false;
             txtEmail.Enabled = false;
+            btnDel.Enabled = false;
 
+        }
+
+        public void showRecord()
+        {
+            /*  Tried to copy something from my old work (Mark)
+             *  Seems to work, hopefully doesn't clash with
+             *  BindingSource & BindingNavigator
+             */
+            
+            DataRow row = dtCustomer.Rows[rowAt];
+            //Fill text fields with data from each row.
+            txtTitle.Text = row[1].ToString();
+            txtFirstName.Text = row[2].ToString();
+            txtLastName.Text = row[3].ToString();
+            txtEmail.Text = row[4].ToString();
+            txtPhone.Text = row[5].ToString();
+            txtPostCode.Text = row[6].ToString();
+            txtActive.Text = row[7].ToString();
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             try
             {
-                
-                //Update Database
-                daCustomer.Update(dtCustomer);
-                
+                using (SQLiteCommandBuilder cb = new SQLiteCommandBuilder(daCustomer))
+                {
+                    daCustomer.Update(dtCustomer);
+                }
+
+                MessageBox.Show("Record Updated.", "Update Records");
             }
             catch
             {
@@ -127,8 +156,12 @@ namespace BayView1
                 MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Question) == DialogResult.OK)
             {
-                //Update Database
-                daCustomer.Update(dtCustomer);
+                using (SQLiteCommandBuilder cb = new SQLiteCommandBuilder(daCustomer))
+                {
+                    daCustomer.Update(dtCustomer);
+                }
+
+                showRecord();
 
                 dbCon.Close();
                 this.Close();
@@ -143,7 +176,6 @@ namespace BayView1
         {
             try
             {
-
                 SQLiteDataAdapter daSearch;
                 DataTable dtSearch = new DataTable();
 
@@ -175,6 +207,8 @@ namespace BayView1
                     txtEmail.Text = dtSearch.Rows[Picked][4].ToString();
                     txtPhone.Text = dtSearch.Rows[Picked][5].ToString();
                     txtPostCode.Text = dtSearch.Rows[Picked][6].ToString();
+                    txtActive.Text = dtSearch.Rows[Picked][7].ToString();
+
                 }
                 else
                 {
@@ -183,8 +217,6 @@ namespace BayView1
                     //Clear all Text
                     clearAllText();
                 }
-
-
             }
             catch (Exception ex)
             {
@@ -204,8 +236,10 @@ namespace BayView1
                 dbCon.Open();
                 //Change text at bottom to show testing
                 toolDB.Text = "## Testing Connection ##";
-                timer1.Start();
 
+                showRecord();
+
+                timer1.Start();
             }
             catch
             {
@@ -217,7 +251,6 @@ namespace BayView1
         {
             try
             {
-
                 //Enable all button after testing connection
                 enableMain();
                 //Stop the timer
@@ -242,18 +275,30 @@ namespace BayView1
         private void btnCancel_Click(object sender, EventArgs e)
         {
             disableAll();
-            
         }
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Not yet" , "Nice Try!");
+            try
+            {
+                DataRow row = dtCustomer.Rows[rowAt];
+                row["Active"] = "0";
+
+                using (SQLiteCommandBuilder dbCustomer = new SQLiteCommandBuilder(daCustomer))
+                {
+                    daCustomer.Update(dtCustomer);
+                }
+                MessageBox.Show("One Recorded Deleted Successfully.");
+            }
+            catch
+            {
+                MessageBox.Show("Error with Delete Button");
+            }
         }
 
         private void cbAct_CheckedChanged(object sender, EventArgs e)
         {
-            //Add Yes to Active or Not.
-            //cbAct.DataBindings.Add("Text", bS, "Active");
+            
         }
     }
 }

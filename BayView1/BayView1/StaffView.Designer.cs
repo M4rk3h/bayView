@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffView));
-            this.btnOldCust = new System.Windows.Forms.Button();
+            this.btnCustomerOld = new System.Windows.Forms.Button();
             this.btnBookings = new System.Windows.Forms.Button();
             this.btnChange = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,16 +41,16 @@
             this.btnCustomers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnOldCust
+            // btnCustomerOld
             // 
-            this.btnOldCust.Location = new System.Drawing.Point(48, 444);
-            this.btnOldCust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnOldCust.Name = "btnOldCust";
-            this.btnOldCust.Size = new System.Drawing.Size(140, 30);
-            this.btnOldCust.TabIndex = 2;
-            this.btnOldCust.Text = "Customers OLD";
-            this.btnOldCust.UseVisualStyleBackColor = true;
-            this.btnOldCust.Click += new System.EventHandler(this.btnCustomer_Click);
+            this.btnCustomerOld.Location = new System.Drawing.Point(207, 446);
+            this.btnCustomerOld.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCustomerOld.Name = "btnCustomerOld";
+            this.btnCustomerOld.Size = new System.Drawing.Size(180, 28);
+            this.btnCustomerOld.TabIndex = 3;
+            this.btnCustomerOld.Text = "Customers OLD";
+            this.btnCustomerOld.UseVisualStyleBackColor = true;
+            this.btnCustomerOld.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnBookings
             // 
@@ -59,16 +59,16 @@
             this.btnBookings.Name = "btnBookings";
             this.btnBookings.Size = new System.Drawing.Size(180, 180);
             this.btnBookings.TabIndex = 1;
-            this.btnBookings.Text = "Booking Rooms";
+            this.btnBookings.Text = "Bookings";
             this.btnBookings.UseVisualStyleBackColor = true;
             // 
             // btnChange
             // 
-            this.btnChange.Location = new System.Drawing.Point(227, 444);
+            this.btnChange.Location = new System.Drawing.Point(48, 446);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(140, 30);
-            this.btnChange.TabIndex = 3;
+            this.btnChange.Size = new System.Drawing.Size(143, 28);
+            this.btnChange.TabIndex = 2;
             this.btnChange.Text = "Change Password";
             this.btnChange.UseVisualStyleBackColor = true;
             // 
@@ -121,10 +121,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(408, 444);
+            this.btnExit.Location = new System.Drawing.Point(408, 446);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 30);
+            this.btnExit.Size = new System.Drawing.Size(75, 28);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -155,7 +155,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnChange);
             this.Controls.Add(this.btnBookings);
-            this.Controls.Add(this.btnOldCust);
+            this.Controls.Add(this.btnCustomerOld);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "StaffView";
@@ -168,7 +168,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnOldCust;
+        private System.Windows.Forms.Button btnCustomerOld;
         private System.Windows.Forms.Button btnBookings;
         private System.Windows.Forms.Button btnChange;
         private System.Windows.Forms.Label label1;
