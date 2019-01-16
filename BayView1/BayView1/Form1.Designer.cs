@@ -161,7 +161,7 @@
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnClose.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnClose.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.Red;
             this.btnClose.Location = new System.Drawing.Point(268, 467);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

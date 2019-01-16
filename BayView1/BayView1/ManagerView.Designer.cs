@@ -42,7 +42,7 @@
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Arial", 10F);
             this.lblWelcome.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblWelcome.Location = new System.Drawing.Point(12, 9);
+            this.lblWelcome.Location = new System.Drawing.Point(24, 21);
             this.lblWelcome.Name = "lblWelcome";
             this.lblWelcome.Size = new System.Drawing.Size(116, 19);
             this.lblWelcome.TabIndex = 6;
@@ -51,6 +51,7 @@
             // btnAnalytics
             // 
             this.btnAnalytics.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnAnalytics.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnAnalytics.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Analytics;
             this.btnAnalytics.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAnalytics.Location = new System.Drawing.Point(260, 57);
@@ -66,6 +67,7 @@
             // btnLog
             // 
             this.btnLog.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnLog.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnLog.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Attach_2;
             this.btnLog.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnLog.Location = new System.Drawing.Point(28, 186);
@@ -81,6 +83,7 @@
             // 
             this.btnMisc.Enabled = false;
             this.btnMisc.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnMisc.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnMisc.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Info;
             this.btnMisc.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnMisc.Location = new System.Drawing.Point(260, 186);
@@ -94,6 +97,8 @@
             // 
             // btnExit
             // 
+            this.btnExit.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnExit.ForeColor = System.Drawing.Color.Red;
             this.btnExit.Location = new System.Drawing.Point(291, 308);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
@@ -106,6 +111,7 @@
             // btnCustomers
             // 
             this.btnCustomers.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnCustomers.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCustomers.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Contact;
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCustomers.Location = new System.Drawing.Point(28, 57);
