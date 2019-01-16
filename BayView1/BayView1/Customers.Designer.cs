@@ -193,17 +193,18 @@
             // cbFind
             // 
             this.cbFind.Enabled = false;
+            this.cbFind.Font = new System.Drawing.Font("Arial", 10F);
             this.cbFind.FormattingEnabled = true;
             this.cbFind.Location = new System.Drawing.Point(441, 53);
             this.cbFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbFind.Name = "cbFind";
-            this.cbFind.Size = new System.Drawing.Size(196, 24);
+            this.cbFind.Size = new System.Drawing.Size(196, 27);
             this.cbFind.TabIndex = 2;
             // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Arial", 11F);
-            this.btnClose.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnClose.ForeColor = System.Drawing.Color.Red;
             this.btnClose.Location = new System.Drawing.Point(441, 267);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
@@ -230,7 +231,7 @@
             // btnSearch
             // 
             this.btnSearch.Enabled = false;
-            this.btnSearch.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Font = new System.Drawing.Font("Arial", 11F);
             this.btnSearch.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSearch.Location = new System.Drawing.Point(441, 82);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -244,10 +245,11 @@
             // txtPostCode
             // 
             this.txtPostCode.Enabled = false;
+            this.txtPostCode.Font = new System.Drawing.Font("Arial", 10F);
             this.txtPostCode.Location = new System.Drawing.Point(128, 242);
             this.txtPostCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPostCode.Name = "txtPostCode";
-            this.txtPostCode.Size = new System.Drawing.Size(136, 22);
+            this.txtPostCode.Size = new System.Drawing.Size(136, 27);
             this.txtPostCode.TabIndex = 8;
             // 
             // lblPostcode
@@ -264,10 +266,11 @@
             // txtEmail
             // 
             this.txtEmail.Enabled = false;
+            this.txtEmail.Font = new System.Drawing.Font("Arial", 10F);
             this.txtEmail.Location = new System.Drawing.Point(128, 278);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(239, 22);
+            this.txtEmail.Size = new System.Drawing.Size(239, 27);
             this.txtEmail.TabIndex = 9;
             // 
             // lblEmail
@@ -284,10 +287,11 @@
             // txtPhone
             // 
             this.txtPhone.Enabled = false;
+            this.txtPhone.Font = new System.Drawing.Font("Arial", 10F);
             this.txtPhone.Location = new System.Drawing.Point(128, 210);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(136, 22);
+            this.txtPhone.Size = new System.Drawing.Size(136, 27);
             this.txtPhone.TabIndex = 7;
             // 
             // lblPhone
@@ -304,10 +308,11 @@
             // txtLastName
             // 
             this.txtLastName.Enabled = false;
+            this.txtLastName.Font = new System.Drawing.Font("Arial", 10F);
             this.txtLastName.Location = new System.Drawing.Point(128, 175);
             this.txtLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(136, 22);
+            this.txtLastName.Size = new System.Drawing.Size(136, 27);
             this.txtLastName.TabIndex = 6;
             // 
             // lblLastName
@@ -324,10 +329,11 @@
             // txtFirstName
             // 
             this.txtFirstName.Enabled = false;
+            this.txtFirstName.Font = new System.Drawing.Font("Arial", 10F);
             this.txtFirstName.Location = new System.Drawing.Point(128, 142);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(136, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(136, 27);
             this.txtFirstName.TabIndex = 5;
             // 
             // lblFirstName
@@ -344,10 +350,11 @@
             // txtTitle
             // 
             this.txtTitle.Enabled = false;
+            this.txtTitle.Font = new System.Drawing.Font("Arial", 10F);
             this.txtTitle.Location = new System.Drawing.Point(128, 103);
             this.txtTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(136, 22);
+            this.txtTitle.Size = new System.Drawing.Size(136, 27);
             this.txtTitle.TabIndex = 4;
             // 
             // lblTitle
@@ -391,9 +398,11 @@
             // 
             this.toolDB.ActiveLinkColor = System.Drawing.Color.Transparent;
             this.toolDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.toolDB.Font = new System.Drawing.Font("Arial", 10F);
+            this.toolDB.ForeColor = System.Drawing.SystemColors.Highlight;
             this.toolDB.Image = global::BayView1.Properties.Resources.red;
             this.toolDB.Name = "toolDB";
-            this.toolDB.Size = new System.Drawing.Size(172, 20);
+            this.toolDB.Size = new System.Drawing.Size(183, 20);
             this.toolDB.Text = "## No Connection ##";
             // 
             // btnTest
@@ -419,7 +428,7 @@
             this.btnDel.BackColor = System.Drawing.SystemColors.Control;
             this.btnDel.Enabled = false;
             this.btnDel.Font = new System.Drawing.Font("Arial", 11F);
-            this.btnDel.ForeColor = System.Drawing.Color.Red;
+            this.btnDel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnDel.Location = new System.Drawing.Point(441, 219);
             this.btnDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDel.Name = "btnDel";
@@ -432,10 +441,11 @@
             // txtActive
             // 
             this.txtActive.Enabled = false;
+            this.txtActive.Font = new System.Drawing.Font("Arial", 10F);
             this.txtActive.Location = new System.Drawing.Point(355, 103);
             this.txtActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtActive.Name = "txtActive";
-            this.txtActive.Size = new System.Drawing.Size(44, 22);
+            this.txtActive.Size = new System.Drawing.Size(44, 27);
             this.txtActive.TabIndex = 52;
             // 
             // lblActive

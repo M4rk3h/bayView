@@ -43,7 +43,8 @@
             // 
             // btnCustomerOld
             // 
-            this.btnCustomerOld.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.btnCustomerOld.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnCustomerOld.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCustomerOld.Location = new System.Drawing.Point(243, 184);
             this.btnCustomerOld.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCustomerOld.Name = "btnCustomerOld";
@@ -55,7 +56,8 @@
             // 
             // btnBookings
             // 
-            this.btnBookings.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBookings.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnBookings.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnBookings.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Phonebook;
             this.btnBookings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnBookings.Location = new System.Drawing.Point(243, 71);
@@ -69,7 +71,8 @@
             // 
             // btnChange
             // 
-            this.btnChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.btnChange.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnChange.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnChange.Location = new System.Drawing.Point(16, 184);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
@@ -81,58 +84,64 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 10F);
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 20);
+            this.label1.Size = new System.Drawing.Size(110, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "welcome label";
             // 
             // SysTimeLbl
             // 
             this.SysTimeLbl.AutoSize = true;
-            this.SysTimeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SysTimeLbl.Font = new System.Drawing.Font("Arial", 10F);
+            this.SysTimeLbl.ForeColor = System.Drawing.SystemColors.Highlight;
             this.SysTimeLbl.Location = new System.Drawing.Point(125, 311);
             this.SysTimeLbl.Name = "SysTimeLbl";
-            this.SysTimeLbl.Size = new System.Drawing.Size(53, 20);
+            this.SysTimeLbl.Size = new System.Drawing.Size(51, 19);
             this.SysTimeLbl.TabIndex = 6;
             this.SysTimeLbl.Text = "label2";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Arial", 10F);
+            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label2.Location = new System.Drawing.Point(12, 311);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 20);
+            this.label2.Size = new System.Drawing.Size(92, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "Local Time:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label3.Font = new System.Drawing.Font("Arial", 10F);
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(12, 345);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 20);
+            this.label3.Size = new System.Drawing.Size(102, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "Beijing Time:";
             // 
             // BJTimeLbl
             // 
             this.BJTimeLbl.AutoSize = true;
-            this.BJTimeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.BJTimeLbl.Font = new System.Drawing.Font("Arial", 10F);
+            this.BJTimeLbl.ForeColor = System.Drawing.SystemColors.Highlight;
             this.BJTimeLbl.Location = new System.Drawing.Point(125, 345);
             this.BJTimeLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BJTimeLbl.Name = "BJTimeLbl";
-            this.BJTimeLbl.Size = new System.Drawing.Size(53, 20);
+            this.BJTimeLbl.Size = new System.Drawing.Size(51, 19);
             this.BJTimeLbl.TabIndex = 8;
             this.BJTimeLbl.Text = "label4";
             // 
             // btnExit
             // 
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.btnExit.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnExit.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnExit.Location = new System.Drawing.Point(278, 446);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
@@ -144,7 +153,8 @@
             // 
             // btnCustomers
             // 
-            this.btnCustomers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomers.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnCustomers.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCustomers.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Contact;
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCustomers.Location = new System.Drawing.Point(16, 71);

@@ -40,15 +40,17 @@
             // lblWelcome
             // 
             this.lblWelcome.AutoSize = true;
-            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Font = new System.Drawing.Font("Arial", 10F);
+            this.lblWelcome.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblWelcome.Location = new System.Drawing.Point(12, 9);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(119, 20);
+            this.lblWelcome.Size = new System.Drawing.Size(116, 19);
             this.lblWelcome.TabIndex = 6;
             this.lblWelcome.Text = "Welcome label";
             // 
             // btnAnalytics
             // 
+            this.btnAnalytics.Font = new System.Drawing.Font("Arial", 10F);
             this.btnAnalytics.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Analytics;
             this.btnAnalytics.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAnalytics.Location = new System.Drawing.Point(260, 57);
@@ -63,6 +65,7 @@
             // 
             // btnLog
             // 
+            this.btnLog.Font = new System.Drawing.Font("Arial", 10F);
             this.btnLog.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Attach_2;
             this.btnLog.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnLog.Location = new System.Drawing.Point(28, 186);
@@ -77,6 +80,7 @@
             // btnMisc
             // 
             this.btnMisc.Enabled = false;
+            this.btnMisc.Font = new System.Drawing.Font("Arial", 10F);
             this.btnMisc.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Info;
             this.btnMisc.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnMisc.Location = new System.Drawing.Point(260, 186);
@@ -101,6 +105,7 @@
             // 
             // btnCustomers
             // 
+            this.btnCustomers.Font = new System.Drawing.Font("Arial", 10F);
             this.btnCustomers.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Contact;
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCustomers.Location = new System.Drawing.Point(28, 57);
