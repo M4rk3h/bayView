@@ -90,12 +90,12 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(225, 311);
+            this.btnExit.Location = new System.Drawing.Point(291, 308);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(130, 29);
+            this.btnExit.Size = new System.Drawing.Size(64, 32);
             this.btnExit.TabIndex = 3;
-            this.btnExit.Text = "Exit";
+            this.btnExit.Text = "Close";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -124,6 +124,7 @@
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnMisc);
             this.Controls.Add(this.btnAnalytics);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ManagerView";

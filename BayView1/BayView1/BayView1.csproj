@@ -172,6 +172,12 @@
   <ItemGroup>
     <Content Include="Resources\BayViewicon.ico" />
     <Content Include="Resources\DBBayView1.db" />
+    <None Include="Resources\Graphicloads-100-Flat-Phonebook.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Close.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Info.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Contact1.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Attach-21.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Analytics1.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Contact.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Attach-2.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Analytics.ico" />
