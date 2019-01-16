@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace BayView1
 {
@@ -31,6 +32,16 @@ namespace BayView1
             {
                 MessageBox.Show("Back?");
             }
+        }
+
+        private void Analytics_Load(object sender, EventArgs e)
+        {
+            staffChart.Titles.Clear();
+            staffChart.Titles.Add("Total Staff Members");
+            staffChart.ChartAreas[0].AxisX.IsMarginVisible = false;
+            staffChart.ChartAreas[0].AxisX.Maximum = 10;
+            staffChart.ChartAreas[0].AxisX.Minimum = 1;
+            staffChart.ChartAreas[0].AxisX.Title="Staff";
         }
     }
 }

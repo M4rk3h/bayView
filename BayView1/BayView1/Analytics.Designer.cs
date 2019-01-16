@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.staffChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.btnClose = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.staffChart)).BeginInit();
             this.SuspendLayout();
             // 
-            // chart1
+            // staffChart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(12, 32);
-            this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(658, 300);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            chartArea1.Name = "ChartArea1";
+            this.staffChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.staffChart.Legends.Add(legend1);
+            this.staffChart.Location = new System.Drawing.Point(12, 32);
+            this.staffChart.Name = "staffChart";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.staffChart.Series.Add(series1);
+            this.staffChart.Size = new System.Drawing.Size(658, 300);
+            this.staffChart.TabIndex = 0;
+            this.staffChart.Text = "chart1";
             // 
             // btnClose
             // 
@@ -71,18 +71,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 403);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.staffChart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Analytics";
             this.Text = "Analytics";
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.Load += new System.EventHandler(this.Analytics_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.staffChart)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart staffChart;
         private System.Windows.Forms.Button btnClose;
     }
 }

@@ -54,10 +54,10 @@
             this.btnAnalytics.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnAnalytics.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Analytics;
             this.btnAnalytics.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAnalytics.Location = new System.Drawing.Point(260, 57);
+            this.btnAnalytics.Location = new System.Drawing.Point(222, 57);
             this.btnAnalytics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAnalytics.Name = "btnAnalytics";
-            this.btnAnalytics.Size = new System.Drawing.Size(95, 75);
+            this.btnAnalytics.Size = new System.Drawing.Size(150, 80);
             this.btnAnalytics.TabIndex = 1;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -70,10 +70,10 @@
             this.btnLog.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnLog.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Attach_2;
             this.btnLog.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLog.Location = new System.Drawing.Point(28, 186);
+            this.btnLog.Location = new System.Drawing.Point(12, 186);
             this.btnLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(95, 75);
+            this.btnLog.Size = new System.Drawing.Size(150, 80);
             this.btnLog.TabIndex = 2;
             this.btnLog.Text = "Logs";
             this.btnLog.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -86,10 +86,10 @@
             this.btnMisc.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnMisc.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Info;
             this.btnMisc.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMisc.Location = new System.Drawing.Point(260, 186);
+            this.btnMisc.Location = new System.Drawing.Point(222, 186);
             this.btnMisc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMisc.Name = "btnMisc";
-            this.btnMisc.Size = new System.Drawing.Size(95, 75);
+            this.btnMisc.Size = new System.Drawing.Size(150, 80);
             this.btnMisc.TabIndex = 3;
             this.btnMisc.Text = "Misc";
             this.btnMisc.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -99,10 +99,10 @@
             // 
             this.btnExit.Font = new System.Drawing.Font("Arial", 10F);
             this.btnExit.ForeColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(291, 308);
+            this.btnExit.Location = new System.Drawing.Point(297, 308);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(64, 32);
+            this.btnExit.Size = new System.Drawing.Size(75, 32);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Close";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -114,10 +114,10 @@
             this.btnCustomers.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCustomers.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Contact;
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCustomers.Location = new System.Drawing.Point(28, 57);
+            this.btnCustomers.Location = new System.Drawing.Point(12, 57);
             this.btnCustomers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(95, 75);
+            this.btnCustomers.Size = new System.Drawing.Size(150, 80);
             this.btnCustomers.TabIndex = 0;
             this.btnCustomers.Text = "Customers";
             this.btnCustomers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

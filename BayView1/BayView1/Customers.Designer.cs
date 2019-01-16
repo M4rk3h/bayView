@@ -185,7 +185,7 @@
             this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(95, 39);
-            this.btnCancel.TabIndex = 11;
+            this.btnCancel.TabIndex = 12;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -199,7 +199,7 @@
             this.cbFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbFind.Name = "cbFind";
             this.cbFind.Size = new System.Drawing.Size(196, 27);
-            this.cbFind.TabIndex = 2;
+            this.cbFind.TabIndex = 8;
             // 
             // btnClose
             // 
@@ -209,7 +209,7 @@
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(196, 39);
-            this.btnClose.TabIndex = 12;
+            this.btnClose.TabIndex = 14;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -223,7 +223,7 @@
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(95, 39);
-            this.btnSubmit.TabIndex = 10;
+            this.btnSubmit.TabIndex = 11;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -237,7 +237,7 @@
             this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(196, 39);
-            this.btnSearch.TabIndex = 1;
+            this.btnSearch.TabIndex = 9;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -250,7 +250,7 @@
             this.txtPostCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPostCode.Name = "txtPostCode";
             this.txtPostCode.Size = new System.Drawing.Size(136, 27);
-            this.txtPostCode.TabIndex = 8;
+            this.txtPostCode.TabIndex = 5;
             // 
             // lblPostcode
             // 
@@ -271,7 +271,7 @@
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(239, 27);
-            this.txtEmail.TabIndex = 9;
+            this.txtEmail.TabIndex = 6;
             // 
             // lblEmail
             // 
@@ -292,7 +292,7 @@
             this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(136, 27);
-            this.txtPhone.TabIndex = 7;
+            this.txtPhone.TabIndex = 4;
             // 
             // lblPhone
             // 
@@ -313,7 +313,7 @@
             this.txtLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(136, 27);
-            this.txtLastName.TabIndex = 6;
+            this.txtLastName.TabIndex = 3;
             // 
             // lblLastName
             // 
@@ -334,7 +334,7 @@
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(136, 27);
-            this.txtFirstName.TabIndex = 5;
+            this.txtFirstName.TabIndex = 2;
             // 
             // lblFirstName
             // 
@@ -355,7 +355,7 @@
             this.txtTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(136, 27);
-            this.txtTitle.TabIndex = 4;
+            this.txtTitle.TabIndex = 1;
             // 
             // lblTitle
             // 
@@ -377,7 +377,7 @@
             this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(196, 39);
-            this.btnEdit.TabIndex = 48;
+            this.btnEdit.TabIndex = 10;
             this.btnEdit.Text = "Edit Customer";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -413,7 +413,7 @@
             this.btnTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTest.Name = "btnTest";
             this.btnTest.Size = new System.Drawing.Size(244, 42);
-            this.btnTest.TabIndex = 50;
+            this.btnTest.TabIndex = 0;
             this.btnTest.Text = "Test Connection";
             this.btnTest.UseVisualStyleBackColor = true;
             this.btnTest.Click += new System.EventHandler(this.lblTest_Click);
@@ -433,7 +433,7 @@
             this.btnDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(196, 39);
-            this.btnDel.TabIndex = 51;
+            this.btnDel.TabIndex = 13;
             this.btnDel.Text = "DELETE";
             this.btnDel.UseVisualStyleBackColor = false;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
@@ -446,7 +446,7 @@
             this.txtActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtActive.Name = "txtActive";
             this.txtActive.Size = new System.Drawing.Size(44, 27);
-            this.txtActive.TabIndex = 52;
+            this.txtActive.TabIndex = 7;
             // 
             // lblActive
             // 

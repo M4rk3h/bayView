@@ -45,10 +45,10 @@
             // 
             this.btnCustomerOld.Font = new System.Drawing.Font("Arial", 10F);
             this.btnCustomerOld.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCustomerOld.Location = new System.Drawing.Point(243, 184);
+            this.btnCustomerOld.Location = new System.Drawing.Point(211, 194);
             this.btnCustomerOld.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCustomerOld.Name = "btnCustomerOld";
-            this.btnCustomerOld.Size = new System.Drawing.Size(110, 80);
+            this.btnCustomerOld.Size = new System.Drawing.Size(150, 80);
             this.btnCustomerOld.TabIndex = 3;
             this.btnCustomerOld.Text = "Customers OLD";
             this.btnCustomerOld.UseVisualStyleBackColor = true;
@@ -60,10 +60,10 @@
             this.btnBookings.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnBookings.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Phonebook;
             this.btnBookings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBookings.Location = new System.Drawing.Point(243, 71);
+            this.btnBookings.Location = new System.Drawing.Point(211, 71);
             this.btnBookings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBookings.Name = "btnBookings";
-            this.btnBookings.Size = new System.Drawing.Size(110, 80);
+            this.btnBookings.Size = new System.Drawing.Size(150, 80);
             this.btnBookings.TabIndex = 1;
             this.btnBookings.Text = "Bookings";
             this.btnBookings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -73,10 +73,10 @@
             // 
             this.btnChange.Font = new System.Drawing.Font("Arial", 10F);
             this.btnChange.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnChange.Location = new System.Drawing.Point(16, 184);
+            this.btnChange.Location = new System.Drawing.Point(16, 194);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(110, 80);
+            this.btnChange.Size = new System.Drawing.Size(150, 80);
             this.btnChange.TabIndex = 2;
             this.btnChange.Text = "Change Password";
             this.btnChange.UseVisualStyleBackColor = true;
@@ -160,7 +160,7 @@
             this.btnCustomers.Location = new System.Drawing.Point(16, 71);
             this.btnCustomers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(110, 80);
+            this.btnCustomers.Size = new System.Drawing.Size(150, 80);
             this.btnCustomers.TabIndex = 0;
             this.btnCustomers.Text = "Customers";
             this.btnCustomers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -171,7 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 485);
+            this.ClientSize = new System.Drawing.Size(373, 485);
             this.Controls.Add(this.btnCustomers);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.BJTimeLbl);
