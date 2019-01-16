@@ -10,21 +10,13 @@ using System.Windows.Forms;
 
 namespace BayView1
 {
-    public partial class ManagerView : Form
+    public partial class Analytics : Form
     {
-        public ManagerView()
+        public Analytics()
         {
             InitializeComponent();
             //Start in center position
             this.StartPosition = FormStartPosition.CenterScreen;
-            //This changes the Welcome at the top left, to Welcome Manager
-            lblWelcome.Text = "Welcome, " + GlobalData.GDUserName + " !";
-        }
-
-        private void btnAnalytics_Click(object sender, EventArgs e)
-        {
-            Analytics frmAnalytics = new Analytics();
-            frmAnalytics.ShowDialog();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -33,7 +25,7 @@ namespace BayView1
                 MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Question) == DialogResult.OK)
             {
-                Application.Exit();
+                this.Close();
             }
             else
             {
