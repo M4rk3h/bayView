@@ -1,6 +1,6 @@
 ﻿namespace BayView1
 {
-    partial class Customer
+    partial class OldCustomer
     {
         /// <summary>
         /// Required designer variable.

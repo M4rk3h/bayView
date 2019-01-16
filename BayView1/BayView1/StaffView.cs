@@ -26,7 +26,7 @@ namespace BayView1
         
         private void btnCustomer_Click(object sender, EventArgs e)
         {
-            Customer frmCustomer = new Customer();
+            OldCustomer frmCustomer = new OldCustomer();
             frmCustomer.ShowDialog();
         }
 
@@ -46,7 +46,7 @@ namespace BayView1
 
         private void btnMark_Click(object sender, EventArgs e)
         {
-            Customer2 frmCustomer2 = new Customer2();
+            Customers frmCustomer2 = new Customers();
             frmCustomer2.ShowDialog();
         }
     }

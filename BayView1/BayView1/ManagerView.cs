@@ -21,14 +21,9 @@ namespace BayView1
             lblWelcome.Text = "Welcome, " + GlobalData.GDUserName + " !";
         }
 
-        private void btnAnalytics_Click(object sender, EventArgs e)
-        {
-            Analytics frmAnalytics = new Analytics();
-            frmAnalytics.ShowDialog();
-        }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
+            //Create a pop up, asking if they want to quit.
             if (MessageBox.Show("Are you sure you want to quit?", "Exit",
                 MessageBoxButtons.OKCancel,
                 MessageBoxIcon.Question) == DialogResult.OK)
@@ -39,6 +34,20 @@ namespace BayView1
             {
                 MessageBox.Show("Back?");
             }
+        }
+
+        private void btnCustomers_Click(object sender, EventArgs e)
+        {
+            //Open the Customers Form which was already created.
+            Customers frmCustomer2 = new Customers();
+            frmCustomer2.ShowDialog();
+        }
+
+        private void btnAnalytics_Click(object sender, EventArgs e)
+        {
+            //Open the Analytics Form.
+            Analytics frmAnalytics = new Analytics();
+            frmAnalytics.ShowDialog();
         }
     }
 }

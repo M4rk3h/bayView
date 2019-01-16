@@ -11,9 +11,9 @@ using System.Data.SQLite;
 
 namespace BayView1
 {
-    public partial class Customer2 : Form
+    public partial class Customers : Form
     {
-        public Customer2()
+        public Customers()
         {
             InitializeComponent();
         }

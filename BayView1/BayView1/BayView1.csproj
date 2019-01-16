@@ -81,17 +81,17 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer.cs">
+    <Compile Include="OldCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer.Designer.cs">
-      <DependentUpon>Customer.cs</DependentUpon>
+    <Compile Include="OldCustomer.Designer.cs">
+      <DependentUpon>OldCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer2.cs">
+    <Compile Include="Customers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer2.Designer.cs">
-      <DependentUpon>Customer2.cs</DependentUpon>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
     </Compile>
     <Compile Include="dbConnection.cs" />
     <Compile Include="Form1.cs">
@@ -123,11 +123,11 @@
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer.resx">
-      <DependentUpon>Customer.cs</DependentUpon>
+    <EmbeddedResource Include="OldCustomer.resx">
+      <DependentUpon>OldCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer2.resx">
-      <DependentUpon>Customer2.cs</DependentUpon>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
