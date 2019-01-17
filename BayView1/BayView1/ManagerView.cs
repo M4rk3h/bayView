@@ -55,5 +55,10 @@ namespace BayView1
             Staff frmStaff = new Staff();
             frmStaff.ShowDialog();
         }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

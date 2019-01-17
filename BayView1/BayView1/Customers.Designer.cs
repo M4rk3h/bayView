@@ -203,7 +203,7 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Arial", 11F);
-            this.btnClose.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnClose.ForeColor = System.Drawing.Color.Red;
             this.btnClose.Location = new System.Drawing.Point(441, 267);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
@@ -419,7 +419,7 @@
             this.btnDel.BackColor = System.Drawing.SystemColors.Control;
             this.btnDel.Enabled = false;
             this.btnDel.Font = new System.Drawing.Font("Arial", 11F);
-            this.btnDel.ForeColor = System.Drawing.Color.Red;
+            this.btnDel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnDel.Location = new System.Drawing.Point(441, 219);
             this.btnDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDel.Name = "btnDel";
@@ -449,7 +449,7 @@
             this.lblActive.TabIndex = 53;
             this.lblActive.Text = "Active";
             // 
-            // Customer2
+            // Customers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -478,10 +478,11 @@
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.bindingNavigator1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Customer2";
+            this.Name = "Customers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Customer2";
             this.Load += new System.EventHandler(this.Customer2_Load);

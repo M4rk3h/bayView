@@ -54,6 +54,8 @@
             // 
             // btnExit
             // 
+            this.btnExit.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnExit.ForeColor = System.Drawing.Color.Red;
             this.btnExit.Location = new System.Drawing.Point(540, 363);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
@@ -70,6 +72,7 @@
             this.ClientSize = new System.Drawing.Size(682, 403);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.chart1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Analytics";
             this.Text = "Analytics";
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
