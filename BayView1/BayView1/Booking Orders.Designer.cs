@@ -1,4 +1,4 @@
-﻿namespace bookings
+﻿namespace BayView1
 {
     partial class Booking_Orders
     {

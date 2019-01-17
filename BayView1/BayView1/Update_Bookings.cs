@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SQLite;
 using System.IO;
 
-namespace bookings
+namespace BayView1
 {
     public partial class Update_Bookings : Form
     {

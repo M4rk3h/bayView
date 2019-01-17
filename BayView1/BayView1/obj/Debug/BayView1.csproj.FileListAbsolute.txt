@@ -392,8 +392,8 @@ C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayVie
 C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.exe
 C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.pdb
 C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Staff.resources
-C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\bookings.Booking_Orders.resources
-C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\bookings.Bookings.resources
-C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\bookings.Cancellation.resources
-C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\bookings.Homeform.resources
-C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\bookings.Update_Bookings.resources
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Booking_Orders.resources
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Bookings.resources
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Cancellation.resources
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Homeform.resources
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Update_Bookings.resources

@@ -52,7 +52,9 @@ namespace BayView1
 
         private void btnBookings_Click(object sender, EventArgs e)
         {
-            
+            //Renamed Dez's form to our namespace, able to reference it.
+            Homeform frmHomeform = new Homeform();
+            frmHomeform.ShowDialog();
         }
     }
 }

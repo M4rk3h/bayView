@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.SQLite;
 
 
-namespace bookings
+namespace BayView1
 {
     public partial class Cancellation : Form
     {
