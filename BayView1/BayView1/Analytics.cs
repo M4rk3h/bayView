@@ -26,9 +26,8 @@ namespace BayView1
         //Details for Datatable (display) & DataAdapter (Pull+Push)
         SQLiteConnection dbCon;
         //Declare Series
-        Series rooms;
-        private string sql1;
-
+        Series staff;
+        
         private void btnExit_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to quit?", "Exit",
@@ -60,38 +59,39 @@ namespace BayView1
             //Clear the chart.
             Chart1.Series.Clear();
             //Add a new series
-            rooms = Chart1.Series.Add("Singles");
-            rooms.Color = Color.DarkBlue;
+            staff = Chart1.Series.Add("Singles");
+            staff.Color = Color.DarkBlue;
             //Declare SQL
-            sql1 = @"Select * From Staff;";
+            string sql1 = @"Select * From Staff Where Manager = 0;";
             
             //Try to connect.
-            //try
-            //{
-            //    using (SQLiteCommand cmd = new SQLiteCommand(sql1, dbCon))
-            //    {
-            //        dbCon.Open();
-            //        using 
-            //        {
-            //            int element = 0;
-            //            while (dr.Read())
-            //            {
-            //                rooms.Points.AddXY(element, Convert.ToInt32(dr[0]));
-            //                Chart1.Series[0].Points[element].AxisLabel = dr[1].ToString();
-            //                Chart1.ResetAutoValues();
-            //                Chart1.Update();
-            //                element++;
-            //            }
-            //        }
-            //        dbCon.Close();
+            try
+            {
+                //Use the SQLiteCommand cmd to create a new command, using SQL1 string and db connection.
+                using (SQLiteCommand cmd = new SQLiteCommand(sql1, dbCon))
+                {
+                    //Open the connection and create a new SQLDataReader called DR.
+                    dbCon.Open();
+                    using (SQLiteDataReader dr = cmd.ExecuteReader())
+                    {
+                        int element = 0;
+                        while (dr.Read())
+                        {
+                            staff.Points.AddXY(element, Convert.ToInt32(dr[0]));
+                            Chart1.Series[0].Points[element].AxisLabel = dr[1].ToString();
+                            Chart1.ResetAutoValues();
+                            Chart1.Update();
+                            element++;
+                        }
+                    }
+                    dbCon.Close();
+                }
+            }
 
-            //    }
-            //}
-
-            //catch
-            //{
-            //    MessageBox.Show("Error on Radio Button");
-            //}
+            catch
+            {
+                MessageBox.Show("Error on Radio Button Staff");
+            }
         }
     }
 }
