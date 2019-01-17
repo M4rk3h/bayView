@@ -49,5 +49,11 @@ namespace BayView1
             Analytics frmAnalytics = new Analytics();
             frmAnalytics.ShowDialog();
         }
+
+        private void btnStaff_Click(object sender, EventArgs e)
+        {
+            Staff frmStaff = new Staff();
+            frmStaff.ShowDialog();
+        }
     }
 }
