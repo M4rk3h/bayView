@@ -22,8 +22,8 @@ namespace BayView1
         string dbDetails = dbConnection.dbsource;
         //Details for Datatable (display) & DataAdapter (Pull+Push)
         SQLiteConnection dbCon;
-        SQLiteDataAdapter daCustomer;
-        DataTable dtCustomer = new DataTable();
+        SQLiteDataAdapter daStaff;
+        DataTable dtStaff = new DataTable();
 
         //SQLite Command called myCmd
         SQLiteCommand myCmd;
@@ -39,19 +39,20 @@ namespace BayView1
                 dbCon = new SQLiteConnection(dbDetails);
                 //Add required SQL
                 //daCustomer = new SQLiteDataAdapter("Select * From Customers Where Active = 1", dbCon);
-                daCustomer = new SQLiteDataAdapter("Select * From Customers ", dbCon);
+                daStaff = new SQLiteDataAdapter("Select StaffNo,FirstName,LastName,Email,PhoneNo,Username,Manager From Staff ", dbCon);
                 //Fill DataAdapter with data pulled from DataTable
-                daCustomer.Fill(dtCustomer);
+                daStaff.Fill(dtStaff);
                 //Set the Command Builder within the load.
-                SQLiteCommandBuilder cB = new SQLiteCommandBuilder(daCustomer);
+                SQLiteCommandBuilder cB = new SQLiteCommandBuilder(daStaff);
 
-                bS.DataSource = dtCustomer;
-                dataGridView1.AutoResizeColumns(
-                DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader);
+                bS.DataSource = dtStaff;
+                //dataGridView1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader);
+
+                dataGridView1.DataSource = dtStaff;
             }
             catch
             {
-                MessageBox.Show("Error on customer 2 Load");
+                MessageBox.Show("Error on Staff 2 Load");
             }
         }
     }
