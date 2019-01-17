@@ -81,6 +81,30 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Booking Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking Orders.Designer.cs">
+      <DependentUpon>Booking Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookings.Designer.cs">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cancellation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancellation.Designer.cs">
+      <DependentUpon>Cancellation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homeform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homeform.Designer.cs">
+      <DependentUpon>Homeform.cs</DependentUpon>
+    </Compile>
     <Compile Include="OldCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,8 +150,26 @@
     <Compile Include="StaffView.Designer.cs">
       <DependentUpon>StaffView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Update_Bookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Bookings.Designer.cs">
+      <DependentUpon>Update_Bookings.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking Orders.resx">
+      <DependentUpon>Booking Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookings.resx">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancellation.resx">
+      <DependentUpon>Cancellation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homeform.resx">
+      <DependentUpon>Homeform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OldCustomer.resx">
       <DependentUpon>OldCustomer.cs</DependentUpon>
@@ -161,6 +203,9 @@
     <EmbeddedResource Include="StaffView.resx">
       <DependentUpon>StaffView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Update_Bookings.resx">
+      <DependentUpon>Update_Bookings.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -181,6 +226,13 @@
   <ItemGroup>
     <Content Include="Resources\BayViewicon.ico" />
     <Content Include="Resources\DBBayView1.db" />
+    <None Include="Resources\Graphicloads-100-Flat-Warning.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Phonebook1.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Info1.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Contact2.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Close1.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Attach-22.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Analytics2.ico" />
     <None Include="Resources\red.png" />
     <None Include="Resources\green.png" />
   </ItemGroup>

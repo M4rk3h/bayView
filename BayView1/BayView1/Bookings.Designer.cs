@@ -1,4 +1,4 @@
-﻿namespace BayView1
+﻿namespace bookings
 {
     partial class Bookings
     {
@@ -28,24 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnclose = new System.Windows.Forms.Button();
-            this.btnPrev = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.lblroomtype1 = new System.Windows.Forms.Label();
-            this.lblroomnumber1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.txtdateout = new System.Windows.Forms.TextBox();
-            this.txtdatedue = new System.Windows.Forms.TextBox();
-            this.lbltotalprice = new System.Windows.Forms.Label();
-            this.cbtotalprice = new System.Windows.Forms.ComboBox();
-            this.lblroomtype = new System.Windows.Forms.Label();
-            this.cbroomtype = new System.Windows.Forms.ComboBox();
-            this.lblroomnumber = new System.Windows.Forms.Label();
-            this.cbroomnumber = new System.Windows.Forms.ComboBox();
-            this.lblavailabilitycheck = new System.Windows.Forms.Label();
-            this.cbavailabilitycheck = new System.Windows.Forms.ComboBox();
             this.lblbreakfast = new System.Windows.Forms.Label();
             this.cbbreakfast = new System.Windows.Forms.ComboBox();
             this.numericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -68,473 +50,434 @@
             this.cbroomNo = new System.Windows.Forms.ComboBox();
             this.cbcustomerNo = new System.Windows.Forms.ComboBox();
             this.cbstaffNo = new System.Windows.Forms.ComboBox();
-            this.btnTest = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lblavailabilitycheck = new System.Windows.Forms.Label();
+            this.cbavailabilitycheck = new System.Windows.Forms.ComboBox();
+            this.lblroomnumber = new System.Windows.Forms.Label();
+            this.cbroomnumber = new System.Windows.Forms.ComboBox();
+            this.lblroomtype = new System.Windows.Forms.Label();
+            this.cbroomtype = new System.Windows.Forms.ComboBox();
+            this.lbltotalprice = new System.Windows.Forms.Label();
+            this.cbtotalprice = new System.Windows.Forms.ComboBox();
+            this.txtdatedue = new System.Windows.Forms.TextBox();
+            this.txtdateout = new System.Windows.Forms.TextBox();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblroomtype1 = new System.Windows.Forms.Label();
+            this.lblroomnumber1 = new System.Windows.Forms.Label();
+            this.btnPrev = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnclose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnclose
-            // 
-            this.btnclose.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnclose.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnclose.Location = new System.Drawing.Point(989, 706);
-            this.btnclose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(132, 55);
-            this.btnclose.TabIndex = 175;
-            this.btnclose.Text = "Close";
-            this.btnclose.UseVisualStyleBackColor = true;
-            // 
-            // btnPrev
-            // 
-            this.btnPrev.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnPrev.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnPrev.Location = new System.Drawing.Point(443, 706);
-            this.btnPrev.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(103, 55);
-            this.btnPrev.TabIndex = 174;
-            this.btnPrev.Text = "Back";
-            this.btnPrev.UseVisualStyleBackColor = true;
-            // 
-            // btnNext
-            // 
-            this.btnNext.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnNext.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnNext.Location = new System.Drawing.Point(588, 706);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(101, 55);
-            this.btnNext.TabIndex = 173;
-            this.btnNext.Text = "Next";
-            this.btnNext.UseVisualStyleBackColor = true;
-            // 
-            // lblroomtype1
-            // 
-            this.lblroomtype1.AutoSize = true;
-            this.lblroomtype1.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblroomtype1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblroomtype1.Location = new System.Drawing.Point(710, 745);
-            this.lblroomtype1.Name = "lblroomtype1";
-            this.lblroomtype1.Size = new System.Drawing.Size(188, 19);
-            this.lblroomtype1.TabIndex = 172;
-            this.lblroomtype1.Text = "Room Type: SingleRoom";
-            // 
-            // lblroomnumber1
-            // 
-            this.lblroomnumber1.AutoSize = true;
-            this.lblroomnumber1.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblroomnumber1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblroomnumber1.Location = new System.Drawing.Point(710, 706);
-            this.lblroomnumber1.Name = "lblroomnumber1";
-            this.lblroomnumber1.Size = new System.Drawing.Size(154, 19);
-            this.lblroomnumber1.TabIndex = 171;
-            this.lblroomnumber1.Text = "Room Number: SR1";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(433, 174);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(688, 508);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 170;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCancel.Location = new System.Drawing.Point(33, 706);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(132, 55);
-            this.btnCancel.TabIndex = 169;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnSubmit.Location = new System.Drawing.Point(188, 706);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(145, 55);
-            this.btnSubmit.TabIndex = 168;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            // 
-            // txtdateout
-            // 
-            this.txtdateout.Font = new System.Drawing.Font("Arial", 10F);
-            this.txtdateout.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.txtdateout.Location = new System.Drawing.Point(847, 95);
-            this.txtdateout.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtdateout.Name = "txtdateout";
-            this.txtdateout.Size = new System.Drawing.Size(240, 27);
-            this.txtdateout.TabIndex = 167;
-            // 
-            // txtdatedue
-            // 
-            this.txtdatedue.Font = new System.Drawing.Font("Arial", 10F);
-            this.txtdatedue.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.txtdatedue.Location = new System.Drawing.Point(847, 50);
-            this.txtdatedue.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtdatedue.Name = "txtdatedue";
-            this.txtdatedue.Size = new System.Drawing.Size(240, 27);
-            this.txtdatedue.TabIndex = 166;
-            // 
-            // lbltotalprice
-            // 
-            this.lbltotalprice.AutoSize = true;
-            this.lbltotalprice.Font = new System.Drawing.Font("Arial", 10F);
-            this.lbltotalprice.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbltotalprice.Location = new System.Drawing.Point(40, 500);
-            this.lbltotalprice.Name = "lbltotalprice";
-            this.lbltotalprice.Size = new System.Drawing.Size(85, 19);
-            this.lbltotalprice.TabIndex = 165;
-            this.lbltotalprice.Text = "Total Price";
-            // 
-            // cbtotalprice
-            // 
-            this.cbtotalprice.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbtotalprice.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.cbtotalprice.FormattingEnabled = true;
-            this.cbtotalprice.Location = new System.Drawing.Point(188, 500);
-            this.cbtotalprice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.cbtotalprice.Name = "cbtotalprice";
-            this.cbtotalprice.Size = new System.Drawing.Size(224, 27);
-            this.cbtotalprice.TabIndex = 164;
-            // 
-            // lblroomtype
-            // 
-            this.lblroomtype.AutoSize = true;
-            this.lblroomtype.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblroomtype.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblroomtype.Location = new System.Drawing.Point(40, 250);
-            this.lblroomtype.Name = "lblroomtype";
-            this.lblroomtype.Size = new System.Drawing.Size(91, 19);
-            this.lblroomtype.TabIndex = 163;
-            this.lblroomtype.Text = "Room Type";
-            // 
-            // cbroomtype
-            // 
-            this.cbroomtype.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbroomtype.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.cbroomtype.FormattingEnabled = true;
-            this.cbroomtype.Location = new System.Drawing.Point(188, 250);
-            this.cbroomtype.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.cbroomtype.Name = "cbroomtype";
-            this.cbroomtype.Size = new System.Drawing.Size(224, 27);
-            this.cbroomtype.TabIndex = 162;
-            // 
-            // lblroomnumber
-            // 
-            this.lblroomnumber.AutoSize = true;
-            this.lblroomnumber.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblroomnumber.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblroomnumber.Location = new System.Drawing.Point(40, 210);
-            this.lblroomnumber.Name = "lblroomnumber";
-            this.lblroomnumber.Size = new System.Drawing.Size(113, 19);
-            this.lblroomnumber.TabIndex = 161;
-            this.lblroomnumber.Text = "Room Number";
-            // 
-            // cbroomnumber
-            // 
-            this.cbroomnumber.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbroomnumber.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.cbroomnumber.FormattingEnabled = true;
-            this.cbroomnumber.Location = new System.Drawing.Point(188, 210);
-            this.cbroomnumber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.cbroomnumber.Name = "cbroomnumber";
-            this.cbroomnumber.Size = new System.Drawing.Size(224, 27);
-            this.cbroomnumber.TabIndex = 160;
-            // 
-            // lblavailabilitycheck
-            // 
-            this.lblavailabilitycheck.AutoSize = true;
-            this.lblavailabilitycheck.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblavailabilitycheck.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblavailabilitycheck.Location = new System.Drawing.Point(40, 400);
-            this.lblavailabilitycheck.Name = "lblavailabilitycheck";
-            this.lblavailabilitycheck.Size = new System.Drawing.Size(157, 19);
-            this.lblavailabilitycheck.TabIndex = 159;
-            this.lblavailabilitycheck.Text = "Expected Availabilty ";
-            // 
-            // cbavailabilitycheck
-            // 
-            this.cbavailabilitycheck.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbavailabilitycheck.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.cbavailabilitycheck.FormattingEnabled = true;
-            this.cbavailabilitycheck.Location = new System.Drawing.Point(188, 400);
-            this.cbavailabilitycheck.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.cbavailabilitycheck.Name = "cbavailabilitycheck";
-            this.cbavailabilitycheck.Size = new System.Drawing.Size(224, 27);
-            this.cbavailabilitycheck.TabIndex = 158;
             // 
             // lblbreakfast
             // 
             this.lblbreakfast.AutoSize = true;
-            this.lblbreakfast.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblbreakfast.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblbreakfast.Location = new System.Drawing.Point(40, 450);
+            this.lblbreakfast.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbreakfast.Location = new System.Drawing.Point(33, 377);
             this.lblbreakfast.Name = "lblbreakfast";
-            this.lblbreakfast.Size = new System.Drawing.Size(78, 19);
-            this.lblbreakfast.TabIndex = 157;
+            this.lblbreakfast.Size = new System.Drawing.Size(52, 13);
+            this.lblbreakfast.TabIndex = 117;
             this.lblbreakfast.Text = "Breakfast";
             // 
             // cbbreakfast
             // 
-            this.cbbreakfast.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbbreakfast.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbbreakfast.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbreakfast.FormattingEnabled = true;
-            this.cbbreakfast.Location = new System.Drawing.Point(188, 450);
-            this.cbbreakfast.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbbreakfast.Location = new System.Drawing.Point(122, 374);
             this.cbbreakfast.Name = "cbbreakfast";
-            this.cbbreakfast.Size = new System.Drawing.Size(224, 27);
-            this.cbbreakfast.TabIndex = 156;
+            this.cbbreakfast.Size = new System.Drawing.Size(193, 21);
+            this.cbbreakfast.TabIndex = 116;
+            this.cbbreakfast.SelectedIndexChanged += new System.EventHandler(this.cbbreakfast_SelectedIndexChanged);
             // 
             // numericUpDown
             // 
-            this.numericUpDown.Font = new System.Drawing.Font("Arial", 10F);
-            this.numericUpDown.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.numericUpDown.Location = new System.Drawing.Point(188, 550);
-            this.numericUpDown.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.numericUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown.Location = new System.Drawing.Point(140, 501);
             this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(178, 27);
-            this.numericUpDown.TabIndex = 155;
+            this.numericUpDown.Size = new System.Drawing.Size(153, 26);
+            this.numericUpDown.TabIndex = 115;
             this.numericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericUpDown.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
             // lblduration
             // 
             this.lblduration.AutoSize = true;
-            this.lblduration.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblduration.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblduration.Location = new System.Drawing.Point(40, 550);
+            this.lblduration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblduration.Location = new System.Drawing.Point(37, 504);
             this.lblduration.Name = "lblduration";
-            this.lblduration.Size = new System.Drawing.Size(71, 19);
-            this.lblduration.TabIndex = 154;
+            this.lblduration.Size = new System.Drawing.Size(47, 13);
+            this.lblduration.TabIndex = 114;
             this.lblduration.Text = "Duration";
             // 
             // lbldateout
             // 
             this.lbldateout.AutoSize = true;
-            this.lbldateout.Font = new System.Drawing.Font("Arial", 10F);
-            this.lbldateout.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbldateout.Location = new System.Drawing.Point(775, 95);
+            this.lbldateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldateout.Location = new System.Drawing.Point(627, 48);
             this.lbldateout.Name = "lbldateout";
-            this.lbldateout.Size = new System.Drawing.Size(73, 19);
-            this.lbldateout.TabIndex = 153;
+            this.lbldateout.Size = new System.Drawing.Size(50, 13);
+            this.lbldateout.TabIndex = 113;
             this.lbldateout.Text = "Date Out";
             // 
             // lbldatedue
             // 
             this.lbldatedue.AutoSize = true;
-            this.lbldatedue.Font = new System.Drawing.Font("Arial", 10F);
-            this.lbldatedue.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbldatedue.Location = new System.Drawing.Point(775, 50);
+            this.lbldatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldatedue.Location = new System.Drawing.Point(628, 9);
             this.lbldatedue.Name = "lbldatedue";
-            this.lbldatedue.Size = new System.Drawing.Size(78, 19);
-            this.lbldatedue.TabIndex = 152;
+            this.lbldatedue.Size = new System.Drawing.Size(53, 13);
+            this.lbldatedue.TabIndex = 109;
             this.lbldatedue.Text = "Date Due";
             // 
             // lblavailable
             // 
             this.lblavailable.AutoSize = true;
-            this.lblavailable.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblavailable.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblavailable.Location = new System.Drawing.Point(40, 360);
+            this.lblavailable.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblavailable.Location = new System.Drawing.Point(11, 293);
             this.lblavailable.Name = "lblavailable";
-            this.lblavailable.Size = new System.Drawing.Size(133, 19);
-            this.lblavailable.TabIndex = 151;
+            this.lblavailable.Size = new System.Drawing.Size(88, 13);
+            this.lblavailable.TabIndex = 107;
             this.lblavailable.Text = "Availabilty Check";
             // 
             // cbavailability
             // 
-            this.cbavailability.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbavailability.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbavailability.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbavailability.FormattingEnabled = true;
-            this.cbavailability.Location = new System.Drawing.Point(188, 360);
-            this.cbavailability.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbavailability.Location = new System.Drawing.Point(122, 285);
             this.cbavailability.Name = "cbavailability";
-            this.cbavailability.Size = new System.Drawing.Size(224, 27);
-            this.cbavailability.TabIndex = 150;
+            this.cbavailability.Size = new System.Drawing.Size(193, 21);
+            this.cbavailability.TabIndex = 106;
+            this.cbavailability.SelectedIndexChanged += new System.EventHandler(this.cbavailability_SelectedIndexChanged);
             // 
             // lbldisability1
             // 
             this.lbldisability1.AutoSize = true;
-            this.lbldisability1.Font = new System.Drawing.Font("Arial", 10F);
-            this.lbldisability1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbldisability1.Location = new System.Drawing.Point(40, 320);
+            this.lbldisability1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisability1.Location = new System.Drawing.Point(11, 249);
             this.lbldisability1.Name = "lbldisability1";
-            this.lbldisability1.Size = new System.Drawing.Size(127, 19);
-            this.lbldisability1.TabIndex = 149;
+            this.lbldisability1.Size = new System.Drawing.Size(82, 13);
+            this.lbldisability1.TabIndex = 105;
             this.lbldisability1.Text = "Disability Check";
             // 
             // cbdisability
             // 
-            this.cbdisability.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbdisability.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbdisability.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbdisability.FormattingEnabled = true;
-            this.cbdisability.Location = new System.Drawing.Point(188, 320);
-            this.cbdisability.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbdisability.Location = new System.Drawing.Point(122, 246);
             this.cbdisability.Name = "cbdisability";
-            this.cbdisability.Size = new System.Drawing.Size(224, 27);
-            this.cbdisability.TabIndex = 148;
+            this.cbdisability.Size = new System.Drawing.Size(193, 21);
+            this.cbdisability.TabIndex = 104;
+            this.cbdisability.SelectedIndexChanged += new System.EventHandler(this.cbdisability_SelectedIndexChanged);
             // 
             // lbllastname
             // 
             this.lbllastname.AutoSize = true;
-            this.lbllastname.Font = new System.Drawing.Font("Arial", 10F);
-            this.lbllastname.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbllastname.Location = new System.Drawing.Point(430, 144);
+            this.lbllastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllastname.Location = new System.Drawing.Point(330, 95);
             this.lbllastname.Name = "lbllastname";
-            this.lbllastname.Size = new System.Drawing.Size(86, 19);
-            this.lbllastname.TabIndex = 147;
+            this.lbllastname.Size = new System.Drawing.Size(58, 13);
+            this.lbllastname.TabIndex = 103;
             this.lbllastname.Text = "Last Name";
             // 
             // cblastname
             // 
-            this.cblastname.Font = new System.Drawing.Font("Arial", 10F);
-            this.cblastname.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cblastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblastname.FormattingEnabled = true;
-            this.cblastname.Location = new System.Drawing.Point(533, 140);
-            this.cblastname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cblastname.Location = new System.Drawing.Point(418, 92);
             this.cblastname.Name = "cblastname";
-            this.cblastname.Size = new System.Drawing.Size(224, 27);
-            this.cblastname.TabIndex = 146;
+            this.cblastname.Size = new System.Drawing.Size(193, 21);
+            this.cblastname.TabIndex = 102;
+            this.cblastname.SelectedIndexChanged += new System.EventHandler(this.cblastname_SelectedIndexChanged);
             // 
             // lblfirstname
             // 
             this.lblfirstname.AutoSize = true;
-            this.lblfirstname.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblfirstname.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblfirstname.Location = new System.Drawing.Point(430, 95);
+            this.lblfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfirstname.Location = new System.Drawing.Point(333, 54);
             this.lblfirstname.Name = "lblfirstname";
-            this.lblfirstname.Size = new System.Drawing.Size(88, 19);
-            this.lblfirstname.TabIndex = 145;
+            this.lblfirstname.Size = new System.Drawing.Size(57, 13);
+            this.lblfirstname.TabIndex = 101;
             this.lblfirstname.Text = "First Name";
             // 
             // cbfirstname
             // 
-            this.cbfirstname.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbfirstname.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbfirstname.FormattingEnabled = true;
-            this.cbfirstname.Location = new System.Drawing.Point(534, 95);
-            this.cbfirstname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbfirstname.Location = new System.Drawing.Point(419, 51);
             this.cbfirstname.Name = "cbfirstname";
-            this.cbfirstname.Size = new System.Drawing.Size(224, 27);
-            this.cbfirstname.TabIndex = 144;
+            this.cbfirstname.Size = new System.Drawing.Size(193, 21);
+            this.cbfirstname.TabIndex = 100;
+            this.cbfirstname.SelectedIndexChanged += new System.EventHandler(this.cbfirstname_SelectedIndexChanged);
             // 
             // lblstaffname
             // 
             this.lblstaffname.AutoSize = true;
-            this.lblstaffname.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblstaffname.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblstaffname.Location = new System.Drawing.Point(40, 95);
+            this.lblstaffname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstaffname.Location = new System.Drawing.Point(33, 54);
             this.lblstaffname.Name = "lblstaffname";
-            this.lblstaffname.Size = new System.Drawing.Size(90, 19);
-            this.lblstaffname.TabIndex = 143;
+            this.lblstaffname.Size = new System.Drawing.Size(60, 13);
+            this.lblstaffname.TabIndex = 99;
             this.lblstaffname.Text = "Staff Name";
             // 
             // cbstaffname
             // 
-            this.cbstaffname.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbstaffname.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbstaffname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbstaffname.FormattingEnabled = true;
-            this.cbstaffname.Location = new System.Drawing.Point(188, 95);
-            this.cbstaffname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbstaffname.Location = new System.Drawing.Point(122, 51);
             this.cbstaffname.Name = "cbstaffname";
-            this.cbstaffname.Size = new System.Drawing.Size(224, 27);
-            this.cbstaffname.TabIndex = 142;
+            this.cbstaffname.Size = new System.Drawing.Size(193, 21);
+            this.cbstaffname.TabIndex = 98;
+            this.cbstaffname.SelectedIndexChanged += new System.EventHandler(this.cbstaffname_SelectedIndexChanged);
             // 
             // lblroomno1
             // 
             this.lblroomno1.AutoSize = true;
-            this.lblroomno1.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblroomno1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblroomno1.Location = new System.Drawing.Point(40, 174);
+            this.lblroomno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomno1.Location = new System.Drawing.Point(36, 113);
             this.lblroomno1.Name = "lblroomno1";
-            this.lblroomno1.Size = new System.Drawing.Size(76, 19);
-            this.lblroomno1.TabIndex = 141;
+            this.lblroomno1.Size = new System.Drawing.Size(52, 13);
+            this.lblroomno1.TabIndex = 97;
             this.lblroomno1.Text = "Room No";
             // 
             // lblcustomerno
             // 
             this.lblcustomerno.AutoSize = true;
-            this.lblcustomerno.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblcustomerno.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblcustomerno.Location = new System.Drawing.Point(430, 50);
+            this.lblcustomerno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcustomerno.Location = new System.Drawing.Point(332, 9);
             this.lblcustomerno.Name = "lblcustomerno";
-            this.lblcustomerno.Size = new System.Drawing.Size(104, 19);
-            this.lblcustomerno.TabIndex = 140;
+            this.lblcustomerno.Size = new System.Drawing.Size(68, 13);
+            this.lblcustomerno.TabIndex = 96;
             this.lblcustomerno.Text = "Customer No";
             // 
             // lblstaffno
             // 
             this.lblstaffno.AutoSize = true;
-            this.lblstaffno.Font = new System.Drawing.Font("Arial", 10F);
-            this.lblstaffno.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblstaffno.Location = new System.Drawing.Point(40, 50);
+            this.lblstaffno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstaffno.Location = new System.Drawing.Point(39, 17);
             this.lblstaffno.Name = "lblstaffno";
-            this.lblstaffno.Size = new System.Drawing.Size(68, 19);
-            this.lblstaffno.TabIndex = 139;
+            this.lblstaffno.Size = new System.Drawing.Size(46, 13);
+            this.lblstaffno.TabIndex = 95;
             this.lblstaffno.Text = "Staff No";
             // 
             // cbroomNo
             // 
-            this.cbroomNo.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbroomNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbroomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbroomNo.FormattingEnabled = true;
-            this.cbroomNo.Location = new System.Drawing.Point(188, 170);
-            this.cbroomNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbroomNo.Location = new System.Drawing.Point(122, 113);
             this.cbroomNo.Name = "cbroomNo";
-            this.cbroomNo.Size = new System.Drawing.Size(224, 27);
-            this.cbroomNo.TabIndex = 138;
+            this.cbroomNo.Size = new System.Drawing.Size(193, 21);
+            this.cbroomNo.TabIndex = 94;
+            this.cbroomNo.SelectedIndexChanged += new System.EventHandler(this.cbroomNo_SelectedIndexChanged);
             // 
             // cbcustomerNo
             // 
-            this.cbcustomerNo.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbcustomerNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcustomerNo.FormattingEnabled = true;
-            this.cbcustomerNo.Location = new System.Drawing.Point(534, 50);
-            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbcustomerNo.Location = new System.Drawing.Point(419, 9);
             this.cbcustomerNo.Name = "cbcustomerNo";
-            this.cbcustomerNo.Size = new System.Drawing.Size(224, 27);
-            this.cbcustomerNo.TabIndex = 137;
+            this.cbcustomerNo.Size = new System.Drawing.Size(193, 21);
+            this.cbcustomerNo.TabIndex = 93;
+            this.cbcustomerNo.SelectedIndexChanged += new System.EventHandler(this.cbcustomerNo_SelectedIndexChanged);
             // 
             // cbstaffNo
             // 
-            this.cbstaffNo.Font = new System.Drawing.Font("Arial", 10F);
-            this.cbstaffNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbstaffNo.FormattingEnabled = true;
-            this.cbstaffNo.Location = new System.Drawing.Point(188, 50);
-            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cbstaffNo.Location = new System.Drawing.Point(122, 12);
             this.cbstaffNo.Name = "cbstaffNo";
-            this.cbstaffNo.Size = new System.Drawing.Size(224, 27);
-            this.cbstaffNo.TabIndex = 136;
+            this.cbstaffNo.Size = new System.Drawing.Size(193, 21);
+            this.cbstaffNo.TabIndex = 92;
+            this.cbstaffNo.SelectedIndexChanged += new System.EventHandler(this.cbstaffNo_SelectedIndexChanged);
             // 
-            // btnTest
+            // lblavailabilitycheck
             // 
-            this.btnTest.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnTest.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnTest.Location = new System.Drawing.Point(-2, 0);
-            this.btnTest.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(120, 33);
-            this.btnTest.TabIndex = 174;
-            this.btnTest.Text = "TEST";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            this.lblavailabilitycheck.AutoSize = true;
+            this.lblavailabilitycheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblavailabilitycheck.Location = new System.Drawing.Point(11, 335);
+            this.lblavailabilitycheck.Name = "lblavailabilitycheck";
+            this.lblavailabilitycheck.Size = new System.Drawing.Size(105, 13);
+            this.lblavailabilitycheck.TabIndex = 119;
+            this.lblavailabilitycheck.Text = "Expected Availabilty ";
+            // 
+            // cbavailabilitycheck
+            // 
+            this.cbavailabilitycheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbavailabilitycheck.FormattingEnabled = true;
+            this.cbavailabilitycheck.Location = new System.Drawing.Point(122, 332);
+            this.cbavailabilitycheck.Name = "cbavailabilitycheck";
+            this.cbavailabilitycheck.Size = new System.Drawing.Size(193, 21);
+            this.cbavailabilitycheck.TabIndex = 118;
+            this.cbavailabilitycheck.SelectedIndexChanged += new System.EventHandler(this.cbavailabilitycheck_SelectedIndexChanged);
+            // 
+            // lblroomnumber
+            // 
+            this.lblroomnumber.AutoSize = true;
+            this.lblroomnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomnumber.Location = new System.Drawing.Point(22, 152);
+            this.lblroomnumber.Name = "lblroomnumber";
+            this.lblroomnumber.Size = new System.Drawing.Size(75, 13);
+            this.lblroomnumber.TabIndex = 121;
+            this.lblroomnumber.Text = "Room Number";
+            // 
+            // cbroomnumber
+            // 
+            this.cbroomnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomnumber.FormattingEnabled = true;
+            this.cbroomnumber.Location = new System.Drawing.Point(122, 152);
+            this.cbroomnumber.Name = "cbroomnumber";
+            this.cbroomnumber.Size = new System.Drawing.Size(193, 21);
+            this.cbroomnumber.TabIndex = 120;
+            this.cbroomnumber.SelectedIndexChanged += new System.EventHandler(this.cbroomnumber_SelectedIndexChanged);
+            // 
+            // lblroomtype
+            // 
+            this.lblroomtype.AutoSize = true;
+            this.lblroomtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomtype.Location = new System.Drawing.Point(29, 192);
+            this.lblroomtype.Name = "lblroomtype";
+            this.lblroomtype.Size = new System.Drawing.Size(62, 13);
+            this.lblroomtype.TabIndex = 123;
+            this.lblroomtype.Text = "Room Type";
+            // 
+            // cbroomtype
+            // 
+            this.cbroomtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomtype.FormattingEnabled = true;
+            this.cbroomtype.Location = new System.Drawing.Point(122, 192);
+            this.cbroomtype.Name = "cbroomtype";
+            this.cbroomtype.Size = new System.Drawing.Size(193, 21);
+            this.cbroomtype.TabIndex = 122;
+            this.cbroomtype.SelectedIndexChanged += new System.EventHandler(this.cbroomtype_SelectedIndexChanged);
+            // 
+            // lbltotalprice
+            // 
+            this.lbltotalprice.AutoSize = true;
+            this.lbltotalprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalprice.Location = new System.Drawing.Point(33, 460);
+            this.lbltotalprice.Name = "lbltotalprice";
+            this.lbltotalprice.Size = new System.Drawing.Size(58, 13);
+            this.lbltotalprice.TabIndex = 125;
+            this.lbltotalprice.Text = "Total Price";
+            // 
+            // cbtotalprice
+            // 
+            this.cbtotalprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbtotalprice.FormattingEnabled = true;
+            this.cbtotalprice.Location = new System.Drawing.Point(122, 457);
+            this.cbtotalprice.Name = "cbtotalprice";
+            this.cbtotalprice.Size = new System.Drawing.Size(193, 21);
+            this.cbtotalprice.TabIndex = 124;
+            this.cbtotalprice.SelectedIndexChanged += new System.EventHandler(this.cbtotalprice_SelectedIndexChanged);
+            // 
+            // txtdatedue
+            // 
+            this.txtdatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdatedue.Location = new System.Drawing.Point(687, 7);
+            this.txtdatedue.Name = "txtdatedue";
+            this.txtdatedue.Size = new System.Drawing.Size(206, 26);
+            this.txtdatedue.TabIndex = 126;
+            // 
+            // txtdateout
+            // 
+            this.txtdateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdateout.Location = new System.Drawing.Point(687, 46);
+            this.txtdateout.Name = "txtdateout";
+            this.txtdateout.Size = new System.Drawing.Size(206, 26);
+            this.txtdateout.TabIndex = 127;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(3, 557);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(113, 45);
+            this.btnCancel.TabIndex = 129;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(206, 557);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(124, 45);
+            this.btnSubmit.TabIndex = 128;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(384, 133);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(590, 413);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 130;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblroomtype1
+            // 
+            this.lblroomtype1.AutoSize = true;
+            this.lblroomtype1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomtype1.Location = new System.Drawing.Point(640, 608);
+            this.lblroomtype1.Name = "lblroomtype1";
+            this.lblroomtype1.Size = new System.Drawing.Size(223, 24);
+            this.lblroomtype1.TabIndex = 132;
+            this.lblroomtype1.Text = "Room Type: SingleRoom";
+            // 
+            // lblroomnumber1
+            // 
+            this.lblroomnumber1.AutoSize = true;
+            this.lblroomnumber1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomnumber1.Location = new System.Drawing.Point(640, 567);
+            this.lblroomnumber1.Name = "lblroomnumber1";
+            this.lblroomnumber1.Size = new System.Drawing.Size(180, 24);
+            this.lblroomnumber1.TabIndex = 131;
+            this.lblroomnumber1.Text = "Room Number: SR1";
+            // 
+            // btnPrev
+            // 
+            this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrev.Location = new System.Drawing.Point(384, 593);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(88, 45);
+            this.btnPrev.TabIndex = 134;
+            this.btnPrev.Text = "Back";
+            this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNext.Location = new System.Drawing.Point(498, 593);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(87, 45);
+            this.btnNext.TabIndex = 133;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
+            // btnclose
+            // 
+            this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclose.Location = new System.Drawing.Point(107, 608);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(113, 45);
+            this.btnclose.TabIndex = 135;
+            this.btnclose.Text = "Close";
+            this.btnclose.UseVisualStyleBackColor = true;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // Bookings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1146, 795);
+            this.ClientSize = new System.Drawing.Size(1039, 665);
             this.Controls.Add(this.btnclose);
-            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.lblroomtype1);
@@ -574,15 +517,11 @@
             this.Controls.Add(this.cbroomNo);
             this.Controls.Add(this.cbcustomerNo);
             this.Controls.Add(this.cbstaffNo);
-            this.Font = new System.Drawing.Font("Arial", 10F);
-            this.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Bookings";
             this.Text = "Bookings";
             this.Load += new System.EventHandler(this.Bookings_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -590,24 +529,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnclose;
-        private System.Windows.Forms.Button btnPrev;
-        private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Label lblroomtype1;
-        private System.Windows.Forms.Label lblroomnumber1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnSubmit;
-        private System.Windows.Forms.TextBox txtdateout;
-        private System.Windows.Forms.TextBox txtdatedue;
-        private System.Windows.Forms.Label lbltotalprice;
-        private System.Windows.Forms.ComboBox cbtotalprice;
-        private System.Windows.Forms.Label lblroomtype;
-        private System.Windows.Forms.ComboBox cbroomtype;
-        private System.Windows.Forms.Label lblroomnumber;
-        private System.Windows.Forms.ComboBox cbroomnumber;
-        private System.Windows.Forms.Label lblavailabilitycheck;
-        private System.Windows.Forms.ComboBox cbavailabilitycheck;
         private System.Windows.Forms.Label lblbreakfast;
         private System.Windows.Forms.ComboBox cbbreakfast;
         private System.Windows.Forms.NumericUpDown numericUpDown;
@@ -630,6 +551,23 @@
         private System.Windows.Forms.ComboBox cbroomNo;
         private System.Windows.Forms.ComboBox cbcustomerNo;
         private System.Windows.Forms.ComboBox cbstaffNo;
-        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.Label lblavailabilitycheck;
+        private System.Windows.Forms.ComboBox cbavailabilitycheck;
+        private System.Windows.Forms.Label lblroomnumber;
+        private System.Windows.Forms.ComboBox cbroomnumber;
+        private System.Windows.Forms.Label lblroomtype;
+        private System.Windows.Forms.ComboBox cbroomtype;
+        private System.Windows.Forms.Label lbltotalprice;
+        private System.Windows.Forms.ComboBox cbtotalprice;
+        private System.Windows.Forms.TextBox txtdatedue;
+        private System.Windows.Forms.TextBox txtdateout;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblroomtype1;
+        private System.Windows.Forms.Label lblroomnumber1;
+        private System.Windows.Forms.Button btnPrev;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnclose;
     }
 }

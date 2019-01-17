@@ -50,39 +50,9 @@ namespace BayView1
             frmCustomer2.ShowDialog();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBookings_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SysTimeLbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BJTimeLbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnChange_Click(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }

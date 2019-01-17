@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayView1", "BayView1\BayView1.csproj", "{CFF5B206-3AD5-49FF-A9DA-91D0C9890D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookings", "..\..\..\..\Desktop\Bookingwork\bookings\bookings\bookings.csproj", "{D338E7B6-09F5-4E67-9B81-78FA0D124708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{CFF5B206-3AD5-49FF-A9DA-91D0C9890D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF5B206-3AD5-49FF-A9DA-91D0C9890D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF5B206-3AD5-49FF-A9DA-91D0C9890D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D338E7B6-09F5-4E67-9B81-78FA0D124708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D338E7B6-09F5-4E67-9B81-78FA0D124708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D338E7B6-09F5-4E67-9B81-78FA0D124708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D338E7B6-09F5-4E67-9B81-78FA0D124708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F8EECA45-A65E-4DBD-8894-2B7C68E39ED4}
+		SolutionGuid = {1BA5BFB2-5BFD-49E2-8478-D53E993F576E}
 	EndGlobalSection
 EndGlobal

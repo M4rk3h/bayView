@@ -45,7 +45,7 @@
             // 
             this.btnCustomerOld.Font = new System.Drawing.Font("Arial", 10F);
             this.btnCustomerOld.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCustomerOld.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
+            this.btnCustomerOld.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerOld.Image")));
             this.btnCustomerOld.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCustomerOld.Location = new System.Drawing.Point(276, 204);
             this.btnCustomerOld.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -61,7 +61,7 @@
             // 
             this.btnBookings.Font = new System.Drawing.Font("Arial", 10F);
             this.btnBookings.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnBookings.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Phonebook;
+            this.btnBookings.Image = ((System.Drawing.Image)(resources.GetObject("btnBookings.Image")));
             this.btnBookings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnBookings.Location = new System.Drawing.Point(276, 71);
             this.btnBookings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -77,7 +77,7 @@
             // 
             this.btnChange.Font = new System.Drawing.Font("Arial", 10F);
             this.btnChange.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnChange.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Info;
+            this.btnChange.Image = ((System.Drawing.Image)(resources.GetObject("btnChange.Image")));
             this.btnChange.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnChange.Location = new System.Drawing.Point(26, 204);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -87,7 +87,6 @@
             this.btnChange.Text = "Change Password";
             this.btnChange.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnChange.UseVisualStyleBackColor = true;
-            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // label1
             // 
@@ -99,7 +98,6 @@
             this.label1.Size = new System.Drawing.Size(110, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "welcome label";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // SysTimeLbl
             // 
@@ -111,7 +109,6 @@
             this.SysTimeLbl.Size = new System.Drawing.Size(51, 19);
             this.SysTimeLbl.TabIndex = 6;
             this.SysTimeLbl.Text = "label2";
-            this.SysTimeLbl.Click += new System.EventHandler(this.SysTimeLbl_Click);
             // 
             // label2
             // 
@@ -123,7 +120,6 @@
             this.label2.Size = new System.Drawing.Size(92, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "Local Time:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -136,7 +132,6 @@
             this.label3.Size = new System.Drawing.Size(102, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "Beijing Time:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // BJTimeLbl
             // 
@@ -149,7 +144,6 @@
             this.BJTimeLbl.Size = new System.Drawing.Size(51, 19);
             this.BJTimeLbl.TabIndex = 8;
             this.BJTimeLbl.Text = "label4";
-            this.BJTimeLbl.Click += new System.EventHandler(this.BJTimeLbl_Click);
             // 
             // btnExit
             // 
@@ -168,7 +162,7 @@
             // 
             this.btnCustomers.Font = new System.Drawing.Font("Arial", 10F);
             this.btnCustomers.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCustomers.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Contact;
+            this.btnCustomers.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomers.Image")));
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCustomers.Location = new System.Drawing.Point(26, 71);
             this.btnCustomers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
