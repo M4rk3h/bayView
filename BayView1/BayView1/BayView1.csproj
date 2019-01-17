@@ -81,6 +81,12 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookings.Designer.cs">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </Compile>
     <Compile Include="OldCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </Compile>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookings.resx">
+      <DependentUpon>Bookings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OldCustomer.resx">
       <DependentUpon>OldCustomer.cs</DependentUpon>

@@ -390,3 +390,4 @@ F:\GitHub\BayView_v1\BayView1\BayView1\bin\Debug\EntityFramework.SqlServer.xml
 F:\GitHub\BayView_v1\BayView1\BayView1\bin\Debug\System.Data.SQLite.xml
 F:\GitHub\BayView_v1\BayView1\BayView1\bin\Debug\System.Data.SQLite.dll.config
 F:\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
+F:\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Bookings.resources
