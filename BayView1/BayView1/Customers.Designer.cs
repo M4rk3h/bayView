@@ -185,7 +185,7 @@
             this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(95, 39);
-            this.btnCancel.TabIndex = 12;
+            this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -193,23 +193,22 @@
             // cbFind
             // 
             this.cbFind.Enabled = false;
-            this.cbFind.Font = new System.Drawing.Font("Arial", 10F);
             this.cbFind.FormattingEnabled = true;
             this.cbFind.Location = new System.Drawing.Point(441, 53);
             this.cbFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbFind.Name = "cbFind";
-            this.cbFind.Size = new System.Drawing.Size(196, 27);
-            this.cbFind.TabIndex = 8;
+            this.cbFind.Size = new System.Drawing.Size(196, 24);
+            this.cbFind.TabIndex = 2;
             // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Arial", 11F);
-            this.btnClose.ForeColor = System.Drawing.Color.Red;
+            this.btnClose.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnClose.Location = new System.Drawing.Point(441, 267);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(196, 39);
-            this.btnClose.TabIndex = 14;
+            this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -223,7 +222,7 @@
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(95, 39);
-            this.btnSubmit.TabIndex = 11;
+            this.btnSubmit.TabIndex = 10;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
@@ -231,13 +230,13 @@
             // btnSearch
             // 
             this.btnSearch.Enabled = false;
-            this.btnSearch.Font = new System.Drawing.Font("Arial", 11F);
+            this.btnSearch.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSearch.Location = new System.Drawing.Point(441, 82);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(196, 39);
-            this.btnSearch.TabIndex = 9;
+            this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -245,12 +244,11 @@
             // txtPostCode
             // 
             this.txtPostCode.Enabled = false;
-            this.txtPostCode.Font = new System.Drawing.Font("Arial", 10F);
             this.txtPostCode.Location = new System.Drawing.Point(128, 242);
             this.txtPostCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPostCode.Name = "txtPostCode";
-            this.txtPostCode.Size = new System.Drawing.Size(136, 27);
-            this.txtPostCode.TabIndex = 5;
+            this.txtPostCode.Size = new System.Drawing.Size(136, 22);
+            this.txtPostCode.TabIndex = 8;
             // 
             // lblPostcode
             // 
@@ -266,12 +264,11 @@
             // txtEmail
             // 
             this.txtEmail.Enabled = false;
-            this.txtEmail.Font = new System.Drawing.Font("Arial", 10F);
             this.txtEmail.Location = new System.Drawing.Point(128, 278);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(239, 27);
-            this.txtEmail.TabIndex = 6;
+            this.txtEmail.Size = new System.Drawing.Size(239, 22);
+            this.txtEmail.TabIndex = 9;
             // 
             // lblEmail
             // 
@@ -287,12 +284,11 @@
             // txtPhone
             // 
             this.txtPhone.Enabled = false;
-            this.txtPhone.Font = new System.Drawing.Font("Arial", 10F);
             this.txtPhone.Location = new System.Drawing.Point(128, 210);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(136, 27);
-            this.txtPhone.TabIndex = 4;
+            this.txtPhone.Size = new System.Drawing.Size(136, 22);
+            this.txtPhone.TabIndex = 7;
             // 
             // lblPhone
             // 
@@ -308,12 +304,11 @@
             // txtLastName
             // 
             this.txtLastName.Enabled = false;
-            this.txtLastName.Font = new System.Drawing.Font("Arial", 10F);
             this.txtLastName.Location = new System.Drawing.Point(128, 175);
             this.txtLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(136, 27);
-            this.txtLastName.TabIndex = 3;
+            this.txtLastName.Size = new System.Drawing.Size(136, 22);
+            this.txtLastName.TabIndex = 6;
             // 
             // lblLastName
             // 
@@ -329,12 +324,11 @@
             // txtFirstName
             // 
             this.txtFirstName.Enabled = false;
-            this.txtFirstName.Font = new System.Drawing.Font("Arial", 10F);
             this.txtFirstName.Location = new System.Drawing.Point(128, 142);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(136, 27);
-            this.txtFirstName.TabIndex = 2;
+            this.txtFirstName.Size = new System.Drawing.Size(136, 22);
+            this.txtFirstName.TabIndex = 5;
             // 
             // lblFirstName
             // 
@@ -350,12 +344,11 @@
             // txtTitle
             // 
             this.txtTitle.Enabled = false;
-            this.txtTitle.Font = new System.Drawing.Font("Arial", 10F);
             this.txtTitle.Location = new System.Drawing.Point(128, 103);
             this.txtTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(136, 27);
-            this.txtTitle.TabIndex = 1;
+            this.txtTitle.Size = new System.Drawing.Size(136, 22);
+            this.txtTitle.TabIndex = 4;
             // 
             // lblTitle
             // 
@@ -377,7 +370,7 @@
             this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(196, 39);
-            this.btnEdit.TabIndex = 10;
+            this.btnEdit.TabIndex = 48;
             this.btnEdit.Text = "Edit Customer";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -398,11 +391,9 @@
             // 
             this.toolDB.ActiveLinkColor = System.Drawing.Color.Transparent;
             this.toolDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.toolDB.Font = new System.Drawing.Font("Arial", 10F);
-            this.toolDB.ForeColor = System.Drawing.SystemColors.Highlight;
             this.toolDB.Image = global::BayView1.Properties.Resources.red;
             this.toolDB.Name = "toolDB";
-            this.toolDB.Size = new System.Drawing.Size(183, 20);
+            this.toolDB.Size = new System.Drawing.Size(172, 20);
             this.toolDB.Text = "## No Connection ##";
             // 
             // btnTest
@@ -413,7 +404,7 @@
             this.btnTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTest.Name = "btnTest";
             this.btnTest.Size = new System.Drawing.Size(244, 42);
-            this.btnTest.TabIndex = 0;
+            this.btnTest.TabIndex = 50;
             this.btnTest.Text = "Test Connection";
             this.btnTest.UseVisualStyleBackColor = true;
             this.btnTest.Click += new System.EventHandler(this.lblTest_Click);
@@ -428,12 +419,12 @@
             this.btnDel.BackColor = System.Drawing.SystemColors.Control;
             this.btnDel.Enabled = false;
             this.btnDel.Font = new System.Drawing.Font("Arial", 11F);
-            this.btnDel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnDel.ForeColor = System.Drawing.Color.Red;
             this.btnDel.Location = new System.Drawing.Point(441, 219);
             this.btnDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(196, 39);
-            this.btnDel.TabIndex = 13;
+            this.btnDel.TabIndex = 51;
             this.btnDel.Text = "DELETE";
             this.btnDel.UseVisualStyleBackColor = false;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
@@ -441,12 +432,11 @@
             // txtActive
             // 
             this.txtActive.Enabled = false;
-            this.txtActive.Font = new System.Drawing.Font("Arial", 10F);
             this.txtActive.Location = new System.Drawing.Point(355, 103);
             this.txtActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtActive.Name = "txtActive";
-            this.txtActive.Size = new System.Drawing.Size(44, 27);
-            this.txtActive.TabIndex = 7;
+            this.txtActive.Size = new System.Drawing.Size(44, 22);
+            this.txtActive.TabIndex = 52;
             // 
             // lblActive
             // 
@@ -459,7 +449,7 @@
             this.lblActive.TabIndex = 53;
             this.lblActive.Text = "Active";
             // 
-            // Customers
+            // Customer2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -488,11 +478,10 @@
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.bindingNavigator1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Customers";
+            this.Name = "Customer2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Customer2";
             this.Load += new System.EventHandler(this.Customer2_Load);

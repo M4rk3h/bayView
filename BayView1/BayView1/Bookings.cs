@@ -19,8 +19,12 @@ namespace BayView1
             //Start in Center of screen.
             this.StartPosition = FormStartPosition.CenterScreen;
         }
+        //create a connection object
+        SQLiteConnection conn = new SQLiteConnection();
 
-        string dbDetails = dbConnection.dbsource;
+        //used to hold the database file details
+        string conString;
+        
         //Define ADD.NET objects
         int rowAt;
 
@@ -30,20 +34,19 @@ namespace BayView1
         SQLiteDataAdapter dacustomer;
         SQLiteDataAdapter daroom;
         SQLiteDataAdapter dabookings;
-
+        SQLiteDataAdapter dacancel;
 
         DataTable dtstaff = new DataTable();
         DataTable dtcustomer = new DataTable();
         DataTable dtroom = new DataTable();
         DataTable dtbookings = new DataTable();
-
-
-
+        DataTable dtcancel = new DataTable();
 
         string sql1 = @"Select StaffNo, FirstName From Staff";
         string sql2 = @"Select CustomerNo, FirstName, LastName From Customers";
         string sql3 = @"Select * From Rooms";
-        string sql4 = @"Select * From Bookings";
+        string sql4 = @"Select * From NewBookings";
+        string sql5 = @"Select * From Cancelation";
 
         DataTable dtSelect = new DataTable();
 
@@ -51,9 +54,6 @@ namespace BayView1
         {
             try
             {
-                //assign the connection string to the SQLiteConnection
-                dbconn.ConnectionString = dbDetails;
-
                 //code to set up the DataAdapters
                 dastaff = new SQLiteDataAdapter(sql1, dbconn);
                 dacustomer = new SQLiteDataAdapter(sql2, dbconn);
@@ -167,13 +167,11 @@ namespace BayView1
             try
             {
                 //create connections and set up SQL to pull data from db
-                dbconn = new SQLiteConnection(dbDetails);
+                dbconn = new SQLiteConnection(dbconn);
                 string sqlcommand = @"Select * From Rooms";
                 //create DataAdapter and use to fill DataTable
                 daroom = new SQLiteDataAdapter(sqlcommand, dbconn);
                 daroom.Fill(dtroom);
-                //display first row of DataTable information
-                rowAt = 0;
                 showrecord();
             }
             catch (Exception ex)
@@ -190,6 +188,26 @@ namespace BayView1
             lblroomnumber1.Text = "Room Number : " + row["RoomNumber"].ToString();
             lblroomtype1.Text = "Room Type : " + row["RoomType"].ToString();
             pictureBox1.Image = Image.FromFile(row["Display"].ToString());
+        }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                conn.ConnectionString = conString;
+                conn.Open();
+
+                if (conn.State == System.Data.ConnectionState.Open)
+
+                    MessageBox.Show("Yay");
+            }
+            catch (Exception)
+            {
+                if (conn.State == System.Data.ConnectionState.Open)
+                    conn.Close();
+
+                MessageBox.Show("Nay");
+            }
         }
     }
 

@@ -49,11 +49,5 @@ namespace BayView1
             Customers frmCustomer2 = new Customers();
             frmCustomer2.ShowDialog();
         }
-
-        private void btnBookings_Click(object sender, EventArgs e)
-        {
-            Bookings frmBookings = new Bookings();
-            frmBookings.ShowDialog();
-        }
     }
 }

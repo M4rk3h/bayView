@@ -10,7 +10,6 @@ namespace BayView1
     class dbConnection
     {
         public static string
-         //dbsource = @"Data Source=DBBayView1.db";
-         dbsource = @"Data Source=newDBBayView.db";
+         dbsource = @"Data Source=DBBayView1.db";
     }
 }

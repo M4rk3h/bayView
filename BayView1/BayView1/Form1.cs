@@ -102,20 +102,5 @@ namespace BayView1
             tsText.Image = Properties.Resources.red;
             tsText.Text = "Login Failed, Please Try Again.";
         }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            //Create a pop up, asking if they want to quit.
-            if (MessageBox.Show("Are you sure you want to quit?", "Exit",
-                MessageBoxButtons.OKCancel,
-                MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                Application.Exit();
-            }
-            else
-            {
-                MessageBox.Show("Back?");
-            }
-        }
     }
 }

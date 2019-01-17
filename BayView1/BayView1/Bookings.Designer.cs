@@ -68,6 +68,7 @@
             this.cbroomNo = new System.Windows.Forms.ComboBox();
             this.cbcustomerNo = new System.Windows.Forms.ComboBox();
             this.cbstaffNo = new System.Windows.Forms.ComboBox();
+            this.btnTest = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
             this.SuspendLayout();
@@ -115,7 +116,7 @@
             this.lblroomtype1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblroomtype1.Location = new System.Drawing.Point(710, 745);
             this.lblroomtype1.Name = "lblroomtype1";
-            this.lblroomtype1.Size = new System.Drawing.Size(164, 16);
+            this.lblroomtype1.Size = new System.Drawing.Size(188, 19);
             this.lblroomtype1.TabIndex = 172;
             this.lblroomtype1.Text = "Room Type: SingleRoom";
             // 
@@ -126,7 +127,7 @@
             this.lblroomnumber1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblroomnumber1.Location = new System.Drawing.Point(710, 706);
             this.lblroomnumber1.Name = "lblroomnumber1";
-            this.lblroomnumber1.Size = new System.Drawing.Size(133, 16);
+            this.lblroomnumber1.Size = new System.Drawing.Size(154, 19);
             this.lblroomnumber1.TabIndex = 171;
             this.lblroomnumber1.Text = "Room Number: SR1";
             // 
@@ -171,7 +172,7 @@
             this.txtdateout.Location = new System.Drawing.Point(847, 95);
             this.txtdateout.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtdateout.Name = "txtdateout";
-            this.txtdateout.Size = new System.Drawing.Size(240, 23);
+            this.txtdateout.Size = new System.Drawing.Size(240, 27);
             this.txtdateout.TabIndex = 167;
             // 
             // txtdatedue
@@ -181,7 +182,7 @@
             this.txtdatedue.Location = new System.Drawing.Point(847, 50);
             this.txtdatedue.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtdatedue.Name = "txtdatedue";
-            this.txtdatedue.Size = new System.Drawing.Size(240, 23);
+            this.txtdatedue.Size = new System.Drawing.Size(240, 27);
             this.txtdatedue.TabIndex = 166;
             // 
             // lbltotalprice
@@ -191,7 +192,7 @@
             this.lbltotalprice.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbltotalprice.Location = new System.Drawing.Point(40, 500);
             this.lbltotalprice.Name = "lbltotalprice";
-            this.lbltotalprice.Size = new System.Drawing.Size(74, 16);
+            this.lbltotalprice.Size = new System.Drawing.Size(85, 19);
             this.lbltotalprice.TabIndex = 165;
             this.lbltotalprice.Text = "Total Price";
             // 
@@ -203,7 +204,7 @@
             this.cbtotalprice.Location = new System.Drawing.Point(188, 500);
             this.cbtotalprice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbtotalprice.Name = "cbtotalprice";
-            this.cbtotalprice.Size = new System.Drawing.Size(224, 24);
+            this.cbtotalprice.Size = new System.Drawing.Size(224, 27);
             this.cbtotalprice.TabIndex = 164;
             // 
             // lblroomtype
@@ -213,7 +214,7 @@
             this.lblroomtype.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblroomtype.Location = new System.Drawing.Point(40, 250);
             this.lblroomtype.Name = "lblroomtype";
-            this.lblroomtype.Size = new System.Drawing.Size(80, 16);
+            this.lblroomtype.Size = new System.Drawing.Size(91, 19);
             this.lblroomtype.TabIndex = 163;
             this.lblroomtype.Text = "Room Type";
             // 
@@ -225,7 +226,7 @@
             this.cbroomtype.Location = new System.Drawing.Point(188, 250);
             this.cbroomtype.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbroomtype.Name = "cbroomtype";
-            this.cbroomtype.Size = new System.Drawing.Size(224, 24);
+            this.cbroomtype.Size = new System.Drawing.Size(224, 27);
             this.cbroomtype.TabIndex = 162;
             // 
             // lblroomnumber
@@ -235,7 +236,7 @@
             this.lblroomnumber.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblroomnumber.Location = new System.Drawing.Point(40, 210);
             this.lblroomnumber.Name = "lblroomnumber";
-            this.lblroomnumber.Size = new System.Drawing.Size(98, 16);
+            this.lblroomnumber.Size = new System.Drawing.Size(113, 19);
             this.lblroomnumber.TabIndex = 161;
             this.lblroomnumber.Text = "Room Number";
             // 
@@ -247,7 +248,7 @@
             this.cbroomnumber.Location = new System.Drawing.Point(188, 210);
             this.cbroomnumber.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbroomnumber.Name = "cbroomnumber";
-            this.cbroomnumber.Size = new System.Drawing.Size(224, 24);
+            this.cbroomnumber.Size = new System.Drawing.Size(224, 27);
             this.cbroomnumber.TabIndex = 160;
             // 
             // lblavailabilitycheck
@@ -257,7 +258,7 @@
             this.lblavailabilitycheck.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblavailabilitycheck.Location = new System.Drawing.Point(40, 400);
             this.lblavailabilitycheck.Name = "lblavailabilitycheck";
-            this.lblavailabilitycheck.Size = new System.Drawing.Size(136, 16);
+            this.lblavailabilitycheck.Size = new System.Drawing.Size(157, 19);
             this.lblavailabilitycheck.TabIndex = 159;
             this.lblavailabilitycheck.Text = "Expected Availabilty ";
             // 
@@ -269,7 +270,7 @@
             this.cbavailabilitycheck.Location = new System.Drawing.Point(188, 400);
             this.cbavailabilitycheck.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbavailabilitycheck.Name = "cbavailabilitycheck";
-            this.cbavailabilitycheck.Size = new System.Drawing.Size(224, 24);
+            this.cbavailabilitycheck.Size = new System.Drawing.Size(224, 27);
             this.cbavailabilitycheck.TabIndex = 158;
             // 
             // lblbreakfast
@@ -279,7 +280,7 @@
             this.lblbreakfast.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblbreakfast.Location = new System.Drawing.Point(40, 450);
             this.lblbreakfast.Name = "lblbreakfast";
-            this.lblbreakfast.Size = new System.Drawing.Size(68, 16);
+            this.lblbreakfast.Size = new System.Drawing.Size(78, 19);
             this.lblbreakfast.TabIndex = 157;
             this.lblbreakfast.Text = "Breakfast";
             // 
@@ -291,7 +292,7 @@
             this.cbbreakfast.Location = new System.Drawing.Point(188, 450);
             this.cbbreakfast.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbbreakfast.Name = "cbbreakfast";
-            this.cbbreakfast.Size = new System.Drawing.Size(224, 24);
+            this.cbbreakfast.Size = new System.Drawing.Size(224, 27);
             this.cbbreakfast.TabIndex = 156;
             // 
             // numericUpDown
@@ -301,7 +302,7 @@
             this.numericUpDown.Location = new System.Drawing.Point(188, 550);
             this.numericUpDown.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(178, 23);
+            this.numericUpDown.Size = new System.Drawing.Size(178, 27);
             this.numericUpDown.TabIndex = 155;
             this.numericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -312,7 +313,7 @@
             this.lblduration.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblduration.Location = new System.Drawing.Point(40, 550);
             this.lblduration.Name = "lblduration";
-            this.lblduration.Size = new System.Drawing.Size(62, 16);
+            this.lblduration.Size = new System.Drawing.Size(71, 19);
             this.lblduration.TabIndex = 154;
             this.lblduration.Text = "Duration";
             // 
@@ -323,7 +324,7 @@
             this.lbldateout.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbldateout.Location = new System.Drawing.Point(775, 95);
             this.lbldateout.Name = "lbldateout";
-            this.lbldateout.Size = new System.Drawing.Size(65, 16);
+            this.lbldateout.Size = new System.Drawing.Size(73, 19);
             this.lbldateout.TabIndex = 153;
             this.lbldateout.Text = "Date Out";
             // 
@@ -334,7 +335,7 @@
             this.lbldatedue.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbldatedue.Location = new System.Drawing.Point(775, 50);
             this.lbldatedue.Name = "lbldatedue";
-            this.lbldatedue.Size = new System.Drawing.Size(68, 16);
+            this.lbldatedue.Size = new System.Drawing.Size(78, 19);
             this.lbldatedue.TabIndex = 152;
             this.lbldatedue.Text = "Date Due";
             // 
@@ -345,7 +346,7 @@
             this.lblavailable.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblavailable.Location = new System.Drawing.Point(40, 360);
             this.lblavailable.Name = "lblavailable";
-            this.lblavailable.Size = new System.Drawing.Size(115, 16);
+            this.lblavailable.Size = new System.Drawing.Size(133, 19);
             this.lblavailable.TabIndex = 151;
             this.lblavailable.Text = "Availabilty Check";
             // 
@@ -357,7 +358,7 @@
             this.cbavailability.Location = new System.Drawing.Point(188, 360);
             this.cbavailability.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbavailability.Name = "cbavailability";
-            this.cbavailability.Size = new System.Drawing.Size(224, 24);
+            this.cbavailability.Size = new System.Drawing.Size(224, 27);
             this.cbavailability.TabIndex = 150;
             // 
             // lbldisability1
@@ -367,7 +368,7 @@
             this.lbldisability1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbldisability1.Location = new System.Drawing.Point(40, 320);
             this.lbldisability1.Name = "lbldisability1";
-            this.lbldisability1.Size = new System.Drawing.Size(108, 16);
+            this.lbldisability1.Size = new System.Drawing.Size(127, 19);
             this.lbldisability1.TabIndex = 149;
             this.lbldisability1.Text = "Disability Check";
             // 
@@ -379,7 +380,7 @@
             this.cbdisability.Location = new System.Drawing.Point(188, 320);
             this.cbdisability.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbdisability.Name = "cbdisability";
-            this.cbdisability.Size = new System.Drawing.Size(224, 24);
+            this.cbdisability.Size = new System.Drawing.Size(224, 27);
             this.cbdisability.TabIndex = 148;
             // 
             // lbllastname
@@ -389,7 +390,7 @@
             this.lbllastname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbllastname.Location = new System.Drawing.Point(430, 144);
             this.lbllastname.Name = "lbllastname";
-            this.lbllastname.Size = new System.Drawing.Size(75, 16);
+            this.lbllastname.Size = new System.Drawing.Size(86, 19);
             this.lbllastname.TabIndex = 147;
             this.lbllastname.Text = "Last Name";
             // 
@@ -401,7 +402,7 @@
             this.cblastname.Location = new System.Drawing.Point(533, 140);
             this.cblastname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cblastname.Name = "cblastname";
-            this.cblastname.Size = new System.Drawing.Size(224, 24);
+            this.cblastname.Size = new System.Drawing.Size(224, 27);
             this.cblastname.TabIndex = 146;
             // 
             // lblfirstname
@@ -411,7 +412,7 @@
             this.lblfirstname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblfirstname.Location = new System.Drawing.Point(430, 95);
             this.lblfirstname.Name = "lblfirstname";
-            this.lblfirstname.Size = new System.Drawing.Size(76, 16);
+            this.lblfirstname.Size = new System.Drawing.Size(88, 19);
             this.lblfirstname.TabIndex = 145;
             this.lblfirstname.Text = "First Name";
             // 
@@ -423,7 +424,7 @@
             this.cbfirstname.Location = new System.Drawing.Point(534, 95);
             this.cbfirstname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbfirstname.Name = "cbfirstname";
-            this.cbfirstname.Size = new System.Drawing.Size(224, 24);
+            this.cbfirstname.Size = new System.Drawing.Size(224, 27);
             this.cbfirstname.TabIndex = 144;
             // 
             // lblstaffname
@@ -433,7 +434,7 @@
             this.lblstaffname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblstaffname.Location = new System.Drawing.Point(40, 95);
             this.lblstaffname.Name = "lblstaffname";
-            this.lblstaffname.Size = new System.Drawing.Size(77, 16);
+            this.lblstaffname.Size = new System.Drawing.Size(90, 19);
             this.lblstaffname.TabIndex = 143;
             this.lblstaffname.Text = "Staff Name";
             // 
@@ -445,7 +446,7 @@
             this.cbstaffname.Location = new System.Drawing.Point(188, 95);
             this.cbstaffname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbstaffname.Name = "cbstaffname";
-            this.cbstaffname.Size = new System.Drawing.Size(224, 24);
+            this.cbstaffname.Size = new System.Drawing.Size(224, 27);
             this.cbstaffname.TabIndex = 142;
             // 
             // lblroomno1
@@ -455,7 +456,7 @@
             this.lblroomno1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblroomno1.Location = new System.Drawing.Point(40, 174);
             this.lblroomno1.Name = "lblroomno1";
-            this.lblroomno1.Size = new System.Drawing.Size(66, 16);
+            this.lblroomno1.Size = new System.Drawing.Size(76, 19);
             this.lblroomno1.TabIndex = 141;
             this.lblroomno1.Text = "Room No";
             // 
@@ -466,7 +467,7 @@
             this.lblcustomerno.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblcustomerno.Location = new System.Drawing.Point(430, 50);
             this.lblcustomerno.Name = "lblcustomerno";
-            this.lblcustomerno.Size = new System.Drawing.Size(90, 16);
+            this.lblcustomerno.Size = new System.Drawing.Size(104, 19);
             this.lblcustomerno.TabIndex = 140;
             this.lblcustomerno.Text = "Customer No";
             // 
@@ -477,7 +478,7 @@
             this.lblstaffno.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblstaffno.Location = new System.Drawing.Point(40, 50);
             this.lblstaffno.Name = "lblstaffno";
-            this.lblstaffno.Size = new System.Drawing.Size(58, 16);
+            this.lblstaffno.Size = new System.Drawing.Size(68, 19);
             this.lblstaffno.TabIndex = 139;
             this.lblstaffno.Text = "Staff No";
             // 
@@ -489,7 +490,7 @@
             this.cbroomNo.Location = new System.Drawing.Point(188, 170);
             this.cbroomNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbroomNo.Name = "cbroomNo";
-            this.cbroomNo.Size = new System.Drawing.Size(224, 24);
+            this.cbroomNo.Size = new System.Drawing.Size(224, 27);
             this.cbroomNo.TabIndex = 138;
             // 
             // cbcustomerNo
@@ -500,7 +501,7 @@
             this.cbcustomerNo.Location = new System.Drawing.Point(534, 50);
             this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbcustomerNo.Name = "cbcustomerNo";
-            this.cbcustomerNo.Size = new System.Drawing.Size(224, 24);
+            this.cbcustomerNo.Size = new System.Drawing.Size(224, 27);
             this.cbcustomerNo.TabIndex = 137;
             // 
             // cbstaffNo
@@ -511,15 +512,29 @@
             this.cbstaffNo.Location = new System.Drawing.Point(188, 50);
             this.cbstaffNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbstaffNo.Name = "cbstaffNo";
-            this.cbstaffNo.Size = new System.Drawing.Size(224, 24);
+            this.cbstaffNo.Size = new System.Drawing.Size(224, 27);
             this.cbstaffNo.TabIndex = 136;
+            // 
+            // btnTest
+            // 
+            this.btnTest.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnTest.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTest.Location = new System.Drawing.Point(-2, 0);
+            this.btnTest.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(120, 33);
+            this.btnTest.TabIndex = 174;
+            this.btnTest.Text = "TEST";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // Bookings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1146, 795);
             this.Controls.Add(this.btnclose);
+            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.lblroomtype1);
@@ -615,5 +630,6 @@
         private System.Windows.Forms.ComboBox cbroomNo;
         private System.Windows.Forms.ComboBox cbcustomerNo;
         private System.Windows.Forms.ComboBox cbstaffNo;
+        private System.Windows.Forms.Button btnTest;
     }
 }

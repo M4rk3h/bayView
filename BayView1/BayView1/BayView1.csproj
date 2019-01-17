@@ -81,12 +81,6 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bookings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bookings.Designer.cs">
-      <DependentUpon>Bookings.cs</DependentUpon>
-    </Compile>
     <Compile Include="OldCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +114,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
+    <Compile Include="Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
     <Compile Include="StaffView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,9 +128,6 @@
     </Compile>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bookings.resx">
-      <DependentUpon>Bookings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OldCustomer.resx">
       <DependentUpon>OldCustomer.cs</DependentUpon>
@@ -158,6 +155,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StaffView.resx">
       <DependentUpon>StaffView.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,15 +181,6 @@
   <ItemGroup>
     <Content Include="Resources\BayViewicon.ico" />
     <Content Include="Resources\DBBayView1.db" />
-    <None Include="Resources\Graphicloads-100-Flat-Phonebook.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Close.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Info.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Contact1.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Attach-21.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Analytics1.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Contact.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Attach-2.ico" />
-    <None Include="Resources\Graphicloads-100-Flat-Analytics.ico" />
     <None Include="Resources\red.png" />
     <None Include="Resources\green.png" />
   </ItemGroup>
