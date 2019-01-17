@@ -55,5 +55,22 @@ namespace BayView1
                 MessageBox.Show("Error on Staff 2 Load");
             }
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (SQLiteCommandBuilder cb = new SQLiteCommandBuilder(daStaff))
+                {
+                    daStaff.Update(dtStaff);
+                }
+
+                MessageBox.Show("Record Updated.", "Update Records");
+            }
+            catch
+            {
+                MessageBox.Show("Error Updating Staff Records.");
+            }
+        }
     }
 }
