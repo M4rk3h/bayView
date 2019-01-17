@@ -391,3 +391,4 @@ C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayVie
 C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.csproj.CopyComplete
 C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.exe
 C:\Users\18115209\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.pdb
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.Staff.resources
