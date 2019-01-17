@@ -46,10 +46,10 @@ namespace BayView1
         {
             //Set properties for the Chart.
             Chart1.Titles.Clear();
-            Chart1.Titles.Add("Total Staff Members");
+            Chart1.Titles.Add("BayView Analytics");
             Chart1.ChartAreas[0].AxisX.IsMarginVisible = false;
             Chart1.ChartAreas[0].AxisX.Maximum = 10;
-            Chart1.ChartAreas[0].AxisX.Minimum = 1;
+            Chart1.ChartAreas[0].AxisX.Minimum = 0;
             Chart1.ChartAreas[0].AxisX.Title = "Staff";
 
         }
@@ -59,10 +59,10 @@ namespace BayView1
             //Clear the chart.
             Chart1.Series.Clear();
             //Add a new series
-            staff = Chart1.Series.Add("Singles");
+            staff = Chart1.Series.Add("Staff");
             staff.Color = Color.DarkBlue;
             //Declare SQL
-            string sql1 = @"Select * From Staff Where Manager = 0;";
+            string sql1 = @"Select * From Staff;";
             
             //Try to connect.
             try
@@ -87,7 +87,6 @@ namespace BayView1
                     dbCon.Close();
                 }
             }
-
             catch
             {
                 MessageBox.Show("Error on Radio Button Staff");
