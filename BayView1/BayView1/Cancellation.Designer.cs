@@ -254,7 +254,7 @@
             this.txtcancelation.Location = new System.Drawing.Point(600, 180);
             this.txtcancelation.Margin = new System.Windows.Forms.Padding(4);
             this.txtcancelation.Name = "txtcancelation";
-            this.txtcancelation.Size = new System.Drawing.Size(273, 27);
+            this.txtcancelation.Size = new System.Drawing.Size(256, 27);
             this.txtcancelation.TabIndex = 184;
             // 
             // lblcancelation2

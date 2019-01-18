@@ -51,6 +51,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.connectionToolStripMenuItem,
@@ -61,8 +62,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(761, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(761, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -95,37 +95,41 @@
             // 
             // Booking
             // 
+            this.Booking.Enabled = false;
             this.Booking.Font = new System.Drawing.Font("Arial", 10F);
             this.Booking.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Booking.Name = "Booking";
-            this.Booking.Size = new System.Drawing.Size(116, 23);
+            this.Booking.Size = new System.Drawing.Size(116, 24);
             this.Booking.Text = "New Booking";
             this.Booking.Click += new System.EventHandler(this.Booking_Click);
             // 
             // UpdateBooking
             // 
+            this.UpdateBooking.Enabled = false;
             this.UpdateBooking.Font = new System.Drawing.Font("Arial", 10F);
             this.UpdateBooking.ForeColor = System.Drawing.SystemColors.Highlight;
             this.UpdateBooking.Name = "UpdateBooking";
-            this.UpdateBooking.Size = new System.Drawing.Size(136, 23);
+            this.UpdateBooking.Size = new System.Drawing.Size(136, 24);
             this.UpdateBooking.Text = "Update Booking";
             this.UpdateBooking.Click += new System.EventHandler(this.UpdateBooking_Click);
             // 
             // bookingOrders
             // 
+            this.bookingOrders.Enabled = false;
             this.bookingOrders.Font = new System.Drawing.Font("Arial", 10F);
             this.bookingOrders.ForeColor = System.Drawing.SystemColors.Highlight;
             this.bookingOrders.Name = "bookingOrders";
-            this.bookingOrders.Size = new System.Drawing.Size(135, 23);
+            this.bookingOrders.Size = new System.Drawing.Size(135, 24);
             this.bookingOrders.Text = "Booking Orders";
             this.bookingOrders.Click += new System.EventHandler(this.bookingOrders_Click);
             // 
             // cancelation
             // 
+            this.cancelation.Enabled = false;
             this.cancelation.Font = new System.Drawing.Font("Arial", 10F);
             this.cancelation.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cancelation.Name = "cancelation";
-            this.cancelation.Size = new System.Drawing.Size(150, 23);
+            this.cancelation.Size = new System.Drawing.Size(150, 24);
             this.cancelation.Text = "Cancelation Form";
             this.cancelation.Click += new System.EventHandler(this.cancelation_Click);
             // 
@@ -160,15 +164,15 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ConnectQ});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 27);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(761, 25);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // ConnectQ
             // 
+            this.ConnectQ.Enabled = false;
             this.ConnectQ.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConnectQ.ForeColor = System.Drawing.SystemColors.Highlight;
             this.ConnectQ.Name = "ConnectQ";

@@ -28,14 +28,30 @@ namespace BayView1
         //used to hold the database file details
         string conString;
 
+        public void enableAll()
+        {
+            Booking.Enabled = true;
+            UpdateBooking.Enabled = true;
+            bookingOrders.Enabled = true;
+            cancelation.Enabled = true;
+            ConnectQ.Enabled = true;
+        }
+
         private void Search_Click(object sender, EventArgs e)
         {
-            //this code is for enabling the search function to work
-            openFileDialog1.Title = "Select an SQLite database file:";
-            openFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            openFileDialog1.Filter = "Database files (*.db)|*.db";
-            openFileDialog1.FilterIndex = 1;
-            openFileDialog1.FileName = "";
+            try
+            {
+                //this code is for enabling the search function to work
+                openFileDialog1.Title = "Select an SQLite database file:";
+                openFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                openFileDialog1.Filter = "Database files (*.db)|*.db";
+                openFileDialog1.FilterIndex = 1;
+                openFileDialog1.FileName = "";
+            }
+            catch
+            {
+                MessageBox.Show("Shit son");
+            }
 
             if (openFileDialog1.ShowDialog() != DialogResult.Cancel)
             {
@@ -49,7 +65,16 @@ namespace BayView1
                 UpdateBooking.Enabled = false;
                 cancelation.Enabled = false;
                 tssImage.Text = "Set to: " + openFileDialog1.FileName;
+                //Enable other buttons
+                enableAll();
             }
+            else
+            {
+                MessageBox.Show("Error finding Database.");
+            }
+
+           
+
         }
 
         private void testcon_Click(object sender, EventArgs e)
