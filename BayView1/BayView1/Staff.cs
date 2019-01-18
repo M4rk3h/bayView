@@ -39,7 +39,7 @@ namespace BayView1
                 dbCon = new SQLiteConnection(dbDetails);
                 //Add required SQL
                 //daCustomer = new SQLiteDataAdapter("Select * From Customers Where Active = 1", dbCon);
-                daStaff = new SQLiteDataAdapter("Select StaffNo,FirstName,LastName,Email,PhoneNo,Username,Manager From Staff ", dbCon);
+                daStaff = new SQLiteDataAdapter("Select StaffNo,FirstName,LastName,Email,PhoneNo,Username,Manager,OntheJob From Staff ", dbCon);
                 //Fill DataAdapter with data pulled from DataTable
                 daStaff.Fill(dtStaff);
                 //Set the Command Builder within the load.
@@ -53,6 +53,38 @@ namespace BayView1
             catch
             {
                 MessageBox.Show("Error on Staff 2 Load");
+            }
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (SQLiteCommandBuilder cb = new SQLiteCommandBuilder(daStaff))
+                {
+                    daStaff.Update(dtStaff);
+                }
+
+                MessageBox.Show("Record Updated.", "Update Records");
+            }
+            catch
+            {
+                MessageBox.Show("Error Updating Staff Records.");
+            }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to quit?", "Exit",
+                MessageBoxButtons.OKCancel,
+                MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                dbCon.Close();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Back?");
             }
         }
     }
