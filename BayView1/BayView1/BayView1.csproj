@@ -75,6 +75,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewStaff.Designer.cs">
+      <DependentUpon>AddNewStaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Analytics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,9 @@
     <Compile Include="Update_Bookings.Designer.cs">
       <DependentUpon>Update_Bookings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddNewStaff.resx">
+      <DependentUpon>AddNewStaff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
     </EmbeddedResource>
