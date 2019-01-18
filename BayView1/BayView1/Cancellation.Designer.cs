@@ -62,9 +62,10 @@
             // 
             this.lblbookingNo.AutoSize = true;
             this.lblbookingNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbookingNo.Location = new System.Drawing.Point(-62, 216);
+            this.lblbookingNo.Location = new System.Drawing.Point(-83, 266);
+            this.lblbookingNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbookingNo.Name = "lblbookingNo";
-            this.lblbookingNo.Size = new System.Drawing.Size(63, 13);
+            this.lblbookingNo.Size = new System.Drawing.Size(81, 17);
             this.lblbookingNo.TabIndex = 160;
             this.lblbookingNo.Text = "Booking No";
             // 
@@ -72,9 +73,10 @@
             // 
             this.lblcustomerNo.AutoSize = true;
             this.lblcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcustomerNo.Location = new System.Drawing.Point(18, 124);
+            this.lblcustomerNo.Location = new System.Drawing.Point(24, 153);
+            this.lblcustomerNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcustomerNo.Name = "lblcustomerNo";
-            this.lblcustomerNo.Size = new System.Drawing.Size(68, 13);
+            this.lblcustomerNo.Size = new System.Drawing.Size(90, 17);
             this.lblcustomerNo.TabIndex = 159;
             this.lblcustomerNo.Text = "Customer No";
             // 
@@ -82,9 +84,10 @@
             // 
             this.lblstaffNo.AutoSize = true;
             this.lblstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstaffNo.Location = new System.Drawing.Point(25, 173);
+            this.lblstaffNo.Location = new System.Drawing.Point(33, 213);
+            this.lblstaffNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblstaffNo.Name = "lblstaffNo";
-            this.lblstaffNo.Size = new System.Drawing.Size(46, 13);
+            this.lblstaffNo.Size = new System.Drawing.Size(59, 17);
             this.lblstaffNo.TabIndex = 158;
             this.lblstaffNo.Text = "Staff No";
             // 
@@ -92,9 +95,10 @@
             // 
             this.cbcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcustomerNo.FormattingEnabled = true;
-            this.cbcustomerNo.Location = new System.Drawing.Point(130, 124);
+            this.cbcustomerNo.Location = new System.Drawing.Point(173, 153);
+            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbcustomerNo.Name = "cbcustomerNo";
-            this.cbcustomerNo.Size = new System.Drawing.Size(193, 21);
+            this.cbcustomerNo.Size = new System.Drawing.Size(256, 25);
             this.cbcustomerNo.TabIndex = 157;
             this.cbcustomerNo.SelectedIndexChanged += new System.EventHandler(this.cbcustomerNo_SelectedIndexChanged);
             // 
@@ -102,9 +106,10 @@
             // 
             this.cbstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbstaffNo.FormattingEnabled = true;
-            this.cbstaffNo.Location = new System.Drawing.Point(130, 173);
+            this.cbstaffNo.Location = new System.Drawing.Point(173, 213);
+            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbstaffNo.Name = "cbstaffNo";
-            this.cbstaffNo.Size = new System.Drawing.Size(193, 21);
+            this.cbstaffNo.Size = new System.Drawing.Size(256, 25);
             this.cbstaffNo.TabIndex = 156;
             this.cbstaffNo.SelectedIndexChanged += new System.EventHandler(this.cbstaffNo_SelectedIndexChanged);
             // 
@@ -112,9 +117,10 @@
             // 
             this.lblorderno.AutoSize = true;
             this.lblorderno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblorderno.Location = new System.Drawing.Point(24, 79);
+            this.lblorderno.Location = new System.Drawing.Point(32, 97);
+            this.lblorderno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblorderno.Name = "lblorderno";
-            this.lblorderno.Size = new System.Drawing.Size(47, 13);
+            this.lblorderno.Size = new System.Drawing.Size(63, 17);
             this.lblorderno.TabIndex = 162;
             this.lblorderno.Text = "OrderNo";
             // 
@@ -122,60 +128,75 @@
             // 
             this.cborderno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cborderno.FormattingEnabled = true;
-            this.cborderno.Location = new System.Drawing.Point(130, 80);
+            this.cborderno.Location = new System.Drawing.Point(173, 98);
+            this.cborderno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cborderno.Name = "cborderno";
-            this.cborderno.Size = new System.Drawing.Size(193, 21);
+            this.cborderno.Size = new System.Drawing.Size(256, 25);
             this.cborderno.TabIndex = 161;
             this.cborderno.SelectedIndexChanged += new System.EventHandler(this.cborderno_SelectedIndexChanged);
             // 
             // txtcanceldate
             // 
             this.txtcanceldate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcanceldate.Location = new System.Drawing.Point(130, 262);
+            this.txtcanceldate.Location = new System.Drawing.Point(173, 322);
+            this.txtcanceldate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtcanceldate.Name = "txtcanceldate";
-            this.txtcanceldate.Size = new System.Drawing.Size(206, 26);
+            this.txtcanceldate.Size = new System.Drawing.Size(273, 30);
             this.txtcanceldate.TabIndex = 171;
             // 
             // lblcancel
             // 
             this.lblcancel.AutoSize = true;
             this.lblcancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcancel.Location = new System.Drawing.Point(35, 270);
+            this.lblcancel.Location = new System.Drawing.Point(47, 332);
+            this.lblcancel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancel.Name = "lblcancel";
-            this.lblcancel.Size = new System.Drawing.Size(89, 13);
+            this.lblcancel.Size = new System.Drawing.Size(116, 17);
             this.lblcancel.TabIndex = 170;
             this.lblcancel.Text = "Cancelation Date";
             // 
             // btnclose
             // 
             this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.Location = new System.Drawing.Point(420, 356);
+            this.btnclose.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
+            this.btnclose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnclose.Location = new System.Drawing.Point(560, 438);
+            this.btnclose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(122, 50);
+            this.btnclose.Size = new System.Drawing.Size(150, 80);
             this.btnclose.TabIndex = 174;
             this.btnclose.Text = "Close";
+            this.btnclose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnclose.UseVisualStyleBackColor = true;
             this.btnclose.Click += new System.EventHandler(this.btnclose_Click_1);
             // 
             // btncancel
             // 
             this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(255, 356);
+            this.btncancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Warning;
+            this.btncancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btncancel.Location = new System.Drawing.Point(340, 438);
+            this.btncancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(133, 50);
+            this.btncancel.Size = new System.Drawing.Size(150, 80);
             this.btncancel.TabIndex = 173;
             this.btncancel.Text = "Cancel";
+            this.btncancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncancel.UseVisualStyleBackColor = true;
             this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(66, 313);
+            this.btnSubmit.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Like;
+            this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSubmit.Location = new System.Drawing.Point(88, 385);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(137, 50);
+            this.btnSubmit.Size = new System.Drawing.Size(150, 80);
             this.btnSubmit.TabIndex = 172;
             this.btnSubmit.Text = "Submit";
+            this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
@@ -183,9 +204,10 @@
             // 
             this.lblorderno1.AutoSize = true;
             this.lblorderno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblorderno1.Location = new System.Drawing.Point(447, 54);
+            this.lblorderno1.Location = new System.Drawing.Point(596, 66);
+            this.lblorderno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblorderno1.Name = "lblorderno1";
-            this.lblorderno1.Size = new System.Drawing.Size(47, 13);
+            this.lblorderno1.Size = new System.Drawing.Size(63, 17);
             this.lblorderno1.TabIndex = 180;
             this.lblorderno1.Text = "OrderNo";
             // 
@@ -193,9 +215,10 @@
             // 
             this.cborderno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cborderno1.FormattingEnabled = true;
-            this.cborderno1.Location = new System.Drawing.Point(553, 55);
+            this.cborderno1.Location = new System.Drawing.Point(737, 68);
+            this.cborderno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cborderno1.Name = "cborderno1";
-            this.cborderno1.Size = new System.Drawing.Size(193, 21);
+            this.cborderno1.Size = new System.Drawing.Size(256, 25);
             this.cborderno1.TabIndex = 179;
             this.cborderno1.SelectedIndexChanged += new System.EventHandler(this.cborderno1_SelectedIndexChanged);
             // 
@@ -203,9 +226,10 @@
             // 
             this.lblcustomerno1.AutoSize = true;
             this.lblcustomerno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcustomerno1.Location = new System.Drawing.Point(441, 119);
+            this.lblcustomerno1.Location = new System.Drawing.Point(588, 146);
+            this.lblcustomerno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcustomerno1.Name = "lblcustomerno1";
-            this.lblcustomerno1.Size = new System.Drawing.Size(68, 13);
+            this.lblcustomerno1.Size = new System.Drawing.Size(90, 17);
             this.lblcustomerno1.TabIndex = 178;
             this.lblcustomerno1.Text = "Customer No";
             // 
@@ -213,9 +237,10 @@
             // 
             this.lblstaffno1.AutoSize = true;
             this.lblstaffno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstaffno1.Location = new System.Drawing.Point(458, 181);
+            this.lblstaffno1.Location = new System.Drawing.Point(611, 223);
+            this.lblstaffno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblstaffno1.Name = "lblstaffno1";
-            this.lblstaffno1.Size = new System.Drawing.Size(46, 13);
+            this.lblstaffno1.Size = new System.Drawing.Size(59, 17);
             this.lblstaffno1.TabIndex = 177;
             this.lblstaffno1.Text = "Staff No";
             // 
@@ -223,9 +248,10 @@
             // 
             this.cbcustomerno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcustomerno1.FormattingEnabled = true;
-            this.cbcustomerno1.Location = new System.Drawing.Point(553, 119);
+            this.cbcustomerno1.Location = new System.Drawing.Point(737, 146);
+            this.cbcustomerno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbcustomerno1.Name = "cbcustomerno1";
-            this.cbcustomerno1.Size = new System.Drawing.Size(193, 21);
+            this.cbcustomerno1.Size = new System.Drawing.Size(256, 25);
             this.cbcustomerno1.TabIndex = 176;
             this.cbcustomerno1.SelectedIndexChanged += new System.EventHandler(this.cbcustomerno1_SelectedIndexChanged);
             // 
@@ -233,9 +259,10 @@
             // 
             this.cbstaffno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbstaffno1.FormattingEnabled = true;
-            this.cbstaffno1.Location = new System.Drawing.Point(553, 181);
+            this.cbstaffno1.Location = new System.Drawing.Point(737, 223);
+            this.cbstaffno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbstaffno1.Name = "cbstaffno1";
-            this.cbstaffno1.Size = new System.Drawing.Size(193, 21);
+            this.cbstaffno1.Size = new System.Drawing.Size(256, 25);
             this.cbstaffno1.TabIndex = 175;
             this.cbstaffno1.SelectedIndexChanged += new System.EventHandler(this.cbstaffno1_SelectedIndexChanged);
             // 
@@ -243,9 +270,10 @@
             // 
             this.lblcancelation.AutoSize = true;
             this.lblcancelation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcancelation.Location = new System.Drawing.Point(458, 231);
+            this.lblcancelation.Location = new System.Drawing.Point(611, 284);
+            this.lblcancelation.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancelation.Name = "lblcancelation";
-            this.lblcancelation.Size = new System.Drawing.Size(86, 13);
+            this.lblcancelation.Size = new System.Drawing.Size(112, 17);
             this.lblcancelation.TabIndex = 182;
             this.lblcancelation.Text = "Cancaltion Date ";
             // 
@@ -253,38 +281,45 @@
             // 
             this.cbcancelation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcancelation.FormattingEnabled = true;
-            this.cbcancelation.Location = new System.Drawing.Point(553, 231);
+            this.cbcancelation.Location = new System.Drawing.Point(737, 284);
+            this.cbcancelation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbcancelation.Name = "cbcancelation";
-            this.cbcancelation.Size = new System.Drawing.Size(193, 21);
+            this.cbcancelation.Size = new System.Drawing.Size(256, 25);
             this.cbcancelation.TabIndex = 181;
             this.cbcancelation.SelectedIndexChanged += new System.EventHandler(this.cbcancelation_SelectedIndexChanged);
             // 
             // txtcancelation
             // 
             this.txtcancelation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcancelation.Location = new System.Drawing.Point(553, 275);
+            this.txtcancelation.Location = new System.Drawing.Point(737, 338);
+            this.txtcancelation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtcancelation.Name = "txtcancelation";
-            this.txtcancelation.Size = new System.Drawing.Size(206, 26);
+            this.txtcancelation.Size = new System.Drawing.Size(273, 30);
             this.txtcancelation.TabIndex = 184;
             // 
             // lblcancelation2
             // 
             this.lblcancelation2.AutoSize = true;
             this.lblcancelation2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcancelation2.Location = new System.Drawing.Point(458, 283);
+            this.lblcancelation2.Location = new System.Drawing.Point(611, 348);
+            this.lblcancelation2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancelation2.Name = "lblcancelation2";
-            this.lblcancelation2.Size = new System.Drawing.Size(89, 13);
+            this.lblcancelation2.Size = new System.Drawing.Size(116, 17);
             this.lblcancelation2.TabIndex = 183;
             this.lblcancelation2.Text = "Cancelation Date";
             // 
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(673, 333);
+            this.btnUpdate.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Next;
+            this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnUpdate.Location = new System.Drawing.Point(897, 410);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(123, 50);
+            this.btnUpdate.Size = new System.Drawing.Size(150, 80);
             this.btnUpdate.TabIndex = 185;
             this.btnUpdate.Text = "Update";
+            this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
@@ -292,9 +327,10 @@
             // 
             this.lblcancelno.AutoSize = true;
             this.lblcancelno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcancelno.Location = new System.Drawing.Point(24, 38);
+            this.lblcancelno.Location = new System.Drawing.Point(32, 47);
+            this.lblcancelno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancelno.Name = "lblcancelno";
-            this.lblcancelno.Size = new System.Drawing.Size(54, 13);
+            this.lblcancelno.Size = new System.Drawing.Size(69, 17);
             this.lblcancelno.TabIndex = 187;
             this.lblcancelno.Text = "CancelNo";
             // 
@@ -302,20 +338,25 @@
             // 
             this.cbcancelno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcancelno.FormattingEnabled = true;
-            this.cbcancelno.Location = new System.Drawing.Point(130, 39);
+            this.cbcancelno.Location = new System.Drawing.Point(173, 48);
+            this.cbcancelno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbcancelno.Name = "cbcancelno";
-            this.cbcancelno.Size = new System.Drawing.Size(193, 21);
+            this.cbcancelno.Size = new System.Drawing.Size(256, 25);
             this.cbcancelno.TabIndex = 186;
             this.cbcancelno.SelectedIndexChanged += new System.EventHandler(this.cbcancelno_SelectedIndexChanged);
             // 
             // btndelete
             // 
             this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(979, 90);
+            this.btndelete.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Recyclebin;
+            this.btndelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btndelete.Location = new System.Drawing.Point(1305, 111);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(118, 50);
+            this.btndelete.Size = new System.Drawing.Size(150, 80);
             this.btndelete.TabIndex = 188;
             this.btndelete.Text = "Delete";
+            this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btndelete.UseVisualStyleBackColor = true;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
@@ -323,9 +364,10 @@
             // 
             this.lblcancel1.AutoSize = true;
             this.lblcancel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcancel1.Location = new System.Drawing.Point(811, 58);
+            this.lblcancel1.Location = new System.Drawing.Point(1081, 71);
+            this.lblcancel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancel1.Name = "lblcancel1";
-            this.lblcancel1.Size = new System.Drawing.Size(54, 13);
+            this.lblcancel1.Size = new System.Drawing.Size(69, 17);
             this.lblcancel1.TabIndex = 190;
             this.lblcancel1.Text = "CancelNo";
             // 
@@ -333,17 +375,18 @@
             // 
             this.cbcancelno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcancelno1.FormattingEnabled = true;
-            this.cbcancelno1.Location = new System.Drawing.Point(871, 54);
+            this.cbcancelno1.Location = new System.Drawing.Point(1161, 66);
+            this.cbcancelno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbcancelno1.Name = "cbcancelno1";
-            this.cbcancelno1.Size = new System.Drawing.Size(193, 21);
+            this.cbcancelno1.Size = new System.Drawing.Size(256, 25);
             this.cbcancelno1.TabIndex = 189;
             this.cbcancelno1.SelectedIndexChanged += new System.EventHandler(this.cbcancelno1_SelectedIndexChanged);
             // 
             // Cancellation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 450);
+            this.ClientSize = new System.Drawing.Size(1479, 554);
             this.Controls.Add(this.lblcancel1);
             this.Controls.Add(this.cbcancelno1);
             this.Controls.Add(this.btndelete);
@@ -372,6 +415,7 @@
             this.Controls.Add(this.lblstaffNo);
             this.Controls.Add(this.cbcustomerNo);
             this.Controls.Add(this.cbstaffNo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Cancellation";
             this.Text = "Cancellation";
             this.Load += new System.EventHandler(this.Cancellation_Load);

@@ -60,14 +60,14 @@
             this.cbtotalprice = new System.Windows.Forms.ComboBox();
             this.txtdatedue = new System.Windows.Forms.TextBox();
             this.txtdateout = new System.Windows.Forms.TextBox();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblroomtype1 = new System.Windows.Forms.Label();
             this.lblroomnumber1 = new System.Windows.Forms.Label();
-            this.btnPrev = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
+            this.btnPrev = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSubmit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -452,42 +452,6 @@
             this.txtdateout.Size = new System.Drawing.Size(250, 27);
             this.txtdateout.TabIndex = 127;
             // 
-            // btnCancel
-            // 
-            this.btnCancel.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCancel.Location = new System.Drawing.Point(10, 550);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(150, 80);
-            this.btnCancel.TabIndex = 129;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnSubmit.Location = new System.Drawing.Point(263, 550);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(150, 80);
-            this.btnSubmit.TabIndex = 128;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(444, 125);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(787, 508);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 130;
-            this.pictureBox1.TabStop = false;
-            // 
             // lblroomtype1
             // 
             this.lblroomtype1.AutoSize = true;
@@ -512,29 +476,19 @@
             this.lblroomnumber1.TabIndex = 131;
             this.lblroomnumber1.Text = "Room Number: SR1";
             // 
-            // btnPrev
-            // 
-            this.btnPrev.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnPrev.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnPrev.Location = new System.Drawing.Point(581, 686);
-            this.btnPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(150, 80);
-            this.btnPrev.TabIndex = 134;
-            this.btnPrev.Text = "Back";
-            this.btnPrev.UseVisualStyleBackColor = true;
-            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
-            // 
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Arial", 10F);
             this.btnNext.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnNext.Image = global::BayView1.Properties.Resources.Custom_Icon_Design_Pretty_Office_8_Fast_forward;
+            this.btnNext.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnNext.Location = new System.Drawing.Point(832, 686);
             this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(150, 80);
             this.btnNext.TabIndex = 133;
             this.btnNext.Text = "Next";
+            this.btnNext.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -542,14 +496,75 @@
             // 
             this.btnclose.Font = new System.Drawing.Font("Arial", 10F);
             this.btnclose.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnclose.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
+            this.btnclose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnclose.Location = new System.Drawing.Point(1081, 686);
-            this.btnclose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnclose.Margin = new System.Windows.Forms.Padding(4);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(150, 80);
             this.btnclose.TabIndex = 135;
             this.btnclose.Text = "Close";
+            this.btnclose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnclose.UseVisualStyleBackColor = true;
             this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
+            // 
+            // btnPrev
+            // 
+            this.btnPrev.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnPrev.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnPrev.Image = global::BayView1.Properties.Resources.Custom_Icon_Design_Pretty_Office_8_Fast_backward;
+            this.btnPrev.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPrev.Location = new System.Drawing.Point(581, 686);
+            this.btnPrev.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(150, 80);
+            this.btnPrev.TabIndex = 134;
+            this.btnPrev.Text = "Back";
+            this.btnPrev.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(444, 125);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(787, 508);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 130;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnCancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Warning;
+            this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCancel.Location = new System.Drawing.Point(263, 550);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(150, 80);
+            this.btnCancel.TabIndex = 129;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnSubmit.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Like;
+            this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSubmit.Location = new System.Drawing.Point(10, 550);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(150, 80);
+            this.btnSubmit.TabIndex = 128;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // Bookings
             // 
@@ -596,6 +611,7 @@
             this.Controls.Add(this.cbroomNo);
             this.Controls.Add(this.cbcustomerNo);
             this.Controls.Add(this.cbstaffNo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Bookings";
             this.Text = "Bookings";

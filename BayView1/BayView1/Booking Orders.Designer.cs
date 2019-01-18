@@ -33,13 +33,13 @@
             this.lbltotalpaid = new System.Windows.Forms.Label();
             this.lblbookingno1 = new System.Windows.Forms.Label();
             this.cbbookingNo = new System.Windows.Forms.ComboBox();
-            this.btndelete = new System.Windows.Forms.Button();
             this.txttotalpaid = new System.Windows.Forms.TextBox();
             this.txttotalpaid1 = new System.Windows.Forms.TextBox();
             this.lbltotalpaid2 = new System.Windows.Forms.Label();
             this.lbltotalpaid1 = new System.Windows.Forms.Label();
             this.cbtotalpaid = new System.Windows.Forms.ComboBox();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
             this.btncancel = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
@@ -65,7 +65,7 @@
             this.cbbookingNo1.Location = new System.Drawing.Point(110, 120);
             this.cbbookingNo1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbbookingNo1.Name = "cbbookingNo1";
-            this.cbbookingNo1.Size = new System.Drawing.Size(256, 30);
+            this.cbbookingNo1.Size = new System.Drawing.Size(300, 30);
             this.cbbookingNo1.TabIndex = 110;
             this.cbbookingNo1.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo1_SelectedIndexChanged);
             // 
@@ -101,25 +101,9 @@
             this.cbbookingNo.Location = new System.Drawing.Point(110, 40);
             this.cbbookingNo.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbbookingNo.Name = "cbbookingNo";
-            this.cbbookingNo.Size = new System.Drawing.Size(256, 30);
+            this.cbbookingNo.Size = new System.Drawing.Size(300, 30);
             this.cbbookingNo.TabIndex = 97;
             this.cbbookingNo.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo_SelectedIndexChanged);
-            // 
-            // btndelete
-            // 
-            this.btndelete.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btndelete.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Recyclebin;
-            this.btndelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btndelete.Location = new System.Drawing.Point(455, 57);
-            this.btndelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(150, 80);
-            this.btndelete.TabIndex = 95;
-            this.btndelete.Text = "Delete";
-            this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btndelete.UseVisualStyleBackColor = true;
-            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // txttotalpaid
             // 
@@ -128,7 +112,7 @@
             this.txttotalpaid.Location = new System.Drawing.Point(110, 80);
             this.txttotalpaid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txttotalpaid.Name = "txttotalpaid";
-            this.txttotalpaid.Size = new System.Drawing.Size(308, 27);
+            this.txttotalpaid.Size = new System.Drawing.Size(300, 27);
             this.txttotalpaid.TabIndex = 124;
             // 
             // txttotalpaid1
@@ -138,7 +122,7 @@
             this.txttotalpaid1.Location = new System.Drawing.Point(110, 200);
             this.txttotalpaid1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txttotalpaid1.Name = "txttotalpaid1";
-            this.txttotalpaid1.Size = new System.Drawing.Size(308, 27);
+            this.txttotalpaid1.Size = new System.Drawing.Size(300, 27);
             this.txttotalpaid1.TabIndex = 132;
             // 
             // lbltotalpaid2
@@ -173,7 +157,7 @@
             this.cbtotalpaid.Location = new System.Drawing.Point(110, 160);
             this.cbtotalpaid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbtotalpaid.Name = "cbtotalpaid";
-            this.cbtotalpaid.Size = new System.Drawing.Size(256, 30);
+            this.cbtotalpaid.Size = new System.Drawing.Size(300, 30);
             this.cbtotalpaid.TabIndex = 125;
             this.cbtotalpaid.SelectedIndexChanged += new System.EventHandler(this.cbtotalpaid_SelectedIndexChanged);
             // 
@@ -193,13 +177,29 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // btndelete
+            // 
+            this.btndelete.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btndelete.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Recyclebin;
+            this.btndelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btndelete.Location = new System.Drawing.Point(455, 40);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(150, 80);
+            this.btndelete.TabIndex = 95;
+            this.btndelete.Text = "Delete";
+            this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
+            // 
             // btnclose
             // 
             this.btnclose.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnclose.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnclose.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
             this.btnclose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnclose.Location = new System.Drawing.Point(455, 293);
+            this.btnclose.Location = new System.Drawing.Point(455, 272);
             this.btnclose.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(150, 80);
@@ -215,7 +215,7 @@
             this.btncancel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btncancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Warning;
             this.btncancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btncancel.Location = new System.Drawing.Point(177, 293);
+            this.btncancel.Location = new System.Drawing.Point(177, 272);
             this.btncancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(150, 80);
@@ -231,7 +231,7 @@
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSubmit.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Like;
             this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSubmit.Location = new System.Drawing.Point(19, 293);
+            this.btnSubmit.Location = new System.Drawing.Point(19, 272);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(150, 80);
@@ -245,7 +245,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 451);
+            this.ClientSize = new System.Drawing.Size(636, 389);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.txttotalpaid1);
             this.Controls.Add(this.lbltotalpaid2);
