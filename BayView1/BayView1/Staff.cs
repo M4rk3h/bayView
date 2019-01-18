@@ -27,8 +27,6 @@ namespace BayView1
         SQLiteDataAdapter daStaff;
         DataTable dtStaff = new DataTable();
 
-        //SQLite Command called myCmd
-        SQLiteCommand myCmd;
         //Set the binding source globally
         BindingSource bS = new BindingSource();
 

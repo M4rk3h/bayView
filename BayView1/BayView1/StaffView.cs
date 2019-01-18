@@ -23,12 +23,7 @@ namespace BayView1
             this.SysTimeLbl.Text = DateTime.Now.ToString();
             this.BJTimeLbl.Text = DateTimeOffset.UtcNow.UtcDateTime.ToString();
         }
-        
-        private void btnCustomer_Click(object sender, EventArgs e)
-        {
-            OldCustomer frmCustomer = new OldCustomer();
-            frmCustomer.ShowDialog();
-        }
+               
 
         private void btnExit_Click(object sender, EventArgs e)
         {
