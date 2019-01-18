@@ -88,7 +88,7 @@ namespace BayView1
 
             else
             {
-                lblError.Text = "The codes you enter twice must be same!";
+                lblError.Text = "Passwords don't match!";
             }
 
         }
@@ -100,8 +100,18 @@ namespace BayView1
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            dbCon.Close();
+            //dbCon.Close();
             this.Close();
+        }
+
+        private void CBManager_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CBActive_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

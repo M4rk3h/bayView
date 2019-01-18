@@ -50,6 +50,7 @@
             this.CBActive = new System.Windows.Forms.CheckBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.lblError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblStaffNo
@@ -165,7 +166,7 @@
             this.textBox1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.textBox1.Location = new System.Drawing.Point(146, 55);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 27);
             this.textBox1.TabIndex = 11;
@@ -175,7 +176,7 @@
             this.tbTitle.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTitle.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbTitle.Location = new System.Drawing.Point(145, 100);
-            this.tbTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTitle.Margin = new System.Windows.Forms.Padding(4);
             this.tbTitle.Name = "tbTitle";
             this.tbTitle.Size = new System.Drawing.Size(76, 27);
             this.tbTitle.TabIndex = 12;
@@ -185,7 +186,7 @@
             this.tbLN.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbLN.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbLN.Location = new System.Drawing.Point(687, 55);
-            this.tbLN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbLN.Margin = new System.Windows.Forms.Padding(4);
             this.tbLN.Name = "tbLN";
             this.tbLN.Size = new System.Drawing.Size(132, 27);
             this.tbLN.TabIndex = 14;
@@ -195,7 +196,7 @@
             this.tbFN.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbFN.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbFN.Location = new System.Drawing.Point(403, 55);
-            this.tbFN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbFN.Margin = new System.Windows.Forms.Padding(4);
             this.tbFN.Name = "tbFN";
             this.tbFN.Size = new System.Drawing.Size(132, 27);
             this.tbFN.TabIndex = 13;
@@ -205,7 +206,7 @@
             this.tbPhoneNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPhoneNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbPhoneNo.Location = new System.Drawing.Point(687, 100);
-            this.tbPhoneNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbPhoneNo.Margin = new System.Windows.Forms.Padding(4);
             this.tbPhoneNo.Name = "tbPhoneNo";
             this.tbPhoneNo.Size = new System.Drawing.Size(132, 27);
             this.tbPhoneNo.TabIndex = 18;
@@ -215,7 +216,7 @@
             this.tbEmail.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbEmail.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbEmail.Location = new System.Drawing.Point(403, 100);
-            this.tbEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(4);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(132, 27);
             this.tbEmail.TabIndex = 17;
@@ -225,7 +226,7 @@
             this.tbCPW.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPW.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbCPW.Location = new System.Drawing.Point(687, 145);
-            this.tbCPW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbCPW.Margin = new System.Windows.Forms.Padding(4);
             this.tbCPW.Name = "tbCPW";
             this.tbCPW.Size = new System.Drawing.Size(132, 27);
             this.tbCPW.TabIndex = 16;
@@ -235,7 +236,7 @@
             this.tbPW.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPW.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbPW.Location = new System.Drawing.Point(403, 145);
-            this.tbPW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbPW.Margin = new System.Windows.Forms.Padding(4);
             this.tbPW.Name = "tbPW";
             this.tbPW.Size = new System.Drawing.Size(132, 27);
             this.tbPW.TabIndex = 15;
@@ -245,7 +246,7 @@
             this.tbUsername.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbUsername.ForeColor = System.Drawing.SystemColors.Highlight;
             this.tbUsername.Location = new System.Drawing.Point(145, 145);
-            this.tbUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(4);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(132, 27);
             this.tbUsername.TabIndex = 20;
@@ -255,26 +256,28 @@
             this.CBManager.AutoSize = true;
             this.CBManager.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBManager.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.CBManager.Location = new System.Drawing.Point(277, 197);
-            this.CBManager.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBManager.Location = new System.Drawing.Point(340, 261);
+            this.CBManager.Margin = new System.Windows.Forms.Padding(4);
             this.CBManager.Name = "CBManager";
             this.CBManager.Size = new System.Drawing.Size(95, 23);
             this.CBManager.TabIndex = 23;
             this.CBManager.Text = "Manager";
             this.CBManager.UseVisualStyleBackColor = true;
+            this.CBManager.CheckedChanged += new System.EventHandler(this.CBManager_CheckedChanged);
             // 
             // CBActive
             // 
             this.CBActive.AutoSize = true;
             this.CBActive.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBActive.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.CBActive.Location = new System.Drawing.Point(401, 197);
-            this.CBActive.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBActive.Location = new System.Drawing.Point(340, 306);
+            this.CBActive.Margin = new System.Windows.Forms.Padding(4);
             this.CBActive.Name = "CBActive";
             this.CBActive.Size = new System.Drawing.Size(105, 23);
             this.CBActive.TabIndex = 24;
             this.CBActive.Text = "On the job";
             this.CBActive.UseVisualStyleBackColor = true;
+            this.CBActive.CheckedChanged += new System.EventHandler(this.CBActive_CheckedChanged);
             // 
             // btnSubmit
             // 
@@ -282,8 +285,8 @@
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSubmit.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Like;
             this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSubmit.Location = new System.Drawing.Point(259, 245);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubmit.Location = new System.Drawing.Point(164, 250);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(150, 80);
             this.btnSubmit.TabIndex = 25;
@@ -298,8 +301,8 @@
             this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
             this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCancel.Location = new System.Drawing.Point(428, 245);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Location = new System.Drawing.Point(473, 250);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(150, 80);
             this.btnCancel.TabIndex = 26;
@@ -308,11 +311,23 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblError.Location = new System.Drawing.Point(304, 202);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(91, 19);
+            this.lblError.TabIndex = 27;
+            this.lblError.Text = "Error Label";
+            // 
             // AddNewStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(856, 343);
+            this.Controls.Add(this.lblError);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.CBActive);
@@ -336,7 +351,7 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.lblStaffNo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddNewStaff";
             this.Text = "AddNewStaff";
             this.Load += new System.EventHandler(this.AddNewStaff_Load);
@@ -369,5 +384,6 @@
         private System.Windows.Forms.CheckBox CBActive;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Label lblError;
     }
 }
