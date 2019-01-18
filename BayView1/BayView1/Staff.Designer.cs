@@ -76,18 +76,27 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 16);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
+//<<<<<<< HEAD
+            //this.dataGridView1.Size = new System.Drawing.Size(821, 447);
+//=======
             this.dataGridView1.Size = new System.Drawing.Size(1048, 596);
+//>>>>>>> 0db8301301fafc25daee307595b4555fb6661ff2
             this.dataGridView1.TabIndex = 3;
             // 
             // Staff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+//<<<<<<< HEAD
+            //this.ClientSize = new System.Drawing.Size(845, 515);
+//=======
             this.ClientSize = new System.Drawing.Size(1080, 687);
+//>>>>>>> 0db8301301fafc25daee307595b4555fb6661ff2
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSubmit);
