@@ -21,7 +21,7 @@ namespace BayView1
 
             label1.Text = "Welcome, " + GlobalData.GDUserName + " !";
             this.SysTimeLbl.Text = DateTime.Now.ToString();
-            this.BJTimeLbl.Text = DateTimeOffset.UtcNow.UtcDateTime.ToString();
+            //this.BJTimeLbl.Text = DateTimeOffset.UtcNow.UtcDateTime.ToString()+8;
         }
                
 
@@ -50,6 +50,12 @@ namespace BayView1
             //Renamed Dez's form to our namespace, able to reference it.
             Homeform frmHomeform = new Homeform();
             frmHomeform.ShowDialog();
+        }
+
+        private void btnChange_Click(object sender, EventArgs e)
+        {
+            ChangePW changePW = new ChangePW();
+            changePW.ShowDialog();
         }
     }
 }

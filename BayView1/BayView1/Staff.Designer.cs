@@ -39,10 +39,9 @@
             // 
             this.btnNewStaff.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewStaff.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnNewStaff.Location = new System.Drawing.Point(321, 628);
-            this.btnNewStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNewStaff.Location = new System.Drawing.Point(238, 471);
             this.btnNewStaff.Name = "btnNewStaff";
-            this.btnNewStaff.Size = new System.Drawing.Size(160, 43);
+            this.btnNewStaff.Size = new System.Drawing.Size(120, 32);
             this.btnNewStaff.TabIndex = 0;
             this.btnNewStaff.Text = "Add a New Staff";
             this.btnNewStaff.UseVisualStyleBackColor = true;
@@ -52,10 +51,9 @@
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnSubmit.Location = new System.Drawing.Point(511, 628);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubmit.Location = new System.Drawing.Point(380, 471);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(181, 43);
+            this.btnSubmit.Size = new System.Drawing.Size(136, 32);
             this.btnSubmit.TabIndex = 1;
             this.btnSubmit.Text = "Submit Changes";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -65,10 +63,9 @@
             // 
             this.btnClose.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.Red;
-            this.btnClose.Location = new System.Drawing.Point(715, 628);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Location = new System.Drawing.Point(533, 471);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(152, 43);
+            this.btnClose.Size = new System.Drawing.Size(114, 32);
             this.btnClose.TabIndex = 2;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -78,31 +75,21 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 16);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-//<<<<<<< HEAD
-            //this.dataGridView1.Size = new System.Drawing.Size(821, 447);
-//=======
-            this.dataGridView1.Size = new System.Drawing.Size(1048, 596);
-//>>>>>>> 0db8301301fafc25daee307595b4555fb6661ff2
+            this.dataGridView1.Size = new System.Drawing.Size(849, 447);
             this.dataGridView1.TabIndex = 3;
             // 
             // Staff
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-//<<<<<<< HEAD
-            //this.ClientSize = new System.Drawing.Size(845, 515);
-//=======
-            this.ClientSize = new System.Drawing.Size(1080, 687);
-//>>>>>>> 0db8301301fafc25daee307595b4555fb6661ff2
+            this.ClientSize = new System.Drawing.Size(873, 515);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnNewStaff);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Staff";
             this.Text = "Staff";
             this.Load += new System.EventHandler(this.Staff_Load);

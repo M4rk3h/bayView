@@ -34,8 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SysTimeLbl = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.BJTimeLbl = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnCustomers = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -46,10 +44,10 @@
             this.btnBookings.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnBookings.Image = ((System.Drawing.Image)(resources.GetObject("btnBookings.Image")));
             this.btnBookings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBookings.Location = new System.Drawing.Point(276, 71);
-            this.btnBookings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBookings.Location = new System.Drawing.Point(207, 53);
+            this.btnBookings.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBookings.Name = "btnBookings";
-            this.btnBookings.Size = new System.Drawing.Size(150, 80);
+            this.btnBookings.Size = new System.Drawing.Size(112, 80);
             this.btnBookings.TabIndex = 1;
             this.btnBookings.Text = "Bookings";
             this.btnBookings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -62,23 +60,25 @@
             this.btnChange.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnChange.Image = ((System.Drawing.Image)(resources.GetObject("btnChange.Image")));
             this.btnChange.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnChange.Location = new System.Drawing.Point(104, 164);
-            this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnChange.Location = new System.Drawing.Point(108, 150);
+            this.btnChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(248, 80);
+            this.btnChange.Size = new System.Drawing.Size(128, 92);
             this.btnChange.TabIndex = 2;
             this.btnChange.Text = "Change Password";
             this.btnChange.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 10F);
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(12, 11);
+            this.label1.Location = new System.Drawing.Point(9, 8);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 19);
+            this.label1.Size = new System.Drawing.Size(96, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "welcome label";
             // 
@@ -87,9 +87,10 @@
             this.SysTimeLbl.AutoSize = true;
             this.SysTimeLbl.Font = new System.Drawing.Font("Arial", 10F);
             this.SysTimeLbl.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.SysTimeLbl.Location = new System.Drawing.Point(147, 304);
+            this.SysTimeLbl.Location = new System.Drawing.Point(128, 255);
+            this.SysTimeLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SysTimeLbl.Name = "SysTimeLbl";
-            this.SysTimeLbl.Size = new System.Drawing.Size(51, 19);
+            this.SysTimeLbl.Size = new System.Drawing.Size(46, 16);
             this.SysTimeLbl.TabIndex = 6;
             this.SysTimeLbl.Text = "label2";
             // 
@@ -98,44 +99,21 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10F);
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(44, 304);
+            this.label2.Location = new System.Drawing.Point(51, 255);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 19);
+            this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Local Time:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 10F);
-            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(44, 338);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 19);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Beijing Time:";
-            // 
-            // BJTimeLbl
-            // 
-            this.BJTimeLbl.AutoSize = true;
-            this.BJTimeLbl.Font = new System.Drawing.Font("Arial", 10F);
-            this.BJTimeLbl.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.BJTimeLbl.Location = new System.Drawing.Point(154, 338);
-            this.BJTimeLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.BJTimeLbl.Name = "BJTimeLbl";
-            this.BJTimeLbl.Size = new System.Drawing.Size(51, 19);
-            this.BJTimeLbl.TabIndex = 8;
-            this.BJTimeLbl.Text = "label4";
             // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Arial", 10F);
             this.btnExit.ForeColor = System.Drawing.Color.Red;
-            this.btnExit.Location = new System.Drawing.Point(382, 393);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnExit.Location = new System.Drawing.Point(286, 295);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 28);
+            this.btnExit.Size = new System.Drawing.Size(56, 21);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -147,10 +125,10 @@
             this.btnCustomers.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnCustomers.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomers.Image")));
             this.btnCustomers.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCustomers.Location = new System.Drawing.Point(26, 71);
-            this.btnCustomers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCustomers.Location = new System.Drawing.Point(20, 53);
+            this.btnCustomers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(150, 80);
+            this.btnCustomers.Size = new System.Drawing.Size(112, 80);
             this.btnCustomers.TabIndex = 0;
             this.btnCustomers.Text = "Customers";
             this.btnCustomers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -159,13 +137,11 @@
             // 
             // StaffView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(469, 432);
+            this.ClientSize = new System.Drawing.Size(352, 324);
             this.Controls.Add(this.btnCustomers);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.BJTimeLbl);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.SysTimeLbl);
             this.Controls.Add(this.label1);
@@ -173,7 +149,7 @@
             this.Controls.Add(this.btnBookings);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "StaffView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StaffView";
@@ -188,8 +164,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label SysTimeLbl;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label BJTimeLbl;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnCustomers;
     }

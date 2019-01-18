@@ -95,7 +95,7 @@
             this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigator1.Size = new System.Drawing.Size(681, 27);
+            this.bindingNavigator1.Size = new System.Drawing.Size(511, 27);
             this.bindingNavigator1.TabIndex = 0;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -108,11 +108,12 @@
             this.bnAdd.RightToLeftAutoMirrorImage = true;
             this.bnAdd.Size = new System.Drawing.Size(24, 24);
             this.bnAdd.Text = "Add new";
+            this.bnAdd.Click += new System.EventHandler(this.bnAdd_Click);
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(39, 24);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -144,7 +145,7 @@
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(49, 27);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(38, 23);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
@@ -181,10 +182,10 @@
             this.btnCancel.Enabled = false;
             this.btnCancel.Font = new System.Drawing.Font("Arial", 11F);
             this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCancel.Location = new System.Drawing.Point(541, 175);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancel.Location = new System.Drawing.Point(406, 131);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(95, 39);
+            this.btnCancel.Size = new System.Drawing.Size(71, 29);
             this.btnCancel.TabIndex = 11;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -194,20 +195,20 @@
             // 
             this.cbFind.Enabled = false;
             this.cbFind.FormattingEnabled = true;
-            this.cbFind.Location = new System.Drawing.Point(441, 53);
-            this.cbFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbFind.Location = new System.Drawing.Point(331, 40);
+            this.cbFind.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbFind.Name = "cbFind";
-            this.cbFind.Size = new System.Drawing.Size(196, 24);
+            this.cbFind.Size = new System.Drawing.Size(148, 20);
             this.cbFind.TabIndex = 2;
             // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Arial", 11F);
             this.btnClose.ForeColor = System.Drawing.Color.Red;
-            this.btnClose.Location = new System.Drawing.Point(441, 267);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClose.Location = new System.Drawing.Point(331, 200);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(196, 39);
+            this.btnClose.Size = new System.Drawing.Size(147, 29);
             this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -218,10 +219,10 @@
             this.btnSubmit.Enabled = false;
             this.btnSubmit.Font = new System.Drawing.Font("Arial", 11F);
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnSubmit.Location = new System.Drawing.Point(441, 175);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSubmit.Location = new System.Drawing.Point(331, 131);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(95, 39);
+            this.btnSubmit.Size = new System.Drawing.Size(71, 29);
             this.btnSubmit.TabIndex = 10;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -232,10 +233,10 @@
             this.btnSearch.Enabled = false;
             this.btnSearch.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnSearch.Location = new System.Drawing.Point(441, 82);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSearch.Location = new System.Drawing.Point(331, 62);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(196, 39);
+            this.btnSearch.Size = new System.Drawing.Size(147, 29);
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -244,10 +245,10 @@
             // txtPostCode
             // 
             this.txtPostCode.Enabled = false;
-            this.txtPostCode.Location = new System.Drawing.Point(128, 242);
-            this.txtPostCode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPostCode.Location = new System.Drawing.Point(96, 182);
+            this.txtPostCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPostCode.Name = "txtPostCode";
-            this.txtPostCode.Size = new System.Drawing.Size(136, 22);
+            this.txtPostCode.Size = new System.Drawing.Size(103, 21);
             this.txtPostCode.TabIndex = 8;
             // 
             // lblPostcode
@@ -255,19 +256,20 @@
             this.lblPostcode.AutoSize = true;
             this.lblPostcode.Font = new System.Drawing.Font("Arial", 11F);
             this.lblPostcode.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblPostcode.Location = new System.Drawing.Point(25, 242);
+            this.lblPostcode.Location = new System.Drawing.Point(19, 182);
+            this.lblPostcode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostcode.Name = "lblPostcode";
-            this.lblPostcode.Size = new System.Drawing.Size(92, 22);
+            this.lblPostcode.Size = new System.Drawing.Size(70, 17);
             this.lblPostcode.TabIndex = 47;
             this.lblPostcode.Text = "Postcode";
             // 
             // txtEmail
             // 
             this.txtEmail.Enabled = false;
-            this.txtEmail.Location = new System.Drawing.Point(128, 278);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtEmail.Location = new System.Drawing.Point(96, 208);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(239, 22);
+            this.txtEmail.Size = new System.Drawing.Size(180, 21);
             this.txtEmail.TabIndex = 9;
             // 
             // lblEmail
@@ -275,19 +277,20 @@
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Arial", 11F);
             this.lblEmail.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblEmail.Location = new System.Drawing.Point(60, 277);
+            this.lblEmail.Location = new System.Drawing.Point(45, 208);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(57, 22);
+            this.lblEmail.Size = new System.Drawing.Size(45, 17);
             this.lblEmail.TabIndex = 46;
             this.lblEmail.Text = "Email";
             // 
             // txtPhone
             // 
             this.txtPhone.Enabled = false;
-            this.txtPhone.Location = new System.Drawing.Point(128, 210);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPhone.Location = new System.Drawing.Point(96, 158);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(136, 22);
+            this.txtPhone.Size = new System.Drawing.Size(103, 21);
             this.txtPhone.TabIndex = 7;
             // 
             // lblPhone
@@ -295,19 +298,20 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Arial", 11F);
             this.lblPhone.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblPhone.Location = new System.Drawing.Point(23, 210);
+            this.lblPhone.Location = new System.Drawing.Point(17, 158);
+            this.lblPhone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(94, 22);
+            this.lblPhone.Size = new System.Drawing.Size(72, 17);
             this.lblPhone.TabIndex = 45;
             this.lblPhone.Text = "Phone No";
             // 
             // txtLastName
             // 
             this.txtLastName.Enabled = false;
-            this.txtLastName.Location = new System.Drawing.Point(128, 175);
-            this.txtLastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtLastName.Location = new System.Drawing.Point(96, 131);
+            this.txtLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(136, 22);
+            this.txtLastName.Size = new System.Drawing.Size(103, 21);
             this.txtLastName.TabIndex = 6;
             // 
             // lblLastName
@@ -315,19 +319,20 @@
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Arial", 11F);
             this.lblLastName.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblLastName.Location = new System.Drawing.Point(16, 175);
+            this.lblLastName.Location = new System.Drawing.Point(12, 131);
+            this.lblLastName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(101, 22);
+            this.lblLastName.Size = new System.Drawing.Size(79, 17);
             this.lblLastName.TabIndex = 44;
             this.lblLastName.Text = "Last Name";
             // 
             // txtFirstName
             // 
             this.txtFirstName.Enabled = false;
-            this.txtFirstName.Location = new System.Drawing.Point(128, 142);
-            this.txtFirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtFirstName.Location = new System.Drawing.Point(96, 106);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(136, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(103, 21);
             this.txtFirstName.TabIndex = 5;
             // 
             // lblFirstName
@@ -335,19 +340,20 @@
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Font = new System.Drawing.Font("Arial", 11F);
             this.lblFirstName.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblFirstName.Location = new System.Drawing.Point(16, 140);
+            this.lblFirstName.Location = new System.Drawing.Point(12, 105);
+            this.lblFirstName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(102, 22);
+            this.lblFirstName.Size = new System.Drawing.Size(80, 17);
             this.lblFirstName.TabIndex = 43;
             this.lblFirstName.Text = "First Name";
             // 
             // txtTitle
             // 
             this.txtTitle.Enabled = false;
-            this.txtTitle.Location = new System.Drawing.Point(128, 103);
-            this.txtTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTitle.Location = new System.Drawing.Point(96, 77);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(136, 22);
+            this.txtTitle.Size = new System.Drawing.Size(103, 21);
             this.txtTitle.TabIndex = 4;
             // 
             // lblTitle
@@ -355,9 +361,10 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Arial", 11F);
             this.lblTitle.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblTitle.Location = new System.Drawing.Point(72, 103);
+            this.lblTitle.Location = new System.Drawing.Point(54, 77);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(45, 22);
+            this.lblTitle.Size = new System.Drawing.Size(34, 17);
             this.lblTitle.TabIndex = 42;
             this.lblTitle.Text = "Title";
             // 
@@ -366,10 +373,10 @@
             this.btnEdit.Enabled = false;
             this.btnEdit.Font = new System.Drawing.Font("Arial", 11F);
             this.btnEdit.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnEdit.Location = new System.Drawing.Point(441, 130);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEdit.Location = new System.Drawing.Point(331, 98);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(196, 39);
+            this.btnEdit.Size = new System.Drawing.Size(147, 29);
             this.btnEdit.TabIndex = 48;
             this.btnEdit.Text = "Edit Customer";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -380,10 +387,10 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolDB});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 316);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 231);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(681, 25);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(511, 25);
             this.statusStrip1.TabIndex = 49;
             this.statusStrip1.Text = "statusDB";
             // 
@@ -393,17 +400,17 @@
             this.toolDB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.toolDB.Image = global::BayView1.Properties.Resources.red;
             this.toolDB.Name = "toolDB";
-            this.toolDB.Size = new System.Drawing.Size(172, 20);
+            this.toolDB.Size = new System.Drawing.Size(155, 20);
             this.toolDB.Text = "## No Connection ##";
             // 
             // btnTest
             // 
             this.btnTest.Font = new System.Drawing.Font("Arial", 11F);
             this.btnTest.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnTest.Location = new System.Drawing.Point(20, 53);
-            this.btnTest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTest.Location = new System.Drawing.Point(15, 40);
+            this.btnTest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(244, 42);
+            this.btnTest.Size = new System.Drawing.Size(183, 32);
             this.btnTest.TabIndex = 50;
             this.btnTest.Text = "Test Connection";
             this.btnTest.UseVisualStyleBackColor = true;
@@ -420,10 +427,10 @@
             this.btnDel.Enabled = false;
             this.btnDel.Font = new System.Drawing.Font("Arial", 11F);
             this.btnDel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnDel.Location = new System.Drawing.Point(441, 219);
-            this.btnDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDel.Location = new System.Drawing.Point(331, 164);
+            this.btnDel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(196, 39);
+            this.btnDel.Size = new System.Drawing.Size(147, 29);
             this.btnDel.TabIndex = 51;
             this.btnDel.Text = "DELETE";
             this.btnDel.UseVisualStyleBackColor = false;
@@ -432,10 +439,10 @@
             // txtActive
             // 
             this.txtActive.Enabled = false;
-            this.txtActive.Location = new System.Drawing.Point(355, 103);
-            this.txtActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtActive.Location = new System.Drawing.Point(266, 77);
+            this.txtActive.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtActive.Name = "txtActive";
-            this.txtActive.Size = new System.Drawing.Size(44, 22);
+            this.txtActive.Size = new System.Drawing.Size(34, 21);
             this.txtActive.TabIndex = 52;
             // 
             // lblActive
@@ -443,17 +450,18 @@
             this.lblActive.AutoSize = true;
             this.lblActive.Font = new System.Drawing.Font("Arial", 11F);
             this.lblActive.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblActive.Location = new System.Drawing.Point(287, 103);
+            this.lblActive.Location = new System.Drawing.Point(215, 77);
+            this.lblActive.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblActive.Name = "lblActive";
-            this.lblActive.Size = new System.Drawing.Size(62, 22);
+            this.lblActive.Size = new System.Drawing.Size(47, 17);
             this.lblActive.TabIndex = 53;
             this.lblActive.Text = "Active";
             // 
             // Customers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 341);
+            this.ClientSize = new System.Drawing.Size(511, 256);
             this.Controls.Add(this.txtActive);
             this.Controls.Add(this.lblActive);
             this.Controls.Add(this.btnDel);
@@ -479,7 +487,7 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.bindingNavigator1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Customers";
