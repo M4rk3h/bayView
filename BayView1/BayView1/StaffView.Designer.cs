@@ -62,10 +62,10 @@
             this.btnChange.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnChange.Image = ((System.Drawing.Image)(resources.GetObject("btnChange.Image")));
             this.btnChange.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnChange.Location = new System.Drawing.Point(133, 183);
+            this.btnChange.Location = new System.Drawing.Point(104, 164);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(170, 80);
+            this.btnChange.Size = new System.Drawing.Size(248, 80);
             this.btnChange.TabIndex = 2;
             this.btnChange.Text = "Change Password";
             this.btnChange.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
