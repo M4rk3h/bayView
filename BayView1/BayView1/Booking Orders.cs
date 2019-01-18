@@ -52,21 +52,15 @@ namespace BayView1
                 dabooking = new SQLiteDataAdapter(sql1, dbconn);
                 dabookingorder = new SQLiteDataAdapter(sql2, dbconn);
 
-
                 //Fill the DataTables
                 dabooking.Fill(dtbooking);
                 dabookingorder.Fill(dtbookingorder);
-
-
-
 
                 //Bind datatable dtbooking to the booking ComboBox
                 cbbookingNo.DataSource = dtbooking;
                 cbbookingNo.DisplayMember = "BookingNo";
                 cbbookingNo.ValueMember = "BookingNo";
                 cbbookingNo.SelectedIndex = -1;
-
-
 
                 //Bind datatable dtbookingorder to the bookingno1 ComboBox for deleting ID's
                 cbbookingNo1.DataSource = dtbookingorder;
@@ -79,7 +73,6 @@ namespace BayView1
                  cbtotalpaid.DisplayMember = "TotalPaid";
                  cbtotalpaid.ValueMember = "OrderNo";
                  cbtotalpaid.SelectedIndex = -1;
-
 
             }
             catch (Exception ex)

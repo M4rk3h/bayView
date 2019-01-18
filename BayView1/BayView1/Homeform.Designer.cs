@@ -61,7 +61,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.menuStrip1.Size = new System.Drawing.Size(761, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
@@ -81,7 +81,7 @@
             // 
             this.Search.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Search.Name = "Search";
-            this.Search.Size = new System.Drawing.Size(203, 26);
+            this.Search.Size = new System.Drawing.Size(216, 26);
             this.Search.Text = "Select Database";
             this.Search.Click += new System.EventHandler(this.Search_Click);
             // 
@@ -89,7 +89,7 @@
             // 
             this.testcon.ForeColor = System.Drawing.SystemColors.Highlight;
             this.testcon.Name = "testcon";
-            this.testcon.Size = new System.Drawing.Size(203, 26);
+            this.testcon.Size = new System.Drawing.Size(216, 26);
             this.testcon.Text = "Test connection";
             this.testcon.Click += new System.EventHandler(this.testcon_Click);
             // 
@@ -162,7 +162,7 @@
             this.ConnectQ});
             this.toolStrip1.Location = new System.Drawing.Point(0, 27);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(761, 25);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";

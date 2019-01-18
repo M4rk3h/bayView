@@ -87,7 +87,7 @@
             this.cbcustomerNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcustomerNo.FormattingEnabled = true;
             this.cbcustomerNo.Location = new System.Drawing.Point(160, 100);
-            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerNo.Name = "cbcustomerNo";
             this.cbcustomerNo.Size = new System.Drawing.Size(256, 27);
             this.cbcustomerNo.TabIndex = 157;
@@ -99,7 +99,7 @@
             this.cbstaffNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbstaffNo.FormattingEnabled = true;
             this.cbstaffNo.Location = new System.Drawing.Point(160, 140);
-            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffNo.Name = "cbstaffNo";
             this.cbstaffNo.Size = new System.Drawing.Size(256, 27);
             this.cbstaffNo.TabIndex = 156;
@@ -123,7 +123,7 @@
             this.cborderno.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cborderno.FormattingEnabled = true;
             this.cborderno.Location = new System.Drawing.Point(160, 60);
-            this.cborderno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cborderno.Margin = new System.Windows.Forms.Padding(4);
             this.cborderno.Name = "cborderno";
             this.cborderno.Size = new System.Drawing.Size(256, 27);
             this.cborderno.TabIndex = 161;
@@ -134,7 +134,7 @@
             this.txtcanceldate.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcanceldate.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txtcanceldate.Location = new System.Drawing.Point(160, 180);
-            this.txtcanceldate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcanceldate.Margin = new System.Windows.Forms.Padding(4);
             this.txtcanceldate.Name = "txtcanceldate";
             this.txtcanceldate.Size = new System.Drawing.Size(256, 27);
             this.txtcanceldate.TabIndex = 171;
@@ -156,7 +156,7 @@
             this.lblorderno1.AutoSize = true;
             this.lblorderno1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblorderno1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblorderno1.Location = new System.Drawing.Point(480, 20);
+            this.lblorderno1.Location = new System.Drawing.Point(462, 20);
             this.lblorderno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblorderno1.Name = "lblorderno1";
             this.lblorderno1.Size = new System.Drawing.Size(71, 19);
@@ -169,7 +169,7 @@
             this.cborderno1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cborderno1.FormattingEnabled = true;
             this.cborderno1.Location = new System.Drawing.Point(600, 20);
-            this.cborderno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cborderno1.Margin = new System.Windows.Forms.Padding(4);
             this.cborderno1.Name = "cborderno1";
             this.cborderno1.Size = new System.Drawing.Size(256, 27);
             this.cborderno1.TabIndex = 179;
@@ -180,7 +180,7 @@
             this.lblcustomerno1.AutoSize = true;
             this.lblcustomerno1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcustomerno1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblcustomerno1.Location = new System.Drawing.Point(480, 60);
+            this.lblcustomerno1.Location = new System.Drawing.Point(462, 60);
             this.lblcustomerno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcustomerno1.Name = "lblcustomerno1";
             this.lblcustomerno1.Size = new System.Drawing.Size(104, 19);
@@ -192,7 +192,7 @@
             this.lblstaffno1.AutoSize = true;
             this.lblstaffno1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblstaffno1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblstaffno1.Location = new System.Drawing.Point(480, 100);
+            this.lblstaffno1.Location = new System.Drawing.Point(462, 100);
             this.lblstaffno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblstaffno1.Name = "lblstaffno1";
             this.lblstaffno1.Size = new System.Drawing.Size(68, 19);
@@ -205,7 +205,7 @@
             this.cbcustomerno1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcustomerno1.FormattingEnabled = true;
             this.cbcustomerno1.Location = new System.Drawing.Point(600, 60);
-            this.cbcustomerno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbcustomerno1.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerno1.Name = "cbcustomerno1";
             this.cbcustomerno1.Size = new System.Drawing.Size(256, 27);
             this.cbcustomerno1.TabIndex = 176;
@@ -217,7 +217,7 @@
             this.cbstaffno1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbstaffno1.FormattingEnabled = true;
             this.cbstaffno1.Location = new System.Drawing.Point(600, 100);
-            this.cbstaffno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbstaffno1.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffno1.Name = "cbstaffno1";
             this.cbstaffno1.Size = new System.Drawing.Size(256, 27);
             this.cbstaffno1.TabIndex = 175;
@@ -228,7 +228,7 @@
             this.lblcancelation.AutoSize = true;
             this.lblcancelation.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcancelation.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblcancelation.Location = new System.Drawing.Point(480, 140);
+            this.lblcancelation.Location = new System.Drawing.Point(462, 140);
             this.lblcancelation.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancelation.Name = "lblcancelation";
             this.lblcancelation.Size = new System.Drawing.Size(130, 19);
@@ -241,7 +241,7 @@
             this.cbcancelation.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcancelation.FormattingEnabled = true;
             this.cbcancelation.Location = new System.Drawing.Point(600, 140);
-            this.cbcancelation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbcancelation.Margin = new System.Windows.Forms.Padding(4);
             this.cbcancelation.Name = "cbcancelation";
             this.cbcancelation.Size = new System.Drawing.Size(256, 27);
             this.cbcancelation.TabIndex = 181;
@@ -252,7 +252,7 @@
             this.txtcancelation.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcancelation.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txtcancelation.Location = new System.Drawing.Point(600, 180);
-            this.txtcancelation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcancelation.Margin = new System.Windows.Forms.Padding(4);
             this.txtcancelation.Name = "txtcancelation";
             this.txtcancelation.Size = new System.Drawing.Size(273, 27);
             this.txtcancelation.TabIndex = 184;
@@ -262,7 +262,7 @@
             this.lblcancelation2.AutoSize = true;
             this.lblcancelation2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcancelation2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblcancelation2.Location = new System.Drawing.Point(480, 180);
+            this.lblcancelation2.Location = new System.Drawing.Point(462, 180);
             this.lblcancelation2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancelation2.Name = "lblcancelation2";
             this.lblcancelation2.Size = new System.Drawing.Size(134, 19);
@@ -287,7 +287,7 @@
             this.cbcancelno.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcancelno.FormattingEnabled = true;
             this.cbcancelno.Location = new System.Drawing.Point(160, 20);
-            this.cbcancelno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbcancelno.Margin = new System.Windows.Forms.Padding(4);
             this.cbcancelno.Name = "cbcancelno";
             this.cbcancelno.Size = new System.Drawing.Size(256, 27);
             this.cbcancelno.TabIndex = 186;
@@ -298,7 +298,7 @@
             this.lblcancel1.AutoSize = true;
             this.lblcancel1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcancel1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblcancel1.Location = new System.Drawing.Point(1081, 71);
+            this.lblcancel1.Location = new System.Drawing.Point(462, 220);
             this.lblcancel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcancel1.Name = "lblcancel1";
             this.lblcancel1.Size = new System.Drawing.Size(80, 19);
@@ -310,8 +310,8 @@
             this.cbcancelno1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcancelno1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcancelno1.FormattingEnabled = true;
-            this.cbcancelno1.Location = new System.Drawing.Point(1161, 66);
-            this.cbcancelno1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbcancelno1.Location = new System.Drawing.Point(600, 220);
+            this.cbcancelno1.Margin = new System.Windows.Forms.Padding(4);
             this.cbcancelno1.Name = "cbcancelno1";
             this.cbcancelno1.Size = new System.Drawing.Size(256, 27);
             this.cbcancelno1.TabIndex = 189;
@@ -323,7 +323,7 @@
             this.btndelete.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btndelete.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Recyclebin;
             this.btndelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btndelete.Location = new System.Drawing.Point(191, 442);
+            this.btndelete.Location = new System.Drawing.Point(548, 273);
             this.btndelete.Margin = new System.Windows.Forms.Padding(4);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(150, 80);
@@ -339,7 +339,7 @@
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnUpdate.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Next;
             this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnUpdate.Location = new System.Drawing.Point(191, 323);
+            this.btnUpdate.Location = new System.Drawing.Point(191, 273);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(150, 80);
@@ -355,7 +355,7 @@
             this.btnclose.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnclose.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
             this.btnclose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnclose.Location = new System.Drawing.Point(700, 451);
+            this.btnclose.Location = new System.Drawing.Point(706, 273);
             this.btnclose.Margin = new System.Windows.Forms.Padding(4);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(150, 80);
@@ -371,7 +371,7 @@
             this.btncancel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btncancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Warning;
             this.btncancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btncancel.Location = new System.Drawing.Point(13, 442);
+            this.btncancel.Location = new System.Drawing.Point(349, 273);
             this.btncancel.Margin = new System.Windows.Forms.Padding(4);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(150, 80);
@@ -387,7 +387,7 @@
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSubmit.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Like;
             this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSubmit.Location = new System.Drawing.Point(13, 323);
+            this.btnSubmit.Location = new System.Drawing.Point(13, 273);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(150, 80);
@@ -401,7 +401,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1479, 554);
+            this.ClientSize = new System.Drawing.Size(884, 378);
             this.Controls.Add(this.lblcancel1);
             this.Controls.Add(this.cbcancelno1);
             this.Controls.Add(this.btndelete);
@@ -430,7 +430,7 @@
             this.Controls.Add(this.cbcustomerNo);
             this.Controls.Add(this.cbstaffNo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Cancellation";
             this.Text = "Cancellation";
             this.Load += new System.EventHandler(this.Cancellation_Load);

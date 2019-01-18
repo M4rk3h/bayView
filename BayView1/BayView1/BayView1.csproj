@@ -111,12 +111,6 @@
     <Compile Include="Homeform.Designer.cs">
       <DependentUpon>Homeform.cs</DependentUpon>
     </Compile>
-    <Compile Include="OldCustomer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OldCustomer.Designer.cs">
-      <DependentUpon>OldCustomer.cs</DependentUpon>
-    </Compile>
     <Compile Include="Customers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,9 +173,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Homeform.resx">
       <DependentUpon>Homeform.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OldCustomer.resx">
-      <DependentUpon>OldCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customers.resx">
       <DependentUpon>Customers.cs</DependentUpon>

@@ -196,10 +196,10 @@ namespace BayView1
         {
             //Display data in row "rowAT" of the DataTable
             DataRow row = dtroom.Rows[rowAt];
-
-           
+            
             lblroomnumber1.Text = "Room Number : " + row["RoomNumber"].ToString();
             lblroomtype1.Text = "Room Type : " + row["RoomType"].ToString();
+            //Get pictures from files names.
             pictureBox1.Image = Image.FromFile(row["Display"].ToString());
         }
 
