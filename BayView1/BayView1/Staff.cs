@@ -39,7 +39,7 @@ namespace BayView1
                 dbCon = new SQLiteConnection(dbDetails);
                 //Add required SQL
                 //daCustomer = new SQLiteDataAdapter("Select * From Customers Where Active = 1", dbCon);
-                daStaff = new SQLiteDataAdapter("Select StaffNo,FirstName,LastName,Email,PhoneNo,Username,Manager,OntheJob From Staff ", dbCon);
+                daStaff = new SQLiteDataAdapter("Select * From Staff ", dbCon);
                 //Fill DataAdapter with data pulled from DataTable
                 daStaff.Fill(dtStaff);
                 //Set the Command Builder within the load.
@@ -86,6 +86,11 @@ namespace BayView1
             {
                 MessageBox.Show("Back?");
             }
+        }
+
+        private void btnNewStaff_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

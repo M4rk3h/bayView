@@ -430,3 +430,4 @@ C:\Users\harrypu\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView
 C:\Users\harrypu\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.exe
 C:\Users\harrypu\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.pdb
 C:\Users\harrypu\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.AddNewStaff.resources
+C:\Users\Mark Baber\Documents\GitHub\BayView_v1\BayView1\BayView1\obj\Debug\BayView1.AddNewStaff.resources
