@@ -16,6 +16,8 @@ namespace BayView1
         public Customers()
         {
             InitializeComponent();
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         //Declare Variables to use later!

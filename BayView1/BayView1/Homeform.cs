@@ -18,6 +18,8 @@ namespace BayView1
         public Homeform()
         {
             InitializeComponent();
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         //create a connection object

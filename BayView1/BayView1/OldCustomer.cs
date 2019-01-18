@@ -16,7 +16,8 @@ namespace BayView1
         public OldCustomer()
         {
             InitializeComponent();
-
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         //Details of the database
