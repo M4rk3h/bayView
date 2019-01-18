@@ -90,7 +90,7 @@
             this.cbbreakfast.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbbreakfast.FormattingEnabled = true;
             this.cbbreakfast.Location = new System.Drawing.Point(165, 380);
-            this.cbbreakfast.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbreakfast.Margin = new System.Windows.Forms.Padding(4);
             this.cbbreakfast.Name = "cbbreakfast";
             this.cbbreakfast.Size = new System.Drawing.Size(250, 27);
             this.cbbreakfast.TabIndex = 116;
@@ -101,7 +101,7 @@
             this.numericUpDown.Font = new System.Drawing.Font("Arial", 10F);
             this.numericUpDown.ForeColor = System.Drawing.SystemColors.Highlight;
             this.numericUpDown.Location = new System.Drawing.Point(163, 490);
-            this.numericUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown.Name = "numericUpDown";
             this.numericUpDown.Size = new System.Drawing.Size(250, 27);
             this.numericUpDown.TabIndex = 115;
@@ -162,7 +162,7 @@
             this.cbavailability.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbavailability.FormattingEnabled = true;
             this.cbavailability.Location = new System.Drawing.Point(165, 300);
-            this.cbavailability.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbavailability.Margin = new System.Windows.Forms.Padding(4);
             this.cbavailability.Name = "cbavailability";
             this.cbavailability.Size = new System.Drawing.Size(250, 27);
             this.cbavailability.TabIndex = 106;
@@ -186,7 +186,7 @@
             this.cbdisability.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbdisability.FormattingEnabled = true;
             this.cbdisability.Location = new System.Drawing.Point(165, 260);
-            this.cbdisability.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbdisability.Margin = new System.Windows.Forms.Padding(4);
             this.cbdisability.Name = "cbdisability";
             this.cbdisability.Size = new System.Drawing.Size(250, 27);
             this.cbdisability.TabIndex = 104;
@@ -210,7 +210,7 @@
             this.cblastname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cblastname.FormattingEnabled = true;
             this.cblastname.Location = new System.Drawing.Point(560, 90);
-            this.cblastname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cblastname.Margin = new System.Windows.Forms.Padding(4);
             this.cblastname.Name = "cblastname";
             this.cblastname.Size = new System.Drawing.Size(250, 27);
             this.cblastname.TabIndex = 102;
@@ -234,7 +234,7 @@
             this.cbfirstname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbfirstname.FormattingEnabled = true;
             this.cbfirstname.Location = new System.Drawing.Point(560, 50);
-            this.cbfirstname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbfirstname.Margin = new System.Windows.Forms.Padding(4);
             this.cbfirstname.Name = "cbfirstname";
             this.cbfirstname.Size = new System.Drawing.Size(250, 27);
             this.cbfirstname.TabIndex = 100;
@@ -258,7 +258,7 @@
             this.cbstaffname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbstaffname.FormattingEnabled = true;
             this.cbstaffname.Location = new System.Drawing.Point(165, 50);
-            this.cbstaffname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbstaffname.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffname.Name = "cbstaffname";
             this.cbstaffname.Size = new System.Drawing.Size(250, 27);
             this.cbstaffname.TabIndex = 98;
@@ -306,7 +306,7 @@
             this.cbroomNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbroomNo.FormattingEnabled = true;
             this.cbroomNo.Location = new System.Drawing.Point(165, 90);
-            this.cbroomNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbroomNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomNo.Name = "cbroomNo";
             this.cbroomNo.Size = new System.Drawing.Size(250, 27);
             this.cbroomNo.TabIndex = 94;
@@ -318,7 +318,7 @@
             this.cbcustomerNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcustomerNo.FormattingEnabled = true;
             this.cbcustomerNo.Location = new System.Drawing.Point(560, 10);
-            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerNo.Name = "cbcustomerNo";
             this.cbcustomerNo.Size = new System.Drawing.Size(250, 27);
             this.cbcustomerNo.TabIndex = 93;
@@ -330,7 +330,7 @@
             this.cbstaffNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbstaffNo.FormattingEnabled = true;
             this.cbstaffNo.Location = new System.Drawing.Point(165, 10);
-            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffNo.Name = "cbstaffNo";
             this.cbstaffNo.Size = new System.Drawing.Size(250, 27);
             this.cbstaffNo.TabIndex = 92;
@@ -354,7 +354,7 @@
             this.cbavailabilitycheck.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbavailabilitycheck.FormattingEnabled = true;
             this.cbavailabilitycheck.Location = new System.Drawing.Point(165, 340);
-            this.cbavailabilitycheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbavailabilitycheck.Margin = new System.Windows.Forms.Padding(4);
             this.cbavailabilitycheck.Name = "cbavailabilitycheck";
             this.cbavailabilitycheck.Size = new System.Drawing.Size(250, 27);
             this.cbavailabilitycheck.TabIndex = 118;
@@ -378,7 +378,7 @@
             this.cbroomnumber.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbroomnumber.FormattingEnabled = true;
             this.cbroomnumber.Location = new System.Drawing.Point(165, 130);
-            this.cbroomnumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbroomnumber.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomnumber.Name = "cbroomnumber";
             this.cbroomnumber.Size = new System.Drawing.Size(250, 27);
             this.cbroomnumber.TabIndex = 120;
@@ -402,7 +402,7 @@
             this.cbroomtype.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbroomtype.FormattingEnabled = true;
             this.cbroomtype.Location = new System.Drawing.Point(165, 170);
-            this.cbroomtype.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbroomtype.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomtype.Name = "cbroomtype";
             this.cbroomtype.Size = new System.Drawing.Size(250, 27);
             this.cbroomtype.TabIndex = 122;
@@ -426,7 +426,7 @@
             this.cbtotalprice.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbtotalprice.FormattingEnabled = true;
             this.cbtotalprice.Location = new System.Drawing.Point(163, 450);
-            this.cbtotalprice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbtotalprice.Margin = new System.Windows.Forms.Padding(4);
             this.cbtotalprice.Name = "cbtotalprice";
             this.cbtotalprice.Size = new System.Drawing.Size(250, 27);
             this.cbtotalprice.TabIndex = 124;
@@ -437,7 +437,7 @@
             this.txtdatedue.Font = new System.Drawing.Font("Arial", 10F);
             this.txtdatedue.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txtdatedue.Location = new System.Drawing.Point(916, 10);
-            this.txtdatedue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdatedue.Margin = new System.Windows.Forms.Padding(4);
             this.txtdatedue.Name = "txtdatedue";
             this.txtdatedue.Size = new System.Drawing.Size(250, 27);
             this.txtdatedue.TabIndex = 126;
@@ -447,7 +447,7 @@
             this.txtdateout.Font = new System.Drawing.Font("Arial", 10F);
             this.txtdateout.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txtdateout.Location = new System.Drawing.Point(916, 50);
-            this.txtdateout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdateout.Margin = new System.Windows.Forms.Padding(4);
             this.txtdateout.Name = "txtdateout";
             this.txtdateout.Size = new System.Drawing.Size(250, 27);
             this.txtdateout.TabIndex = 127;
@@ -483,7 +483,7 @@
             this.btnNext.Image = global::BayView1.Properties.Resources.Custom_Icon_Design_Pretty_Office_8_Fast_forward;
             this.btnNext.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnNext.Location = new System.Drawing.Point(832, 686);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(150, 80);
             this.btnNext.TabIndex = 133;
@@ -611,8 +611,8 @@
             this.Controls.Add(this.cbroomNo);
             this.Controls.Add(this.cbcustomerNo);
             this.Controls.Add(this.cbstaffNo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Bookings";
             this.Text = "Bookings";
             this.Load += new System.EventHandler(this.Bookings_Load);

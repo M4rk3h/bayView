@@ -74,9 +74,10 @@
             // btnclose
             // 
             this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.Location = new System.Drawing.Point(669, 372);
+            this.btnclose.Location = new System.Drawing.Point(892, 458);
+            this.btnclose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(143, 66);
+            this.btnclose.Size = new System.Drawing.Size(191, 81);
             this.btnclose.TabIndex = 152;
             this.btnclose.Text = "Close";
             this.btnclose.UseVisualStyleBackColor = true;
@@ -86,9 +87,10 @@
             // 
             this.lblroomnumber.AutoSize = true;
             this.lblroomnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroomnumber.Location = new System.Drawing.Point(645, 250);
+            this.lblroomnumber.Location = new System.Drawing.Point(860, 308);
+            this.lblroomnumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblroomnumber.Name = "lblroomnumber";
-            this.lblroomnumber.Size = new System.Drawing.Size(75, 13);
+            this.lblroomnumber.Size = new System.Drawing.Size(99, 17);
             this.lblroomnumber.TabIndex = 151;
             this.lblroomnumber.Text = "Room Number";
             // 
@@ -96,9 +98,10 @@
             // 
             this.cbroomnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbroomnumber.FormattingEnabled = true;
-            this.cbroomnumber.Location = new System.Drawing.Point(734, 247);
+            this.cbroomnumber.Location = new System.Drawing.Point(979, 304);
+            this.cbroomnumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbroomnumber.Name = "cbroomnumber";
-            this.cbroomnumber.Size = new System.Drawing.Size(193, 21);
+            this.cbroomnumber.Size = new System.Drawing.Size(256, 25);
             this.cbroomnumber.TabIndex = 150;
             this.cbroomnumber.SelectedIndexChanged += new System.EventHandler(this.cbroomnumber_SelectedIndexChanged);
             // 
@@ -106,9 +109,10 @@
             // 
             this.lbllastname.AutoSize = true;
             this.lbllastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllastname.Location = new System.Drawing.Point(312, 220);
+            this.lbllastname.Location = new System.Drawing.Point(416, 271);
+            this.lbllastname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbllastname.Name = "lbllastname";
-            this.lbllastname.Size = new System.Drawing.Size(58, 13);
+            this.lbllastname.Size = new System.Drawing.Size(76, 17);
             this.lbllastname.TabIndex = 149;
             this.lbllastname.Text = "Last Name";
             // 
@@ -116,9 +120,10 @@
             // 
             this.cblastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cblastname.FormattingEnabled = true;
-            this.cblastname.Location = new System.Drawing.Point(394, 217);
+            this.cblastname.Location = new System.Drawing.Point(525, 267);
+            this.cblastname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cblastname.Name = "cblastname";
-            this.cblastname.Size = new System.Drawing.Size(193, 21);
+            this.cblastname.Size = new System.Drawing.Size(256, 25);
             this.cblastname.TabIndex = 148;
             this.cblastname.SelectedIndexChanged += new System.EventHandler(this.cblastname_SelectedIndexChanged);
             // 
@@ -126,9 +131,10 @@
             // 
             this.lblfirstname.AutoSize = true;
             this.lblfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfirstname.Location = new System.Drawing.Point(312, 179);
+            this.lblfirstname.Location = new System.Drawing.Point(416, 220);
+            this.lblfirstname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfirstname.Name = "lblfirstname";
-            this.lblfirstname.Size = new System.Drawing.Size(57, 13);
+            this.lblfirstname.Size = new System.Drawing.Size(76, 17);
             this.lblfirstname.TabIndex = 147;
             this.lblfirstname.Text = "First Name";
             // 
@@ -136,9 +142,10 @@
             // 
             this.cbfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbfirstname.FormattingEnabled = true;
-            this.cbfirstname.Location = new System.Drawing.Point(392, 178);
+            this.cbfirstname.Location = new System.Drawing.Point(523, 219);
+            this.cbfirstname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbfirstname.Name = "cbfirstname";
-            this.cbfirstname.Size = new System.Drawing.Size(193, 21);
+            this.cbfirstname.Size = new System.Drawing.Size(256, 25);
             this.cbfirstname.TabIndex = 146;
             this.cbfirstname.SelectedIndexChanged += new System.EventHandler(this.cbfirstname_SelectedIndexChanged);
             // 
@@ -146,9 +153,10 @@
             // 
             this.lblmanager.AutoSize = true;
             this.lblmanager.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmanager.Location = new System.Drawing.Point(643, 175);
+            this.lblmanager.Location = new System.Drawing.Point(857, 215);
+            this.lblmanager.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmanager.Name = "lblmanager";
-            this.lblmanager.Size = new System.Drawing.Size(83, 13);
+            this.lblmanager.Size = new System.Drawing.Size(107, 17);
             this.lblmanager.TabIndex = 145;
             this.lblmanager.Text = "Manager Check";
             // 
@@ -156,9 +164,10 @@
             // 
             this.cbmanager.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbmanager.FormattingEnabled = true;
-            this.cbmanager.Location = new System.Drawing.Point(734, 173);
+            this.cbmanager.Location = new System.Drawing.Point(979, 213);
+            this.cbmanager.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbmanager.Name = "cbmanager";
-            this.cbmanager.Size = new System.Drawing.Size(193, 21);
+            this.cbmanager.Size = new System.Drawing.Size(256, 25);
             this.cbmanager.TabIndex = 144;
             this.cbmanager.SelectedIndexChanged += new System.EventHandler(this.cbmanager_SelectedIndexChanged);
             // 
@@ -166,9 +175,10 @@
             // 
             this.lblroomNo.AutoSize = true;
             this.lblroomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroomNo.Location = new System.Drawing.Point(648, 214);
+            this.lblroomNo.Location = new System.Drawing.Point(864, 263);
+            this.lblroomNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblroomNo.Name = "lblroomNo";
-            this.lblroomNo.Size = new System.Drawing.Size(52, 13);
+            this.lblroomNo.Size = new System.Drawing.Size(67, 17);
             this.lblroomNo.TabIndex = 143;
             this.lblroomNo.Text = "Room No";
             // 
@@ -176,9 +186,10 @@
             // 
             this.lblcustomerNo.AutoSize = true;
             this.lblcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcustomerNo.Location = new System.Drawing.Point(302, 133);
+            this.lblcustomerNo.Location = new System.Drawing.Point(403, 164);
+            this.lblcustomerNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcustomerNo.Name = "lblcustomerNo";
-            this.lblcustomerNo.Size = new System.Drawing.Size(68, 13);
+            this.lblcustomerNo.Size = new System.Drawing.Size(90, 17);
             this.lblcustomerNo.TabIndex = 142;
             this.lblcustomerNo.Text = "Customer No";
             // 
@@ -186,9 +197,10 @@
             // 
             this.lblstaffNo.AutoSize = true;
             this.lblstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstaffNo.Location = new System.Drawing.Point(662, 130);
+            this.lblstaffNo.Location = new System.Drawing.Point(883, 160);
+            this.lblstaffNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblstaffNo.Name = "lblstaffNo";
-            this.lblstaffNo.Size = new System.Drawing.Size(46, 13);
+            this.lblstaffNo.Size = new System.Drawing.Size(59, 17);
             this.lblstaffNo.TabIndex = 141;
             this.lblstaffNo.Text = "Staff No";
             // 
@@ -196,9 +208,10 @@
             // 
             this.cbroomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbroomNo.FormattingEnabled = true;
-            this.cbroomNo.Location = new System.Drawing.Point(734, 211);
+            this.cbroomNo.Location = new System.Drawing.Point(979, 260);
+            this.cbroomNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbroomNo.Name = "cbroomNo";
-            this.cbroomNo.Size = new System.Drawing.Size(193, 21);
+            this.cbroomNo.Size = new System.Drawing.Size(256, 25);
             this.cbroomNo.TabIndex = 140;
             this.cbroomNo.SelectedIndexChanged += new System.EventHandler(this.cbroomNo_SelectedIndexChanged);
             // 
@@ -206,9 +219,10 @@
             // 
             this.cbcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbcustomerNo.FormattingEnabled = true;
-            this.cbcustomerNo.Location = new System.Drawing.Point(391, 133);
+            this.cbcustomerNo.Location = new System.Drawing.Point(521, 164);
+            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbcustomerNo.Name = "cbcustomerNo";
-            this.cbcustomerNo.Size = new System.Drawing.Size(193, 21);
+            this.cbcustomerNo.Size = new System.Drawing.Size(256, 25);
             this.cbcustomerNo.TabIndex = 139;
             this.cbcustomerNo.SelectedIndexChanged += new System.EventHandler(this.cbcustomerNo_SelectedIndexChanged);
             // 
@@ -216,9 +230,10 @@
             // 
             this.cbstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbstaffNo.FormattingEnabled = true;
-            this.cbstaffNo.Location = new System.Drawing.Point(734, 130);
+            this.cbstaffNo.Location = new System.Drawing.Point(979, 160);
+            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbstaffNo.Name = "cbstaffNo";
-            this.cbstaffNo.Size = new System.Drawing.Size(193, 21);
+            this.cbstaffNo.Size = new System.Drawing.Size(256, 25);
             this.cbstaffNo.TabIndex = 138;
             this.cbstaffNo.SelectedIndexChanged += new System.EventHandler(this.cbstaffNo_SelectedIndexChanged);
             // 
@@ -226,9 +241,10 @@
             // 
             this.cbdateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbdateout.FormattingEnabled = true;
-            this.cbdateout.Location = new System.Drawing.Point(81, 219);
+            this.cbdateout.Location = new System.Drawing.Point(108, 270);
+            this.cbdateout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbdateout.Name = "cbdateout";
-            this.cbdateout.Size = new System.Drawing.Size(193, 21);
+            this.cbdateout.Size = new System.Drawing.Size(256, 25);
             this.cbdateout.TabIndex = 136;
             this.cbdateout.SelectedIndexChanged += new System.EventHandler(this.cbdateout_SelectedIndexChanged);
             // 
@@ -236,18 +252,20 @@
             // 
             this.cbdatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbdatedue.FormattingEnabled = true;
-            this.cbdatedue.Location = new System.Drawing.Point(81, 178);
+            this.cbdatedue.Location = new System.Drawing.Point(108, 219);
+            this.cbdatedue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbdatedue.Name = "cbdatedue";
-            this.cbdatedue.Size = new System.Drawing.Size(193, 21);
+            this.cbdatedue.Size = new System.Drawing.Size(256, 25);
             this.cbdatedue.TabIndex = 135;
             this.cbdatedue.SelectedIndexChanged += new System.EventHandler(this.cbdatedue_SelectedIndexChanged);
             // 
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(15, 38);
+            this.btnUpdate.Location = new System.Drawing.Point(20, 47);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(123, 50);
+            this.btnUpdate.Size = new System.Drawing.Size(164, 62);
             this.btnUpdate.TabIndex = 134;
             this.btnUpdate.Text = "Update Booking";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -257,18 +275,20 @@
             // 
             this.cbbookingNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbookingNo.FormattingEnabled = true;
-            this.cbbookingNo.Location = new System.Drawing.Point(81, 133);
+            this.cbbookingNo.Location = new System.Drawing.Point(108, 164);
+            this.cbbookingNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbookingNo.Name = "cbbookingNo";
-            this.cbbookingNo.Size = new System.Drawing.Size(193, 21);
+            this.cbbookingNo.Size = new System.Drawing.Size(256, 25);
             this.cbbookingNo.TabIndex = 132;
             this.cbbookingNo.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo_SelectedIndexChanged);
             // 
             // btncancel
             // 
             this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(461, 372);
+            this.btncancel.Location = new System.Drawing.Point(615, 458);
+            this.btncancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(138, 63);
+            this.btncancel.Size = new System.Drawing.Size(184, 78);
             this.btncancel.TabIndex = 153;
             this.btncancel.Text = "Cancel";
             this.btncancel.UseVisualStyleBackColor = true;
@@ -278,9 +298,10 @@
             // 
             this.lblbookingNo.AutoSize = true;
             this.lblbookingNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbookingNo.Location = new System.Drawing.Point(3, 133);
+            this.lblbookingNo.Location = new System.Drawing.Point(4, 164);
+            this.lblbookingNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbookingNo.Name = "lblbookingNo";
-            this.lblbookingNo.Size = new System.Drawing.Size(63, 13);
+            this.lblbookingNo.Size = new System.Drawing.Size(81, 17);
             this.lblbookingNo.TabIndex = 154;
             this.lblbookingNo.Text = "Booking No";
             // 
@@ -288,9 +309,10 @@
             // 
             this.lbldatedue1.AutoSize = true;
             this.lbldatedue1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldatedue1.Location = new System.Drawing.Point(3, 182);
+            this.lbldatedue1.Location = new System.Drawing.Point(4, 224);
+            this.lbldatedue1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldatedue1.Name = "lbldatedue1";
-            this.lbldatedue1.Size = new System.Drawing.Size(50, 13);
+            this.lbldatedue1.Size = new System.Drawing.Size(64, 17);
             this.lbldatedue1.TabIndex = 155;
             this.lbldatedue1.Text = "DateDue";
             // 
@@ -298,9 +320,10 @@
             // 
             this.lblDateOut.AutoSize = true;
             this.lblDateOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateOut.Location = new System.Drawing.Point(4, 222);
+            this.lblDateOut.Location = new System.Drawing.Point(5, 273);
+            this.lblDateOut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDateOut.Name = "lblDateOut";
-            this.lblDateOut.Size = new System.Drawing.Size(47, 13);
+            this.lblDateOut.Size = new System.Drawing.Size(61, 17);
             this.lblDateOut.TabIndex = 156;
             this.lblDateOut.Text = "DateOut";
             // 
@@ -308,9 +331,10 @@
             // 
             this.lblroomtype.AutoSize = true;
             this.lblroomtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroomtype.Location = new System.Drawing.Point(645, 287);
+            this.lblroomtype.Location = new System.Drawing.Point(860, 353);
+            this.lblroomtype.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblroomtype.Name = "lblroomtype";
-            this.lblroomtype.Size = new System.Drawing.Size(62, 13);
+            this.lblroomtype.Size = new System.Drawing.Size(81, 17);
             this.lblroomtype.TabIndex = 158;
             this.lblroomtype.Text = "Room Type";
             // 
@@ -318,18 +342,20 @@
             // 
             this.cbroomtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbroomtype.FormattingEnabled = true;
-            this.cbroomtype.Location = new System.Drawing.Point(734, 284);
+            this.cbroomtype.Location = new System.Drawing.Point(979, 350);
+            this.cbroomtype.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbroomtype.Name = "cbroomtype";
-            this.cbroomtype.Size = new System.Drawing.Size(193, 21);
+            this.cbroomtype.Size = new System.Drawing.Size(256, 25);
             this.cbroomtype.TabIndex = 157;
             this.cbroomtype.SelectedIndexChanged += new System.EventHandler(this.cbroomtype_SelectedIndexChanged);
             // 
             // numericUpDown
             // 
             this.numericUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown.Location = new System.Drawing.Point(81, 380);
+            this.numericUpDown.Location = new System.Drawing.Point(108, 468);
+            this.numericUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(153, 26);
+            this.numericUpDown.Size = new System.Drawing.Size(204, 30);
             this.numericUpDown.TabIndex = 160;
             this.numericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
@@ -338,9 +364,10 @@
             // 
             this.lblduration.AutoSize = true;
             this.lblduration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblduration.Location = new System.Drawing.Point(3, 387);
+            this.lblduration.Location = new System.Drawing.Point(4, 476);
+            this.lblduration.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblduration.Name = "lblduration";
-            this.lblduration.Size = new System.Drawing.Size(47, 13);
+            this.lblduration.Size = new System.Drawing.Size(62, 17);
             this.lblduration.TabIndex = 159;
             this.lblduration.Text = "Duration";
             // 
@@ -348,9 +375,10 @@
             // 
             this.lblduration1.AutoSize = true;
             this.lblduration1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblduration1.Location = new System.Drawing.Point(-1, 263);
+            this.lblduration1.Location = new System.Drawing.Point(-1, 324);
+            this.lblduration1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblduration1.Name = "lblduration1";
-            this.lblduration1.Size = new System.Drawing.Size(47, 13);
+            this.lblduration1.Size = new System.Drawing.Size(62, 17);
             this.lblduration1.TabIndex = 162;
             this.lblduration1.Text = "Duration";
             // 
@@ -358,9 +386,10 @@
             // 
             this.cbduration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbduration.FormattingEnabled = true;
-            this.cbduration.Location = new System.Drawing.Point(81, 260);
+            this.cbduration.Location = new System.Drawing.Point(108, 320);
+            this.cbduration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbduration.Name = "cbduration";
-            this.cbduration.Size = new System.Drawing.Size(193, 21);
+            this.cbduration.Size = new System.Drawing.Size(256, 25);
             this.cbduration.TabIndex = 161;
             this.cbduration.SelectedIndexChanged += new System.EventHandler(this.cbduration_SelectedIndexChanged);
             // 
@@ -368,9 +397,10 @@
             // 
             this.lbltotalpayment.AutoSize = true;
             this.lbltotalpayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltotalpayment.Location = new System.Drawing.Point(305, 263);
+            this.lbltotalpayment.Location = new System.Drawing.Point(407, 324);
+            this.lbltotalpayment.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpayment.Name = "lbltotalpayment";
-            this.lbltotalpayment.Size = new System.Drawing.Size(75, 13);
+            this.lbltotalpayment.Size = new System.Drawing.Size(99, 17);
             this.lbltotalpayment.TabIndex = 164;
             this.lbltotalpayment.Text = "Total Payment";
             // 
@@ -378,53 +408,59 @@
             // 
             this.cbtotalpayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbtotalpayment.FormattingEnabled = true;
-            this.cbtotalpayment.Location = new System.Drawing.Point(394, 260);
+            this.cbtotalpayment.Location = new System.Drawing.Point(525, 320);
+            this.cbtotalpayment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbtotalpayment.Name = "cbtotalpayment";
-            this.cbtotalpayment.Size = new System.Drawing.Size(193, 21);
+            this.cbtotalpayment.Size = new System.Drawing.Size(256, 25);
             this.cbtotalpayment.TabIndex = 163;
             this.cbtotalpayment.SelectedIndexChanged += new System.EventHandler(this.cbtotalpayment_SelectedIndexChanged);
             // 
             // txttotalpayment
             // 
             this.txttotalpayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttotalpayment.Location = new System.Drawing.Point(383, 302);
+            this.txttotalpayment.Location = new System.Drawing.Point(511, 372);
+            this.txttotalpayment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txttotalpayment.Name = "txttotalpayment";
-            this.txttotalpayment.Size = new System.Drawing.Size(232, 26);
+            this.txttotalpayment.Size = new System.Drawing.Size(308, 30);
             this.txttotalpayment.TabIndex = 166;
             // 
             // lbltotalpayment1
             // 
             this.lbltotalpayment1.AutoSize = true;
             this.lbltotalpayment1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltotalpayment1.Location = new System.Drawing.Point(300, 310);
+            this.lbltotalpayment1.Location = new System.Drawing.Point(400, 382);
+            this.lbltotalpayment1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpayment1.Name = "lbltotalpayment1";
-            this.lbltotalpayment1.Size = new System.Drawing.Size(75, 13);
+            this.lbltotalpayment1.Size = new System.Drawing.Size(99, 17);
             this.lbltotalpayment1.TabIndex = 165;
             this.lbltotalpayment1.Text = "Total Payment";
             // 
             // txtdateout
             // 
             this.txtdateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdateout.Location = new System.Drawing.Point(68, 341);
+            this.txtdateout.Location = new System.Drawing.Point(91, 420);
+            this.txtdateout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtdateout.Name = "txtdateout";
-            this.txtdateout.Size = new System.Drawing.Size(206, 26);
+            this.txtdateout.Size = new System.Drawing.Size(273, 30);
             this.txtdateout.TabIndex = 170;
             // 
             // txtdatedue
             // 
             this.txtdatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdatedue.Location = new System.Drawing.Point(68, 302);
+            this.txtdatedue.Location = new System.Drawing.Point(91, 372);
+            this.txtdatedue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtdatedue.Name = "txtdatedue";
-            this.txtdatedue.Size = new System.Drawing.Size(206, 26);
+            this.txtdatedue.Size = new System.Drawing.Size(273, 30);
             this.txtdatedue.TabIndex = 169;
             // 
             // lbldateout1
             // 
             this.lbldateout1.AutoSize = true;
             this.lbldateout1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldateout1.Location = new System.Drawing.Point(8, 343);
+            this.lbldateout1.Location = new System.Drawing.Point(11, 422);
+            this.lbldateout1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldateout1.Name = "lbldateout1";
-            this.lbldateout1.Size = new System.Drawing.Size(50, 13);
+            this.lbldateout1.Size = new System.Drawing.Size(65, 17);
             this.lbldateout1.TabIndex = 168;
             this.lbldateout1.Text = "Date Out";
             // 
@@ -432,9 +468,10 @@
             // 
             this.lbldatedue.AutoSize = true;
             this.lbldatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldatedue.Location = new System.Drawing.Point(9, 304);
+            this.lbldatedue.Location = new System.Drawing.Point(12, 374);
+            this.lbldatedue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldatedue.Name = "lbldatedue";
-            this.lbldatedue.Size = new System.Drawing.Size(53, 13);
+            this.lbldatedue.Size = new System.Drawing.Size(68, 17);
             this.lbldatedue.TabIndex = 167;
             this.lbldatedue.Text = "Date Due";
             // 
@@ -442,9 +479,10 @@
             // 
             this.lblbookingno1.AutoSize = true;
             this.lblbookingno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbookingno1.Location = new System.Drawing.Point(306, 58);
+            this.lblbookingno1.Location = new System.Drawing.Point(408, 71);
+            this.lblbookingno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbookingno1.Name = "lblbookingno1";
-            this.lblbookingno1.Size = new System.Drawing.Size(60, 13);
+            this.lblbookingno1.Size = new System.Drawing.Size(77, 17);
             this.lblbookingno1.TabIndex = 173;
             this.lblbookingno1.Text = "BookingNo";
             // 
@@ -452,18 +490,20 @@
             // 
             this.cbbookingNo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbookingNo1.FormattingEnabled = true;
-            this.cbbookingNo1.Location = new System.Drawing.Point(383, 55);
+            this.cbbookingNo1.Location = new System.Drawing.Point(511, 68);
+            this.cbbookingNo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbbookingNo1.Name = "cbbookingNo1";
-            this.cbbookingNo1.Size = new System.Drawing.Size(193, 21);
+            this.cbbookingNo1.Size = new System.Drawing.Size(256, 25);
             this.cbbookingNo1.TabIndex = 172;
             this.cbbookingNo1.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo1_SelectedIndexChanged);
             // 
             // btndelete
             // 
             this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(590, 38);
+            this.btndelete.Location = new System.Drawing.Point(787, 47);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(118, 50);
+            this.btndelete.Size = new System.Drawing.Size(157, 62);
             this.btndelete.TabIndex = 171;
             this.btndelete.Text = "Delete";
             this.btndelete.UseVisualStyleBackColor = true;
@@ -471,9 +511,9 @@
             // 
             // Update_Bookings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 450);
+            this.ClientSize = new System.Drawing.Size(1364, 554);
             this.Controls.Add(this.lblbookingno1);
             this.Controls.Add(this.cbbookingNo1);
             this.Controls.Add(this.btndelete);
@@ -514,6 +554,8 @@
             this.Controls.Add(this.cbdatedue);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.cbbookingNo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Update_Bookings";
             this.Text = "Update_Bookings";
             this.Load += new System.EventHandler(this.Update_Bookings_Load);

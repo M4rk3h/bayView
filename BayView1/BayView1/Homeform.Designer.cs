@@ -61,6 +61,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip1.Size = new System.Drawing.Size(761, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
@@ -80,7 +81,7 @@
             // 
             this.Search.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Search.Name = "Search";
-            this.Search.Size = new System.Drawing.Size(216, 26);
+            this.Search.Size = new System.Drawing.Size(203, 26);
             this.Search.Text = "Select Database";
             this.Search.Click += new System.EventHandler(this.Search_Click);
             // 
@@ -88,7 +89,7 @@
             // 
             this.testcon.ForeColor = System.Drawing.SystemColors.Highlight;
             this.testcon.Name = "testcon";
-            this.testcon.Size = new System.Drawing.Size(216, 26);
+            this.testcon.Size = new System.Drawing.Size(203, 26);
             this.testcon.Text = "Test connection";
             this.testcon.Click += new System.EventHandler(this.testcon_Click);
             // 
@@ -161,17 +162,18 @@
             this.ConnectQ});
             this.toolStrip1.Location = new System.Drawing.Point(0, 27);
             this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.toolStrip1.Size = new System.Drawing.Size(761, 25);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // ConnectQ
             // 
-            this.ConnectQ.Font = new System.Drawing.Font("Arial", 10F);
+            this.ConnectQ.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConnectQ.ForeColor = System.Drawing.SystemColors.Highlight;
             this.ConnectQ.Name = "ConnectQ";
-            this.ConnectQ.Size = new System.Drawing.Size(117, 22);
-            this.ConnectQ.Text = "Connect Quick";
+            this.ConnectQ.Size = new System.Drawing.Size(128, 22);
+            this.ConnectQ.Text = "Connect To DB";
             this.ConnectQ.Click += new System.EventHandler(this.ConnectQ_Click);
             // 
             // Homeform
@@ -182,9 +184,9 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Homeform";
             this.Text = "Homeform";
             this.menuStrip1.ResumeLayout(false);

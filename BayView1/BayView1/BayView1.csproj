@@ -234,6 +234,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\BayViewicon.ico" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-8-Fast-backward.ico" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-8-Fast-forward.ico" />
     <Content Include="Resources\DBBayView1.db" />
     <None Include="Resources\Graphicloads-100-Flat-Recyclebin.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Next.ico" />
