@@ -17,8 +17,9 @@ namespace BayView1
         public Update_Bookings (string inString)
         {
             InitializeComponent();
-
-        conString = inString;
+            conString = inString;
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
     string conString;

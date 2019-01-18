@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.Security.Cryptography;
 
 namespace BayView1
 {
@@ -31,6 +32,19 @@ namespace BayView1
                 {
                     //Use the dbConnection as the data source
                     dbcon.ConnectionString = dbConnection.dbsource;
+                    //using SHA1 hash password
+                    //create new instance of sha1
+                    SHA1 sha1 = SHA1.Create();
+                    //convert string to an array of bytes
+                    byte[] hashData = sha1.ComputeHash(Encoding.Default.GetBytes(textBoxPassword.Text));
+                    //use a StringBuilder to save hash value
+                    StringBuilder hashValue = new StringBuilder();
+                    // for each byte, add to the StringBuilder
+                    for (int i = 0; i < hashData.Length; i++)
+                        hashValue.Append(hashData[i].ToString());
+                    // return sha1 hash value
+                    string hashresult = hashValue.ToString();
+                    //MessageBox.Show(hashresult); //Check the result
                     //SQL as a String
                     string sql = "SELECT Password,StaffNo,Manager FROM Staff WHERE Username=@name";
                     using (SQLiteCommand cmd = new SQLiteCommand(sql,dbcon))
@@ -42,7 +56,7 @@ namespace BayView1
                             if (!dr.HasRows)
                                 throw new Exception();
                             dr.Read();
-                            if (textBoxPassword.Text != dr[0].ToString())
+                            if (hashresult != dr[0].ToString())
                                 throw new Exception();
                             //stfid = Convert.ToInt32(dr[1]);
 

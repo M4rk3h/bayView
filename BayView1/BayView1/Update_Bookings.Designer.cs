@@ -73,263 +73,324 @@
             // 
             // btnclose
             // 
-            this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.Location = new System.Drawing.Point(669, 372);
+            this.btnclose.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclose.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnclose.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
+            this.btnclose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnclose.Location = new System.Drawing.Point(1079, 322);
+            this.btnclose.Margin = new System.Windows.Forms.Padding(4);
             this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(143, 66);
+            this.btnclose.Size = new System.Drawing.Size(150, 80);
             this.btnclose.TabIndex = 152;
             this.btnclose.Text = "Close";
+            this.btnclose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnclose.UseVisualStyleBackColor = true;
             this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // lblroomnumber
             // 
             this.lblroomnumber.AutoSize = true;
-            this.lblroomnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroomnumber.Location = new System.Drawing.Point(645, 250);
+            this.lblroomnumber.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomnumber.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblroomnumber.Location = new System.Drawing.Point(840, 226);
+            this.lblroomnumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblroomnumber.Name = "lblroomnumber";
-            this.lblroomnumber.Size = new System.Drawing.Size(75, 13);
+            this.lblroomnumber.Size = new System.Drawing.Size(113, 19);
             this.lblroomnumber.TabIndex = 151;
             this.lblroomnumber.Text = "Room Number";
             // 
             // cbroomnumber
             // 
-            this.cbroomnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomnumber.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomnumber.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbroomnumber.FormattingEnabled = true;
-            this.cbroomnumber.Location = new System.Drawing.Point(734, 247);
+            this.cbroomnumber.Location = new System.Drawing.Point(979, 226);
+            this.cbroomnumber.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomnumber.Name = "cbroomnumber";
-            this.cbroomnumber.Size = new System.Drawing.Size(193, 21);
+            this.cbroomnumber.Size = new System.Drawing.Size(250, 27);
             this.cbroomnumber.TabIndex = 150;
             this.cbroomnumber.SelectedIndexChanged += new System.EventHandler(this.cbroomnumber_SelectedIndexChanged);
             // 
             // lbllastname
             // 
             this.lbllastname.AutoSize = true;
-            this.lbllastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllastname.Location = new System.Drawing.Point(312, 220);
+            this.lbllastname.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllastname.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbllastname.Location = new System.Drawing.Point(400, 186);
+            this.lbllastname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbllastname.Name = "lbllastname";
-            this.lbllastname.Size = new System.Drawing.Size(58, 13);
+            this.lbllastname.Size = new System.Drawing.Size(86, 19);
             this.lbllastname.TabIndex = 149;
             this.lbllastname.Text = "Last Name";
             // 
             // cblastname
             // 
-            this.cblastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblastname.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cblastname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cblastname.FormattingEnabled = true;
-            this.cblastname.Location = new System.Drawing.Point(394, 217);
+            this.cblastname.Location = new System.Drawing.Point(525, 186);
+            this.cblastname.Margin = new System.Windows.Forms.Padding(4);
             this.cblastname.Name = "cblastname";
-            this.cblastname.Size = new System.Drawing.Size(193, 21);
+            this.cblastname.Size = new System.Drawing.Size(250, 27);
             this.cblastname.TabIndex = 148;
             this.cblastname.SelectedIndexChanged += new System.EventHandler(this.cblastname_SelectedIndexChanged);
             // 
             // lblfirstname
             // 
             this.lblfirstname.AutoSize = true;
-            this.lblfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfirstname.Location = new System.Drawing.Point(312, 179);
+            this.lblfirstname.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfirstname.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblfirstname.Location = new System.Drawing.Point(400, 146);
+            this.lblfirstname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfirstname.Name = "lblfirstname";
-            this.lblfirstname.Size = new System.Drawing.Size(57, 13);
+            this.lblfirstname.Size = new System.Drawing.Size(88, 19);
             this.lblfirstname.TabIndex = 147;
             this.lblfirstname.Text = "First Name";
             // 
             // cbfirstname
             // 
-            this.cbfirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbfirstname.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbfirstname.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbfirstname.FormattingEnabled = true;
-            this.cbfirstname.Location = new System.Drawing.Point(392, 178);
+            this.cbfirstname.Location = new System.Drawing.Point(523, 146);
+            this.cbfirstname.Margin = new System.Windows.Forms.Padding(4);
             this.cbfirstname.Name = "cbfirstname";
-            this.cbfirstname.Size = new System.Drawing.Size(193, 21);
+            this.cbfirstname.Size = new System.Drawing.Size(250, 27);
             this.cbfirstname.TabIndex = 146;
             this.cbfirstname.SelectedIndexChanged += new System.EventHandler(this.cbfirstname_SelectedIndexChanged);
             // 
             // lblmanager
             // 
             this.lblmanager.AutoSize = true;
-            this.lblmanager.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmanager.Location = new System.Drawing.Point(643, 175);
+            this.lblmanager.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmanager.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblmanager.Location = new System.Drawing.Point(840, 146);
+            this.lblmanager.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmanager.Name = "lblmanager";
-            this.lblmanager.Size = new System.Drawing.Size(83, 13);
+            this.lblmanager.Size = new System.Drawing.Size(125, 19);
             this.lblmanager.TabIndex = 145;
             this.lblmanager.Text = "Manager Check";
             // 
             // cbmanager
             // 
-            this.cbmanager.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbmanager.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbmanager.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbmanager.FormattingEnabled = true;
-            this.cbmanager.Location = new System.Drawing.Point(734, 173);
+            this.cbmanager.Location = new System.Drawing.Point(979, 146);
+            this.cbmanager.Margin = new System.Windows.Forms.Padding(4);
             this.cbmanager.Name = "cbmanager";
-            this.cbmanager.Size = new System.Drawing.Size(193, 21);
+            this.cbmanager.Size = new System.Drawing.Size(250, 27);
             this.cbmanager.TabIndex = 144;
             this.cbmanager.SelectedIndexChanged += new System.EventHandler(this.cbmanager_SelectedIndexChanged);
             // 
             // lblroomNo
             // 
             this.lblroomNo.AutoSize = true;
-            this.lblroomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroomNo.Location = new System.Drawing.Point(648, 214);
+            this.lblroomNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblroomNo.Location = new System.Drawing.Point(840, 186);
+            this.lblroomNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblroomNo.Name = "lblroomNo";
-            this.lblroomNo.Size = new System.Drawing.Size(52, 13);
+            this.lblroomNo.Size = new System.Drawing.Size(76, 19);
             this.lblroomNo.TabIndex = 143;
             this.lblroomNo.Text = "Room No";
             // 
             // lblcustomerNo
             // 
             this.lblcustomerNo.AutoSize = true;
-            this.lblcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcustomerNo.Location = new System.Drawing.Point(302, 133);
+            this.lblcustomerNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcustomerNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblcustomerNo.Location = new System.Drawing.Point(400, 96);
+            this.lblcustomerNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcustomerNo.Name = "lblcustomerNo";
-            this.lblcustomerNo.Size = new System.Drawing.Size(68, 13);
+            this.lblcustomerNo.Size = new System.Drawing.Size(104, 19);
             this.lblcustomerNo.TabIndex = 142;
             this.lblcustomerNo.Text = "Customer No";
             // 
             // lblstaffNo
             // 
             this.lblstaffNo.AutoSize = true;
-            this.lblstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstaffNo.Location = new System.Drawing.Point(662, 130);
+            this.lblstaffNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstaffNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblstaffNo.Location = new System.Drawing.Point(840, 96);
+            this.lblstaffNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblstaffNo.Name = "lblstaffNo";
-            this.lblstaffNo.Size = new System.Drawing.Size(46, 13);
+            this.lblstaffNo.Size = new System.Drawing.Size(68, 19);
             this.lblstaffNo.TabIndex = 141;
             this.lblstaffNo.Text = "Staff No";
             // 
             // cbroomNo
             // 
-            this.cbroomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbroomNo.FormattingEnabled = true;
-            this.cbroomNo.Location = new System.Drawing.Point(734, 211);
+            this.cbroomNo.Location = new System.Drawing.Point(979, 186);
+            this.cbroomNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomNo.Name = "cbroomNo";
-            this.cbroomNo.Size = new System.Drawing.Size(193, 21);
+            this.cbroomNo.Size = new System.Drawing.Size(250, 27);
             this.cbroomNo.TabIndex = 140;
             this.cbroomNo.SelectedIndexChanged += new System.EventHandler(this.cbroomNo_SelectedIndexChanged);
             // 
             // cbcustomerNo
             // 
-            this.cbcustomerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbcustomerNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbcustomerNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbcustomerNo.FormattingEnabled = true;
-            this.cbcustomerNo.Location = new System.Drawing.Point(391, 133);
+            this.cbcustomerNo.Location = new System.Drawing.Point(521, 96);
+            this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerNo.Name = "cbcustomerNo";
-            this.cbcustomerNo.Size = new System.Drawing.Size(193, 21);
+            this.cbcustomerNo.Size = new System.Drawing.Size(250, 27);
             this.cbcustomerNo.TabIndex = 139;
             this.cbcustomerNo.SelectedIndexChanged += new System.EventHandler(this.cbcustomerNo_SelectedIndexChanged);
             // 
             // cbstaffNo
             // 
-            this.cbstaffNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbstaffNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbstaffNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbstaffNo.FormattingEnabled = true;
-            this.cbstaffNo.Location = new System.Drawing.Point(734, 130);
+            this.cbstaffNo.Location = new System.Drawing.Point(979, 96);
+            this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffNo.Name = "cbstaffNo";
-            this.cbstaffNo.Size = new System.Drawing.Size(193, 21);
+            this.cbstaffNo.Size = new System.Drawing.Size(250, 27);
             this.cbstaffNo.TabIndex = 138;
             this.cbstaffNo.SelectedIndexChanged += new System.EventHandler(this.cbstaffNo_SelectedIndexChanged);
             // 
             // cbdateout
             // 
-            this.cbdateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbdateout.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbdateout.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbdateout.FormattingEnabled = true;
-            this.cbdateout.Location = new System.Drawing.Point(81, 219);
+            this.cbdateout.Location = new System.Drawing.Point(105, 186);
+            this.cbdateout.Margin = new System.Windows.Forms.Padding(4);
             this.cbdateout.Name = "cbdateout";
-            this.cbdateout.Size = new System.Drawing.Size(193, 21);
+            this.cbdateout.Size = new System.Drawing.Size(250, 27);
             this.cbdateout.TabIndex = 136;
             this.cbdateout.SelectedIndexChanged += new System.EventHandler(this.cbdateout_SelectedIndexChanged);
             // 
             // cbdatedue
             // 
-            this.cbdatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbdatedue.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbdatedue.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbdatedue.FormattingEnabled = true;
-            this.cbdatedue.Location = new System.Drawing.Point(81, 178);
+            this.cbdatedue.Location = new System.Drawing.Point(105, 146);
+            this.cbdatedue.Margin = new System.Windows.Forms.Padding(4);
             this.cbdatedue.Name = "cbdatedue";
-            this.cbdatedue.Size = new System.Drawing.Size(193, 21);
+            this.cbdatedue.Size = new System.Drawing.Size(250, 27);
             this.cbdatedue.TabIndex = 135;
             this.cbdatedue.SelectedIndexChanged += new System.EventHandler(this.cbdatedue_SelectedIndexChanged);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(15, 38);
+            this.btnUpdate.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnUpdate.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Next;
+            this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnUpdate.Location = new System.Drawing.Point(404, 322);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(123, 50);
+            this.btnUpdate.Size = new System.Drawing.Size(150, 80);
             this.btnUpdate.TabIndex = 134;
             this.btnUpdate.Text = "Update Booking";
+            this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // cbbookingNo
             // 
-            this.cbbookingNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbookingNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbookingNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbbookingNo.FormattingEnabled = true;
-            this.cbbookingNo.Location = new System.Drawing.Point(81, 133);
+            this.cbbookingNo.Location = new System.Drawing.Point(105, 96);
+            this.cbbookingNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbbookingNo.Name = "cbbookingNo";
-            this.cbbookingNo.Size = new System.Drawing.Size(193, 21);
+            this.cbbookingNo.Size = new System.Drawing.Size(250, 27);
             this.cbbookingNo.TabIndex = 132;
             this.cbbookingNo.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo_SelectedIndexChanged);
             // 
             // btncancel
             // 
-            this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(461, 372);
+            this.btncancel.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btncancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Warning;
+            this.btncancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btncancel.Location = new System.Drawing.Point(625, 320);
+            this.btncancel.Margin = new System.Windows.Forms.Padding(4);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(138, 63);
+            this.btncancel.Size = new System.Drawing.Size(150, 80);
             this.btncancel.TabIndex = 153;
             this.btncancel.Text = "Cancel";
+            this.btncancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncancel.UseVisualStyleBackColor = true;
             this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // lblbookingNo
             // 
             this.lblbookingNo.AutoSize = true;
-            this.lblbookingNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbookingNo.Location = new System.Drawing.Point(3, 133);
+            this.lblbookingNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbookingNo.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblbookingNo.Location = new System.Drawing.Point(5, 96);
+            this.lblbookingNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbookingNo.Name = "lblbookingNo";
-            this.lblbookingNo.Size = new System.Drawing.Size(63, 13);
+            this.lblbookingNo.Size = new System.Drawing.Size(93, 19);
             this.lblbookingNo.TabIndex = 154;
             this.lblbookingNo.Text = "Booking No";
             // 
             // lbldatedue1
             // 
             this.lbldatedue1.AutoSize = true;
-            this.lbldatedue1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldatedue1.Location = new System.Drawing.Point(3, 182);
+            this.lbldatedue1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldatedue1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbldatedue1.Location = new System.Drawing.Point(5, 146);
+            this.lbldatedue1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldatedue1.Name = "lbldatedue1";
-            this.lbldatedue1.Size = new System.Drawing.Size(50, 13);
+            this.lbldatedue1.Size = new System.Drawing.Size(73, 19);
             this.lbldatedue1.TabIndex = 155;
             this.lbldatedue1.Text = "DateDue";
             // 
             // lblDateOut
             // 
             this.lblDateOut.AutoSize = true;
-            this.lblDateOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateOut.Location = new System.Drawing.Point(4, 222);
+            this.lblDateOut.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDateOut.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblDateOut.Location = new System.Drawing.Point(5, 186);
+            this.lblDateOut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDateOut.Name = "lblDateOut";
-            this.lblDateOut.Size = new System.Drawing.Size(47, 13);
+            this.lblDateOut.Size = new System.Drawing.Size(68, 19);
             this.lblDateOut.TabIndex = 156;
             this.lblDateOut.Text = "DateOut";
             // 
             // lblroomtype
             // 
             this.lblroomtype.AutoSize = true;
-            this.lblroomtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblroomtype.Location = new System.Drawing.Point(645, 287);
+            this.lblroomtype.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblroomtype.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblroomtype.Location = new System.Drawing.Point(840, 266);
+            this.lblroomtype.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblroomtype.Name = "lblroomtype";
-            this.lblroomtype.Size = new System.Drawing.Size(62, 13);
+            this.lblroomtype.Size = new System.Drawing.Size(91, 19);
             this.lblroomtype.TabIndex = 158;
             this.lblroomtype.Text = "Room Type";
             // 
             // cbroomtype
             // 
-            this.cbroomtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomtype.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbroomtype.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbroomtype.FormattingEnabled = true;
-            this.cbroomtype.Location = new System.Drawing.Point(734, 284);
+            this.cbroomtype.Location = new System.Drawing.Point(979, 266);
+            this.cbroomtype.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomtype.Name = "cbroomtype";
-            this.cbroomtype.Size = new System.Drawing.Size(193, 21);
+            this.cbroomtype.Size = new System.Drawing.Size(250, 27);
             this.cbroomtype.TabIndex = 157;
             this.cbroomtype.SelectedIndexChanged += new System.EventHandler(this.cbroomtype_SelectedIndexChanged);
             // 
             // numericUpDown
             // 
-            this.numericUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown.Location = new System.Drawing.Point(81, 380);
+            this.numericUpDown.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.numericUpDown.Location = new System.Drawing.Point(105, 351);
+            this.numericUpDown.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown.Name = "numericUpDown";
-            this.numericUpDown.Size = new System.Drawing.Size(153, 26);
+            this.numericUpDown.Size = new System.Drawing.Size(204, 27);
             this.numericUpDown.TabIndex = 160;
             this.numericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
@@ -337,143 +398,174 @@
             // lblduration
             // 
             this.lblduration.AutoSize = true;
-            this.lblduration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblduration.Location = new System.Drawing.Point(3, 387);
+            this.lblduration.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblduration.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblduration.Location = new System.Drawing.Point(5, 351);
+            this.lblduration.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblduration.Name = "lblduration";
-            this.lblduration.Size = new System.Drawing.Size(47, 13);
+            this.lblduration.Size = new System.Drawing.Size(71, 19);
             this.lblduration.TabIndex = 159;
             this.lblduration.Text = "Duration";
             // 
             // lblduration1
             // 
             this.lblduration1.AutoSize = true;
-            this.lblduration1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblduration1.Location = new System.Drawing.Point(-1, 263);
+            this.lblduration1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblduration1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblduration1.Location = new System.Drawing.Point(5, 226);
+            this.lblduration1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblduration1.Name = "lblduration1";
-            this.lblduration1.Size = new System.Drawing.Size(47, 13);
+            this.lblduration1.Size = new System.Drawing.Size(71, 19);
             this.lblduration1.TabIndex = 162;
             this.lblduration1.Text = "Duration";
             // 
             // cbduration
             // 
-            this.cbduration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbduration.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbduration.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbduration.FormattingEnabled = true;
-            this.cbduration.Location = new System.Drawing.Point(81, 260);
+            this.cbduration.Location = new System.Drawing.Point(105, 226);
+            this.cbduration.Margin = new System.Windows.Forms.Padding(4);
             this.cbduration.Name = "cbduration";
-            this.cbduration.Size = new System.Drawing.Size(193, 21);
+            this.cbduration.Size = new System.Drawing.Size(250, 27);
             this.cbduration.TabIndex = 161;
             this.cbduration.SelectedIndexChanged += new System.EventHandler(this.cbduration_SelectedIndexChanged);
             // 
             // lbltotalpayment
             // 
             this.lbltotalpayment.AutoSize = true;
-            this.lbltotalpayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltotalpayment.Location = new System.Drawing.Point(305, 263);
+            this.lbltotalpayment.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalpayment.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbltotalpayment.Location = new System.Drawing.Point(400, 226);
+            this.lbltotalpayment.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpayment.Name = "lbltotalpayment";
-            this.lbltotalpayment.Size = new System.Drawing.Size(75, 13);
+            this.lbltotalpayment.Size = new System.Drawing.Size(110, 19);
             this.lbltotalpayment.TabIndex = 164;
             this.lbltotalpayment.Text = "Total Payment";
             // 
             // cbtotalpayment
             // 
-            this.cbtotalpayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbtotalpayment.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbtotalpayment.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbtotalpayment.FormattingEnabled = true;
-            this.cbtotalpayment.Location = new System.Drawing.Point(394, 260);
+            this.cbtotalpayment.Location = new System.Drawing.Point(525, 226);
+            this.cbtotalpayment.Margin = new System.Windows.Forms.Padding(4);
             this.cbtotalpayment.Name = "cbtotalpayment";
-            this.cbtotalpayment.Size = new System.Drawing.Size(193, 21);
+            this.cbtotalpayment.Size = new System.Drawing.Size(250, 27);
             this.cbtotalpayment.TabIndex = 163;
             this.cbtotalpayment.SelectedIndexChanged += new System.EventHandler(this.cbtotalpayment_SelectedIndexChanged);
             // 
             // txttotalpayment
             // 
-            this.txttotalpayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttotalpayment.Location = new System.Drawing.Point(383, 302);
+            this.txttotalpayment.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttotalpayment.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txttotalpayment.Location = new System.Drawing.Point(525, 266);
+            this.txttotalpayment.Margin = new System.Windows.Forms.Padding(4);
             this.txttotalpayment.Name = "txttotalpayment";
-            this.txttotalpayment.Size = new System.Drawing.Size(232, 26);
+            this.txttotalpayment.Size = new System.Drawing.Size(250, 27);
             this.txttotalpayment.TabIndex = 166;
             // 
             // lbltotalpayment1
             // 
             this.lbltotalpayment1.AutoSize = true;
-            this.lbltotalpayment1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltotalpayment1.Location = new System.Drawing.Point(300, 310);
+            this.lbltotalpayment1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalpayment1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbltotalpayment1.Location = new System.Drawing.Point(400, 266);
+            this.lbltotalpayment1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpayment1.Name = "lbltotalpayment1";
-            this.lbltotalpayment1.Size = new System.Drawing.Size(75, 13);
+            this.lbltotalpayment1.Size = new System.Drawing.Size(110, 19);
             this.lbltotalpayment1.TabIndex = 165;
             this.lbltotalpayment1.Text = "Total Payment";
             // 
             // txtdateout
             // 
-            this.txtdateout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdateout.Location = new System.Drawing.Point(68, 341);
+            this.txtdateout.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdateout.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txtdateout.Location = new System.Drawing.Point(105, 306);
+            this.txtdateout.Margin = new System.Windows.Forms.Padding(4);
             this.txtdateout.Name = "txtdateout";
-            this.txtdateout.Size = new System.Drawing.Size(206, 26);
+            this.txtdateout.Size = new System.Drawing.Size(250, 27);
             this.txtdateout.TabIndex = 170;
             // 
             // txtdatedue
             // 
-            this.txtdatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdatedue.Location = new System.Drawing.Point(68, 302);
+            this.txtdatedue.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdatedue.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txtdatedue.Location = new System.Drawing.Point(105, 266);
+            this.txtdatedue.Margin = new System.Windows.Forms.Padding(4);
             this.txtdatedue.Name = "txtdatedue";
-            this.txtdatedue.Size = new System.Drawing.Size(206, 26);
+            this.txtdatedue.Size = new System.Drawing.Size(250, 27);
             this.txtdatedue.TabIndex = 169;
             // 
             // lbldateout1
             // 
             this.lbldateout1.AutoSize = true;
-            this.lbldateout1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldateout1.Location = new System.Drawing.Point(8, 343);
+            this.lbldateout1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldateout1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbldateout1.Location = new System.Drawing.Point(5, 306);
+            this.lbldateout1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldateout1.Name = "lbldateout1";
-            this.lbldateout1.Size = new System.Drawing.Size(50, 13);
+            this.lbldateout1.Size = new System.Drawing.Size(73, 19);
             this.lbldateout1.TabIndex = 168;
             this.lbldateout1.Text = "Date Out";
             // 
             // lbldatedue
             // 
             this.lbldatedue.AutoSize = true;
-            this.lbldatedue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldatedue.Location = new System.Drawing.Point(9, 304);
+            this.lbldatedue.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldatedue.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbldatedue.Location = new System.Drawing.Point(5, 266);
+            this.lbldatedue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldatedue.Name = "lbldatedue";
-            this.lbldatedue.Size = new System.Drawing.Size(53, 13);
+            this.lbldatedue.Size = new System.Drawing.Size(78, 19);
             this.lbldatedue.TabIndex = 167;
             this.lbldatedue.Text = "Date Due";
             // 
             // lblbookingno1
             // 
             this.lblbookingno1.AutoSize = true;
-            this.lblbookingno1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbookingno1.Location = new System.Drawing.Point(306, 58);
+            this.lblbookingno1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbookingno1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblbookingno1.Location = new System.Drawing.Point(5, 30);
+            this.lblbookingno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbookingno1.Name = "lblbookingno1";
-            this.lblbookingno1.Size = new System.Drawing.Size(60, 13);
+            this.lblbookingno1.Size = new System.Drawing.Size(88, 19);
             this.lblbookingno1.TabIndex = 173;
             this.lblbookingno1.Text = "BookingNo";
             // 
             // cbbookingNo1
             // 
-            this.cbbookingNo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbookingNo1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbookingNo1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbbookingNo1.FormattingEnabled = true;
-            this.cbbookingNo1.Location = new System.Drawing.Point(383, 55);
+            this.cbbookingNo1.Location = new System.Drawing.Point(105, 30);
+            this.cbbookingNo1.Margin = new System.Windows.Forms.Padding(4);
             this.cbbookingNo1.Name = "cbbookingNo1";
-            this.cbbookingNo1.Size = new System.Drawing.Size(193, 21);
+            this.cbbookingNo1.Size = new System.Drawing.Size(256, 27);
             this.cbbookingNo1.TabIndex = 172;
             this.cbbookingNo1.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo1_SelectedIndexChanged);
             // 
             // btndelete
             // 
-            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(590, 38);
+            this.btndelete.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btndelete.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Recyclebin;
+            this.btndelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btndelete.Location = new System.Drawing.Point(844, 320);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(4);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(118, 50);
+            this.btndelete.Size = new System.Drawing.Size(150, 80);
             this.btndelete.TabIndex = 171;
             this.btndelete.Text = "Delete";
+            this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btndelete.UseVisualStyleBackColor = true;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // Update_Bookings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 450);
+            this.ClientSize = new System.Drawing.Size(1364, 440);
             this.Controls.Add(this.lblbookingno1);
             this.Controls.Add(this.cbbookingNo1);
             this.Controls.Add(this.btndelete);
@@ -514,6 +606,8 @@
             this.Controls.Add(this.cbdatedue);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.cbbookingNo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Update_Bookings";
             this.Text = "Update_Bookings";
             this.Load += new System.EventHandler(this.Update_Bookings_Load);

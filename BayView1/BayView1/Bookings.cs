@@ -16,8 +16,9 @@ namespace BayView1
         public Bookings(string inString)
         {
             InitializeComponent();
-
             conString = inString;
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         string conString;
@@ -195,10 +196,10 @@ namespace BayView1
         {
             //Display data in row "rowAT" of the DataTable
             DataRow row = dtroom.Rows[rowAt];
-
-           
+            
             lblroomnumber1.Text = "Room Number : " + row["RoomNumber"].ToString();
             lblroomtype1.Text = "Room Type : " + row["RoomType"].ToString();
+            //Get pictures from files names.
             pictureBox1.Image = Image.FromFile(row["Display"].ToString());
         }
 

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.Security.Cryptography;
 
 namespace BayView1
 {
@@ -16,6 +17,9 @@ namespace BayView1
         public AddNewStaff()
         {
             InitializeComponent();
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
+            
         }
 
         string dbDetails = dbConnection.dbsource;
@@ -29,21 +33,75 @@ namespace BayView1
         //Set the binding source globally
         BindingSource bS = new BindingSource();
 
+       
+            
+        //try to read the text in textbox/checkbox and use sql script to add
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            try
+            if (this.tbPW == this.tbCPW)
             {
-                using (SQLiteCommandBuilder cb = new SQLiteCommandBuilder(daStaff))
+                string Title = this.tbTitle.Text;
+                string FirstName = this.tbFN.Text;
+                string LastName = this.tbLN.Text;
+            
+                string Email = this.tbPhoneNo.Text;
+                string PhoneNumber = this.tbPhoneNo.Text;
+                string Username = this.tbUsername.Text;
+                //string Password = this.tbPW.Text;
+           
+
+                if(this.CBManager.Checked)
                 {
-                    daStaff.Update(dtStaff);
+                    bool Manager = true;
+                }
+                else
+                {
+                    bool Manager = false;
                 }
 
-                MessageBox.Show("Record Updated.", "Update Records");
+                if(this.CBActive.Checked)
+                {
+                    bool Active = true;
+                }
+                else
+                {
+                    bool Active = false;
+                }
+
+                try
+                {
+                    using (SQLiteCommandBuilder cb = new SQLiteCommandBuilder(daStaff))
+                    {
+                        daStaff.Update(dtStaff);
+                        string sql = string.Format("insert into Staff values('"+"','"+Title+"','"+FirstName + "','" + LastName + "','" + Email + "','" + PhoneNumber + "','" + "1" + "','" + Username + "','" + "1" + "')" );
+                    }
+
+                    MessageBox.Show("Record Updated.", "Update Records");
+                }
+                catch
+                {
+                    MessageBox.Show("Error Updating Staff Records.");
+                }
+                    string Password = this.tbPW.Text;
+                    lblError.Text = "Password matches!";
             }
-            catch
+
+            else
             {
-                MessageBox.Show("Error Updating Staff Records.");
+                lblError.Text = "The codes you enter twice must be same!";
             }
+
+        }
+
+        private void AddNewStaff_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            dbCon.Close();
+            this.Close();
         }
     }
 }

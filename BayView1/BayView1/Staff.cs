@@ -16,6 +16,8 @@ namespace BayView1
         public Staff()
         {
             InitializeComponent();
+            //Start in the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
 
@@ -25,8 +27,6 @@ namespace BayView1
         SQLiteDataAdapter daStaff;
         DataTable dtStaff = new DataTable();
 
-        //SQLite Command called myCmd
-        SQLiteCommand myCmd;
         //Set the binding source globally
         BindingSource bS = new BindingSource();
 
@@ -39,7 +39,11 @@ namespace BayView1
                 dbCon = new SQLiteConnection(dbDetails);
                 //Add required SQL
                 //daCustomer = new SQLiteDataAdapter("Select * From Customers Where Active = 1", dbCon);
+//<<<<<<< HEAD
                 daStaff = new SQLiteDataAdapter("Select StaffNo,FirstName,LastName,Email,PhoneNo,Username,Manager,Active From Staff ", dbCon);
+//=======
+                //daStaff = new SQLiteDataAdapter("Select * From Staff ", dbCon);
+//>>>>>>> 0db8301301fafc25daee307595b4555fb6661ff2
                 //Fill DataAdapter with data pulled from DataTable
                 daStaff.Fill(dtStaff);
                 //Set the Command Builder within the load.
@@ -86,6 +90,12 @@ namespace BayView1
             {
                 MessageBox.Show("Back?");
             }
+        }
+
+        private void btnNewStaff_Click(object sender, EventArgs e)
+        {
+            AddNewStaff frmaddNewStaff = new AddNewStaff();
+            frmaddNewStaff.ShowDialog();
         }
     }
 }

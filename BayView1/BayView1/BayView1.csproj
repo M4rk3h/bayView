@@ -111,12 +111,6 @@
     <Compile Include="Homeform.Designer.cs">
       <DependentUpon>Homeform.cs</DependentUpon>
     </Compile>
-    <Compile Include="OldCustomer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OldCustomer.Designer.cs">
-      <DependentUpon>OldCustomer.cs</DependentUpon>
-    </Compile>
     <Compile Include="Customers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,9 +174,6 @@
     <EmbeddedResource Include="Homeform.resx">
       <DependentUpon>Homeform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OldCustomer.resx">
-      <DependentUpon>OldCustomer.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Customers.resx">
       <DependentUpon>Customers.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -235,7 +226,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\BayViewicon.ico" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-8-Fast-backward.ico" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-8-Fast-forward.ico" />
     <Content Include="Resources\DBBayView1.db" />
+    <None Include="Resources\Graphicloads-100-Flat-Recyclebin.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Next.ico" />
+    <None Include="Resources\Graphicloads-100-Flat-Like.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Warning.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Phonebook1.ico" />
     <None Include="Resources\Graphicloads-100-Flat-Info1.ico" />

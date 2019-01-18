@@ -38,17 +38,17 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblUN = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.tbTitle = new System.Windows.Forms.TextBox();
+            this.tbLN = new System.Windows.Forms.TextBox();
+            this.tbFN = new System.Windows.Forms.TextBox();
+            this.tbPhoneNo = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
+            this.tbCPW = new System.Windows.Forms.TextBox();
+            this.tbPW = new System.Windows.Forms.TextBox();
+            this.tbUsername = new System.Windows.Forms.TextBox();
+            this.lblError = new System.Windows.Forms.Label();
             this.CBManager = new System.Windows.Forms.CheckBox();
-            this.CBOTJ = new System.Windows.Forms.CheckBox();
+            this.CBActive = new System.Windows.Forms.CheckBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -83,7 +83,7 @@
             // lblCPW
             // 
             this.lblCPW.AutoSize = true;
-            this.lblCPW.Location = new System.Drawing.Point(370, 127);
+            this.lblCPW.Location = new System.Drawing.Point(224, 166);
             this.lblCPW.Name = "lblCPW";
             this.lblCPW.Size = new System.Drawing.Size(101, 12);
             this.lblCPW.TabIndex = 5;
@@ -92,7 +92,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(205, 127);
+            this.lblPassword.Location = new System.Drawing.Point(41, 166);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(53, 12);
             this.lblPassword.TabIndex = 4;
@@ -101,7 +101,7 @@
             // lblLN
             // 
             this.lblLN.AutoSize = true;
-            this.lblLN.Location = new System.Drawing.Point(427, 78);
+            this.lblLN.Location = new System.Drawing.Point(408, 78);
             this.lblLN.Name = "lblLN";
             this.lblLN.Size = new System.Drawing.Size(59, 12);
             this.lblLN.TabIndex = 3;
@@ -110,7 +110,7 @@
             // lblPhoneNo
             // 
             this.lblPhoneNo.AutoSize = true;
-            this.lblPhoneNo.Location = new System.Drawing.Point(205, 170);
+            this.lblPhoneNo.Location = new System.Drawing.Point(408, 124);
             this.lblPhoneNo.Name = "lblPhoneNo";
             this.lblPhoneNo.Size = new System.Drawing.Size(77, 12);
             this.lblPhoneNo.TabIndex = 7;
@@ -119,7 +119,7 @@
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(41, 170);
+            this.lblEmail.Location = new System.Drawing.Point(224, 124);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(35, 12);
             this.lblEmail.TabIndex = 6;
@@ -136,99 +136,99 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(142, 36);
+            this.textBox1.Location = new System.Drawing.Point(100, 36);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 11;
             // 
-            // textBox2
+            // tbTitle
             // 
-            this.textBox2.Location = new System.Drawing.Point(100, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(58, 21);
-            this.textBox2.TabIndex = 12;
+            this.tbTitle.Location = new System.Drawing.Point(100, 75);
+            this.tbTitle.Name = "tbTitle";
+            this.tbTitle.Size = new System.Drawing.Size(58, 21);
+            this.tbTitle.TabIndex = 12;
             // 
-            // textBox3
+            // tbLN
             // 
-            this.textBox3.Location = new System.Drawing.Point(492, 75);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 21);
-            this.textBox3.TabIndex = 14;
+            this.tbLN.Location = new System.Drawing.Point(515, 75);
+            this.tbLN.Name = "tbLN";
+            this.tbLN.Size = new System.Drawing.Size(100, 21);
+            this.tbLN.TabIndex = 14;
             // 
-            // textBox4
+            // tbFN
             // 
-            this.textBox4.Location = new System.Drawing.Point(293, 72);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(85, 21);
-            this.textBox4.TabIndex = 13;
+            this.tbFN.Location = new System.Drawing.Point(302, 72);
+            this.tbFN.Name = "tbFN";
+            this.tbFN.Size = new System.Drawing.Size(100, 21);
+            this.tbFN.TabIndex = 13;
             // 
-            // textBox5
+            // tbPhoneNo
             // 
-            this.textBox5.Location = new System.Drawing.Point(288, 161);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 21);
-            this.textBox5.TabIndex = 18;
+            this.tbPhoneNo.Location = new System.Drawing.Point(515, 121);
+            this.tbPhoneNo.Name = "tbPhoneNo";
+            this.tbPhoneNo.Size = new System.Drawing.Size(100, 21);
+            this.tbPhoneNo.TabIndex = 18;
             // 
-            // textBox6
+            // tbEmail
             // 
-            this.textBox6.Location = new System.Drawing.Point(82, 167);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 21);
-            this.textBox6.TabIndex = 17;
+            this.tbEmail.Location = new System.Drawing.Point(302, 121);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(100, 21);
+            this.tbEmail.TabIndex = 17;
             // 
-            // textBox7
+            // tbCPW
             // 
-            this.textBox7.Location = new System.Drawing.Point(477, 121);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 21);
-            this.textBox7.TabIndex = 16;
+            this.tbCPW.Location = new System.Drawing.Point(331, 163);
+            this.tbCPW.Name = "tbCPW";
+            this.tbCPW.Size = new System.Drawing.Size(100, 21);
+            this.tbCPW.TabIndex = 16;
             // 
-            // textBox8
+            // tbPW
             // 
-            this.textBox8.Location = new System.Drawing.Point(264, 121);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 21);
-            this.textBox8.TabIndex = 15;
+            this.tbPW.Location = new System.Drawing.Point(100, 163);
+            this.tbPW.Name = "tbPW";
+            this.tbPW.Size = new System.Drawing.Size(100, 21);
+            this.tbPW.TabIndex = 15;
             // 
-            // textBox10
+            // tbUsername
             // 
-            this.textBox10.Location = new System.Drawing.Point(100, 121);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(90, 21);
-            this.textBox10.TabIndex = 20;
+            this.tbUsername.Location = new System.Drawing.Point(100, 121);
+            this.tbUsername.Name = "tbUsername";
+            this.tbUsername.Size = new System.Drawing.Size(100, 21);
+            this.tbUsername.TabIndex = 20;
             // 
-            // label12
+            // lblError
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(475, 145);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(47, 12);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "label12";
+            this.lblError.AutoSize = true;
+            this.lblError.Location = new System.Drawing.Point(98, 198);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(71, 12);
+            this.lblError.TabIndex = 22;
+            this.lblError.Text = "Error Label";
             // 
             // CBManager
             // 
             this.CBManager.AutoSize = true;
-            this.CBManager.Location = new System.Drawing.Point(221, 208);
+            this.CBManager.Location = new System.Drawing.Point(226, 232);
             this.CBManager.Name = "CBManager";
             this.CBManager.Size = new System.Drawing.Size(66, 16);
             this.CBManager.TabIndex = 23;
             this.CBManager.Text = "Manager";
             this.CBManager.UseVisualStyleBackColor = true;
             // 
-            // CBOTJ
+            // CBActive
             // 
-            this.CBOTJ.AutoSize = true;
-            this.CBOTJ.Location = new System.Drawing.Point(314, 208);
-            this.CBOTJ.Name = "CBOTJ";
-            this.CBOTJ.Size = new System.Drawing.Size(84, 16);
-            this.CBOTJ.TabIndex = 24;
-            this.CBOTJ.Text = "On the job";
-            this.CBOTJ.UseVisualStyleBackColor = true;
+            this.CBActive.AutoSize = true;
+            this.CBActive.Location = new System.Drawing.Point(319, 232);
+            this.CBActive.Name = "CBActive";
+            this.CBActive.Size = new System.Drawing.Size(84, 16);
+            this.CBActive.TabIndex = 24;
+            this.CBActive.Text = "On the job";
+            this.CBActive.UseVisualStyleBackColor = true;
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(212, 254);
+            this.btnSubmit.Location = new System.Drawing.Point(212, 268);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(75, 23);
             this.btnSubmit.TabIndex = 25;
@@ -238,31 +238,32 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(339, 254);
+            this.btnCancel.Location = new System.Drawing.Point(339, 268);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 26;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // AddNewStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 289);
+            this.ClientSize = new System.Drawing.Size(642, 306);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.CBOTJ);
+            this.Controls.Add(this.CBActive);
             this.Controls.Add(this.CBManager);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.lblError);
+            this.Controls.Add(this.tbUsername);
+            this.Controls.Add(this.tbPhoneNo);
+            this.Controls.Add(this.tbEmail);
+            this.Controls.Add(this.tbCPW);
+            this.Controls.Add(this.tbPW);
+            this.Controls.Add(this.tbLN);
+            this.Controls.Add(this.tbFN);
+            this.Controls.Add(this.tbTitle);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblUN);
             this.Controls.Add(this.lblPhoneNo);
@@ -275,6 +276,7 @@
             this.Controls.Add(this.lblStaffNo);
             this.Name = "AddNewStaff";
             this.Text = "AddNewStaff";
+            this.Load += new System.EventHandler(this.AddNewStaff_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,17 +294,17 @@
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblUN;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox tbTitle;
+        private System.Windows.Forms.TextBox tbLN;
+        private System.Windows.Forms.TextBox tbFN;
+        private System.Windows.Forms.TextBox tbPhoneNo;
+        private System.Windows.Forms.TextBox tbEmail;
+        private System.Windows.Forms.TextBox tbCPW;
+        private System.Windows.Forms.TextBox tbPW;
+        private System.Windows.Forms.TextBox tbUsername;
+        private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.CheckBox CBManager;
-        private System.Windows.Forms.CheckBox CBOTJ;
+        private System.Windows.Forms.CheckBox CBActive;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnCancel;
     }

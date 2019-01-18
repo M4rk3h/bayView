@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffView));
-            this.btnCustomerOld = new System.Windows.Forms.Button();
             this.btnBookings = new System.Windows.Forms.Button();
             this.btnChange = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,22 +39,6 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnCustomers = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnCustomerOld
-            // 
-            this.btnCustomerOld.Font = new System.Drawing.Font("Arial", 10F);
-            this.btnCustomerOld.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnCustomerOld.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerOld.Image")));
-            this.btnCustomerOld.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCustomerOld.Location = new System.Drawing.Point(276, 204);
-            this.btnCustomerOld.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCustomerOld.Name = "btnCustomerOld";
-            this.btnCustomerOld.Size = new System.Drawing.Size(150, 80);
-            this.btnCustomerOld.TabIndex = 3;
-            this.btnCustomerOld.Text = "Customers OLD";
-            this.btnCustomerOld.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCustomerOld.UseVisualStyleBackColor = true;
-            this.btnCustomerOld.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnBookings
             // 
@@ -79,10 +62,10 @@
             this.btnChange.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnChange.Image = ((System.Drawing.Image)(resources.GetObject("btnChange.Image")));
             this.btnChange.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnChange.Location = new System.Drawing.Point(26, 204);
+            this.btnChange.Location = new System.Drawing.Point(133, 183);
             this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(150, 80);
+            this.btnChange.Size = new System.Drawing.Size(170, 80);
             this.btnChange.TabIndex = 2;
             this.btnChange.Text = "Change Password";
             this.btnChange.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -188,7 +171,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnChange);
             this.Controls.Add(this.btnBookings);
-            this.Controls.Add(this.btnCustomerOld);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -201,8 +183,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCustomerOld;
         private System.Windows.Forms.Button btnBookings;
         private System.Windows.Forms.Button btnChange;
         private System.Windows.Forms.Label label1;
