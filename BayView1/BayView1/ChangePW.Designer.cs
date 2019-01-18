@@ -39,10 +39,13 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(88, 165);
+            this.btnConfirm.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnConfirm.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnConfirm.Location = new System.Drawing.Point(117, 220);
+            this.btnConfirm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(75, 23);
-            this.btnConfirm.TabIndex = 0;
+            this.btnConfirm.Size = new System.Drawing.Size(100, 31);
+            this.btnConfirm.TabIndex = 2;
             this.btnConfirm.Text = "Confirm";
             this.btnConfirm.UseVisualStyleBackColor = true;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
@@ -50,43 +53,58 @@
             // lblPW
             // 
             this.lblPW.AutoSize = true;
-            this.lblPW.Location = new System.Drawing.Point(69, 48);
+            this.lblPW.Font = new System.Drawing.Font("Arial", 10F);
+            this.lblPW.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblPW.Location = new System.Drawing.Point(92, 64);
+            this.lblPW.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPW.Name = "lblPW";
-            this.lblPW.Size = new System.Drawing.Size(83, 12);
-            this.lblPW.TabIndex = 1;
+            this.lblPW.Size = new System.Drawing.Size(121, 19);
+            this.lblPW.TabIndex = 4;
             this.lblPW.Text = "New Password:";
             // 
             // lblCPW
             // 
             this.lblCPW.AutoSize = true;
-            this.lblCPW.Location = new System.Drawing.Point(69, 102);
+            this.lblCPW.Font = new System.Drawing.Font("Arial", 10F);
+            this.lblCPW.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblCPW.Location = new System.Drawing.Point(69, 135);
+            this.lblCPW.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCPW.Name = "lblCPW";
-            this.lblCPW.Size = new System.Drawing.Size(107, 12);
-            this.lblCPW.TabIndex = 2;
+            this.lblCPW.Size = new System.Drawing.Size(148, 19);
+            this.lblCPW.TabIndex = 5;
             this.lblCPW.Text = "Confirm Password:";
             // 
             // tbPW
             // 
-            this.tbPW.Location = new System.Drawing.Point(182, 45);
+            this.tbPW.Font = new System.Drawing.Font("Arial", 10F);
+            this.tbPW.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.tbPW.Location = new System.Drawing.Point(252, 61);
+            this.tbPW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbPW.Name = "tbPW";
             this.tbPW.PasswordChar = '*';
-            this.tbPW.Size = new System.Drawing.Size(100, 21);
-            this.tbPW.TabIndex = 3;
+            this.tbPW.Size = new System.Drawing.Size(132, 27);
+            this.tbPW.TabIndex = 0;
             // 
             // tbCPW
             // 
-            this.tbCPW.Location = new System.Drawing.Point(182, 99);
+            this.tbCPW.Font = new System.Drawing.Font("Arial", 10F);
+            this.tbCPW.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.tbCPW.Location = new System.Drawing.Point(252, 132);
+            this.tbCPW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbCPW.Name = "tbCPW";
             this.tbCPW.PasswordChar = '*';
-            this.tbCPW.Size = new System.Drawing.Size(100, 21);
-            this.tbCPW.TabIndex = 4;
+            this.tbCPW.Size = new System.Drawing.Size(132, 27);
+            this.tbCPW.TabIndex = 1;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(196, 165);
+            this.btnCancel.Font = new System.Drawing.Font("Arial", 10F);
+            this.btnCancel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnCancel.Location = new System.Drawing.Point(261, 220);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 5;
+            this.btnCancel.Size = new System.Drawing.Size(100, 31);
+            this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -95,16 +113,17 @@
             // 
             this.lblError.AutoSize = true;
             this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(32, 142);
+            this.lblError.Location = new System.Drawing.Point(43, 189);
+            this.lblError.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(0, 12);
+            this.lblError.Size = new System.Drawing.Size(0, 17);
             this.lblError.TabIndex = 6;
             // 
             // ChangePW
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 211);
+            this.ClientSize = new System.Drawing.Size(473, 281);
             this.Controls.Add(this.lblError);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.tbCPW);
@@ -113,6 +132,7 @@
             this.Controls.Add(this.lblPW);
             this.Controls.Add(this.btnConfirm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ChangePW";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChangePW";

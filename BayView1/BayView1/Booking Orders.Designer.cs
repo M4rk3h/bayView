@@ -48,122 +48,122 @@
             // lblBookingNo
             // 
             this.lblBookingNo.AutoSize = true;
-            this.lblBookingNo.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookingNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookingNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblBookingNo.Location = new System.Drawing.Point(15, 120);
             this.lblBookingNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBookingNo.Name = "lblBookingNo";
-            this.lblBookingNo.Size = new System.Drawing.Size(79, 22);
+            this.lblBookingNo.Size = new System.Drawing.Size(88, 19);
             this.lblBookingNo.TabIndex = 111;
             this.lblBookingNo.Text = "BookingNo";
             // 
             // cbbookingNo1
             // 
-            this.cbbookingNo1.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbookingNo1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbookingNo1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbbookingNo1.FormattingEnabled = true;
             this.cbbookingNo1.Location = new System.Drawing.Point(110, 120);
             this.cbbookingNo1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbbookingNo1.Name = "cbbookingNo1";
-            this.cbbookingNo1.Size = new System.Drawing.Size(300, 30);
-            this.cbbookingNo1.TabIndex = 110;
+            this.cbbookingNo1.Size = new System.Drawing.Size(300, 27);
+            this.cbbookingNo1.TabIndex = 2;
             this.cbbookingNo1.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo1_SelectedIndexChanged);
             // 
             // lbltotalpaid
             // 
             this.lbltotalpaid.AutoSize = true;
-            this.lbltotalpaid.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalpaid.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotalpaid.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbltotalpaid.Location = new System.Drawing.Point(15, 80);
             this.lbltotalpaid.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpaid.Name = "lbltotalpaid";
-            this.lbltotalpaid.Size = new System.Drawing.Size(73, 22);
+            this.lbltotalpaid.Size = new System.Drawing.Size(79, 19);
             this.lbltotalpaid.TabIndex = 105;
             this.lbltotalpaid.Text = "Total Paid";
             // 
             // lblbookingno1
             // 
             this.lblbookingno1.AutoSize = true;
-            this.lblbookingno1.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblbookingno1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblbookingno1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblbookingno1.Location = new System.Drawing.Point(15, 40);
             this.lblbookingno1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblbookingno1.Name = "lblbookingno1";
-            this.lblbookingno1.Size = new System.Drawing.Size(79, 22);
+            this.lblbookingno1.Size = new System.Drawing.Size(88, 19);
             this.lblbookingno1.TabIndex = 100;
             this.lblbookingno1.Text = "BookingNo";
             // 
             // cbbookingNo
             // 
-            this.cbbookingNo.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbookingNo.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbookingNo.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbbookingNo.FormattingEnabled = true;
             this.cbbookingNo.Location = new System.Drawing.Point(110, 40);
             this.cbbookingNo.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbbookingNo.Name = "cbbookingNo";
-            this.cbbookingNo.Size = new System.Drawing.Size(300, 30);
-            this.cbbookingNo.TabIndex = 97;
+            this.cbbookingNo.Size = new System.Drawing.Size(300, 27);
+            this.cbbookingNo.TabIndex = 0;
             this.cbbookingNo.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo_SelectedIndexChanged);
             // 
             // txttotalpaid
             // 
-            this.txttotalpaid.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttotalpaid.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttotalpaid.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txttotalpaid.Location = new System.Drawing.Point(110, 80);
             this.txttotalpaid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txttotalpaid.Name = "txttotalpaid";
             this.txttotalpaid.Size = new System.Drawing.Size(300, 27);
-            this.txttotalpaid.TabIndex = 124;
+            this.txttotalpaid.TabIndex = 1;
             // 
             // txttotalpaid1
             // 
-            this.txttotalpaid1.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttotalpaid1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttotalpaid1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txttotalpaid1.Location = new System.Drawing.Point(110, 200);
             this.txttotalpaid1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txttotalpaid1.Name = "txttotalpaid1";
             this.txttotalpaid1.Size = new System.Drawing.Size(300, 27);
-            this.txttotalpaid1.TabIndex = 132;
+            this.txttotalpaid1.TabIndex = 4;
             // 
             // lbltotalpaid2
             // 
             this.lbltotalpaid2.AutoSize = true;
-            this.lbltotalpaid2.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalpaid2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotalpaid2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbltotalpaid2.Location = new System.Drawing.Point(15, 200);
             this.lbltotalpaid2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpaid2.Name = "lbltotalpaid2";
-            this.lbltotalpaid2.Size = new System.Drawing.Size(73, 22);
+            this.lbltotalpaid2.Size = new System.Drawing.Size(79, 19);
             this.lbltotalpaid2.TabIndex = 127;
             this.lbltotalpaid2.Text = "Total Paid";
             // 
             // lbltotalpaid1
             // 
             this.lbltotalpaid1.AutoSize = true;
-            this.lbltotalpaid1.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotalpaid1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotalpaid1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbltotalpaid1.Location = new System.Drawing.Point(15, 160);
             this.lbltotalpaid1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotalpaid1.Name = "lbltotalpaid1";
-            this.lbltotalpaid1.Size = new System.Drawing.Size(73, 22);
+            this.lbltotalpaid1.Size = new System.Drawing.Size(79, 19);
             this.lbltotalpaid1.TabIndex = 126;
             this.lbltotalpaid1.Text = "Total Paid";
             // 
             // cbtotalpaid
             // 
-            this.cbtotalpaid.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbtotalpaid.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbtotalpaid.ForeColor = System.Drawing.SystemColors.Highlight;
             this.cbtotalpaid.FormattingEnabled = true;
             this.cbtotalpaid.Location = new System.Drawing.Point(110, 160);
             this.cbtotalpaid.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbtotalpaid.Name = "cbtotalpaid";
-            this.cbtotalpaid.Size = new System.Drawing.Size(300, 30);
-            this.cbtotalpaid.TabIndex = 125;
+            this.cbtotalpaid.Size = new System.Drawing.Size(300, 27);
+            this.cbtotalpaid.TabIndex = 3;
             this.cbtotalpaid.SelectedIndexChanged += new System.EventHandler(this.cbtotalpaid_SelectedIndexChanged);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnUpdate.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Next;
             this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -171,7 +171,7 @@
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(150, 80);
-            this.btnUpdate.TabIndex = 135;
+            this.btnUpdate.TabIndex = 8;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -179,7 +179,7 @@
             // 
             // btndelete
             // 
-            this.btndelete.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndelete.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btndelete.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Recyclebin;
             this.btndelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -187,7 +187,7 @@
             this.btndelete.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(150, 80);
-            this.btndelete.TabIndex = 95;
+            this.btndelete.TabIndex = 7;
             this.btndelete.Text = "Delete";
             this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btndelete.UseVisualStyleBackColor = true;
@@ -195,7 +195,7 @@
             // 
             // btnclose
             // 
-            this.btnclose.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclose.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnclose.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnclose.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Close;
             this.btnclose.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -203,7 +203,7 @@
             this.btnclose.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(150, 80);
-            this.btnclose.TabIndex = 94;
+            this.btnclose.TabIndex = 9;
             this.btnclose.Text = "Close";
             this.btnclose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnclose.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@
             // 
             // btncancel
             // 
-            this.btncancel.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancel.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btncancel.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Warning;
             this.btncancel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -219,7 +219,7 @@
             this.btncancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(150, 80);
-            this.btncancel.TabIndex = 93;
+            this.btncancel.TabIndex = 6;
             this.btncancel.Text = "Cancel";
             this.btncancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncancel.UseVisualStyleBackColor = true;
@@ -227,7 +227,7 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnSubmit.Image = global::BayView1.Properties.Resources.Graphicloads_100_Flat_Like;
             this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -235,7 +235,7 @@
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(150, 80);
-            this.btnSubmit.TabIndex = 92;
+            this.btnSubmit.TabIndex = 5;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSubmit.UseVisualStyleBackColor = true;

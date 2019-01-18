@@ -90,7 +90,7 @@
             this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerNo.Name = "cbcustomerNo";
             this.cbcustomerNo.Size = new System.Drawing.Size(256, 27);
-            this.cbcustomerNo.TabIndex = 157;
+            this.cbcustomerNo.TabIndex = 2;
             this.cbcustomerNo.SelectedIndexChanged += new System.EventHandler(this.cbcustomerNo_SelectedIndexChanged);
             // 
             // cbstaffNo
@@ -102,7 +102,7 @@
             this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffNo.Name = "cbstaffNo";
             this.cbstaffNo.Size = new System.Drawing.Size(256, 27);
-            this.cbstaffNo.TabIndex = 156;
+            this.cbstaffNo.TabIndex = 3;
             this.cbstaffNo.SelectedIndexChanged += new System.EventHandler(this.cbstaffNo_SelectedIndexChanged);
             // 
             // lblorderno
@@ -126,7 +126,7 @@
             this.cborderno.Margin = new System.Windows.Forms.Padding(4);
             this.cborderno.Name = "cborderno";
             this.cborderno.Size = new System.Drawing.Size(256, 27);
-            this.cborderno.TabIndex = 161;
+            this.cborderno.TabIndex = 1;
             this.cborderno.SelectedIndexChanged += new System.EventHandler(this.cborderno_SelectedIndexChanged);
             // 
             // txtcanceldate
@@ -137,7 +137,7 @@
             this.txtcanceldate.Margin = new System.Windows.Forms.Padding(4);
             this.txtcanceldate.Name = "txtcanceldate";
             this.txtcanceldate.Size = new System.Drawing.Size(256, 27);
-            this.txtcanceldate.TabIndex = 171;
+            this.txtcanceldate.TabIndex = 4;
             // 
             // lblcancel
             // 
@@ -172,7 +172,7 @@
             this.cborderno1.Margin = new System.Windows.Forms.Padding(4);
             this.cborderno1.Name = "cborderno1";
             this.cborderno1.Size = new System.Drawing.Size(256, 27);
-            this.cborderno1.TabIndex = 179;
+            this.cborderno1.TabIndex = 5;
             this.cborderno1.SelectedIndexChanged += new System.EventHandler(this.cborderno1_SelectedIndexChanged);
             // 
             // lblcustomerno1
@@ -208,7 +208,7 @@
             this.cbcustomerno1.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerno1.Name = "cbcustomerno1";
             this.cbcustomerno1.Size = new System.Drawing.Size(256, 27);
-            this.cbcustomerno1.TabIndex = 176;
+            this.cbcustomerno1.TabIndex = 6;
             this.cbcustomerno1.SelectedIndexChanged += new System.EventHandler(this.cbcustomerno1_SelectedIndexChanged);
             // 
             // cbstaffno1
@@ -220,7 +220,7 @@
             this.cbstaffno1.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffno1.Name = "cbstaffno1";
             this.cbstaffno1.Size = new System.Drawing.Size(256, 27);
-            this.cbstaffno1.TabIndex = 175;
+            this.cbstaffno1.TabIndex = 7;
             this.cbstaffno1.SelectedIndexChanged += new System.EventHandler(this.cbstaffno1_SelectedIndexChanged);
             // 
             // lblcancelation
@@ -244,7 +244,7 @@
             this.cbcancelation.Margin = new System.Windows.Forms.Padding(4);
             this.cbcancelation.Name = "cbcancelation";
             this.cbcancelation.Size = new System.Drawing.Size(256, 27);
-            this.cbcancelation.TabIndex = 181;
+            this.cbcancelation.TabIndex = 8;
             this.cbcancelation.SelectedIndexChanged += new System.EventHandler(this.cbcancelation_SelectedIndexChanged);
             // 
             // txtcancelation
@@ -255,7 +255,7 @@
             this.txtcancelation.Margin = new System.Windows.Forms.Padding(4);
             this.txtcancelation.Name = "txtcancelation";
             this.txtcancelation.Size = new System.Drawing.Size(256, 27);
-            this.txtcancelation.TabIndex = 184;
+            this.txtcancelation.TabIndex = 9;
             // 
             // lblcancelation2
             // 
@@ -290,7 +290,7 @@
             this.cbcancelno.Margin = new System.Windows.Forms.Padding(4);
             this.cbcancelno.Name = "cbcancelno";
             this.cbcancelno.Size = new System.Drawing.Size(256, 27);
-            this.cbcancelno.TabIndex = 186;
+            this.cbcancelno.TabIndex = 0;
             this.cbcancelno.SelectedIndexChanged += new System.EventHandler(this.cbcancelno_SelectedIndexChanged);
             // 
             // lblcancel1
@@ -314,7 +314,7 @@
             this.cbcancelno1.Margin = new System.Windows.Forms.Padding(4);
             this.cbcancelno1.Name = "cbcancelno1";
             this.cbcancelno1.Size = new System.Drawing.Size(256, 27);
-            this.cbcancelno1.TabIndex = 189;
+            this.cbcancelno1.TabIndex = 10;
             this.cbcancelno1.SelectedIndexChanged += new System.EventHandler(this.cbcancelno1_SelectedIndexChanged);
             // 
             // btndelete
@@ -327,7 +327,7 @@
             this.btndelete.Margin = new System.Windows.Forms.Padding(4);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(150, 80);
-            this.btndelete.TabIndex = 188;
+            this.btndelete.TabIndex = 14;
             this.btndelete.Text = "Delete";
             this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btndelete.UseVisualStyleBackColor = true;
@@ -343,7 +343,7 @@
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(150, 80);
-            this.btnUpdate.TabIndex = 185;
+            this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -359,7 +359,7 @@
             this.btnclose.Margin = new System.Windows.Forms.Padding(4);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(150, 80);
-            this.btnclose.TabIndex = 174;
+            this.btnclose.TabIndex = 15;
             this.btnclose.Text = "Close";
             this.btnclose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnclose.UseVisualStyleBackColor = true;
@@ -375,7 +375,7 @@
             this.btncancel.Margin = new System.Windows.Forms.Padding(4);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(150, 80);
-            this.btncancel.TabIndex = 173;
+            this.btncancel.TabIndex = 13;
             this.btncancel.Text = "Cancel";
             this.btncancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncancel.UseVisualStyleBackColor = true;
@@ -391,7 +391,7 @@
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(150, 80);
-            this.btnSubmit.TabIndex = 172;
+            this.btnSubmit.TabIndex = 11;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSubmit.UseVisualStyleBackColor = true;

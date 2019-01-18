@@ -81,7 +81,7 @@
             this.btnclose.Margin = new System.Windows.Forms.Padding(4);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(150, 80);
-            this.btnclose.TabIndex = 152;
+            this.btnclose.TabIndex = 21;
             this.btnclose.Text = "Close";
             this.btnclose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnclose.UseVisualStyleBackColor = true;
@@ -108,7 +108,7 @@
             this.cbroomnumber.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomnumber.Name = "cbroomnumber";
             this.cbroomnumber.Size = new System.Drawing.Size(250, 27);
-            this.cbroomnumber.TabIndex = 150;
+            this.cbroomnumber.TabIndex = 16;
             this.cbroomnumber.SelectedIndexChanged += new System.EventHandler(this.cbroomnumber_SelectedIndexChanged);
             // 
             // lbllastname
@@ -132,7 +132,7 @@
             this.cblastname.Margin = new System.Windows.Forms.Padding(4);
             this.cblastname.Name = "cblastname";
             this.cblastname.Size = new System.Drawing.Size(250, 27);
-            this.cblastname.TabIndex = 148;
+            this.cblastname.TabIndex = 10;
             this.cblastname.SelectedIndexChanged += new System.EventHandler(this.cblastname_SelectedIndexChanged);
             // 
             // lblfirstname
@@ -156,7 +156,7 @@
             this.cbfirstname.Margin = new System.Windows.Forms.Padding(4);
             this.cbfirstname.Name = "cbfirstname";
             this.cbfirstname.Size = new System.Drawing.Size(250, 27);
-            this.cbfirstname.TabIndex = 146;
+            this.cbfirstname.TabIndex = 9;
             this.cbfirstname.SelectedIndexChanged += new System.EventHandler(this.cbfirstname_SelectedIndexChanged);
             // 
             // lblmanager
@@ -180,7 +180,7 @@
             this.cbmanager.Margin = new System.Windows.Forms.Padding(4);
             this.cbmanager.Name = "cbmanager";
             this.cbmanager.Size = new System.Drawing.Size(250, 27);
-            this.cbmanager.TabIndex = 144;
+            this.cbmanager.TabIndex = 14;
             this.cbmanager.SelectedIndexChanged += new System.EventHandler(this.cbmanager_SelectedIndexChanged);
             // 
             // lblroomNo
@@ -228,7 +228,7 @@
             this.cbroomNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomNo.Name = "cbroomNo";
             this.cbroomNo.Size = new System.Drawing.Size(250, 27);
-            this.cbroomNo.TabIndex = 140;
+            this.cbroomNo.TabIndex = 15;
             this.cbroomNo.SelectedIndexChanged += new System.EventHandler(this.cbroomNo_SelectedIndexChanged);
             // 
             // cbcustomerNo
@@ -240,7 +240,7 @@
             this.cbcustomerNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbcustomerNo.Name = "cbcustomerNo";
             this.cbcustomerNo.Size = new System.Drawing.Size(250, 27);
-            this.cbcustomerNo.TabIndex = 139;
+            this.cbcustomerNo.TabIndex = 8;
             this.cbcustomerNo.SelectedIndexChanged += new System.EventHandler(this.cbcustomerNo_SelectedIndexChanged);
             // 
             // cbstaffNo
@@ -252,7 +252,7 @@
             this.cbstaffNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbstaffNo.Name = "cbstaffNo";
             this.cbstaffNo.Size = new System.Drawing.Size(250, 27);
-            this.cbstaffNo.TabIndex = 138;
+            this.cbstaffNo.TabIndex = 13;
             this.cbstaffNo.SelectedIndexChanged += new System.EventHandler(this.cbstaffNo_SelectedIndexChanged);
             // 
             // cbdateout
@@ -264,7 +264,7 @@
             this.cbdateout.Margin = new System.Windows.Forms.Padding(4);
             this.cbdateout.Name = "cbdateout";
             this.cbdateout.Size = new System.Drawing.Size(250, 27);
-            this.cbdateout.TabIndex = 136;
+            this.cbdateout.TabIndex = 3;
             this.cbdateout.SelectedIndexChanged += new System.EventHandler(this.cbdateout_SelectedIndexChanged);
             // 
             // cbdatedue
@@ -276,7 +276,7 @@
             this.cbdatedue.Margin = new System.Windows.Forms.Padding(4);
             this.cbdatedue.Name = "cbdatedue";
             this.cbdatedue.Size = new System.Drawing.Size(250, 27);
-            this.cbdatedue.TabIndex = 135;
+            this.cbdatedue.TabIndex = 12;
             this.cbdatedue.SelectedIndexChanged += new System.EventHandler(this.cbdatedue_SelectedIndexChanged);
             // 
             // btnUpdate
@@ -289,7 +289,7 @@
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(150, 80);
-            this.btnUpdate.TabIndex = 134;
+            this.btnUpdate.TabIndex = 18;
             this.btnUpdate.Text = "Update Booking";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -304,7 +304,7 @@
             this.cbbookingNo.Margin = new System.Windows.Forms.Padding(4);
             this.cbbookingNo.Name = "cbbookingNo";
             this.cbbookingNo.Size = new System.Drawing.Size(250, 27);
-            this.cbbookingNo.TabIndex = 132;
+            this.cbbookingNo.TabIndex = 1;
             this.cbbookingNo.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo_SelectedIndexChanged);
             // 
             // btncancel
@@ -317,7 +317,7 @@
             this.btncancel.Margin = new System.Windows.Forms.Padding(4);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(150, 80);
-            this.btncancel.TabIndex = 153;
+            this.btncancel.TabIndex = 19;
             this.btncancel.Text = "Cancel";
             this.btncancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncancel.UseVisualStyleBackColor = true;
@@ -380,7 +380,7 @@
             this.cbroomtype.Margin = new System.Windows.Forms.Padding(4);
             this.cbroomtype.Name = "cbroomtype";
             this.cbroomtype.Size = new System.Drawing.Size(250, 27);
-            this.cbroomtype.TabIndex = 157;
+            this.cbroomtype.TabIndex = 17;
             this.cbroomtype.SelectedIndexChanged += new System.EventHandler(this.cbroomtype_SelectedIndexChanged);
             // 
             // numericUpDown
@@ -391,7 +391,7 @@
             this.numericUpDown.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown.Name = "numericUpDown";
             this.numericUpDown.Size = new System.Drawing.Size(204, 27);
-            this.numericUpDown.TabIndex = 160;
+            this.numericUpDown.TabIndex = 7;
             this.numericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
             // 
@@ -428,7 +428,7 @@
             this.cbduration.Margin = new System.Windows.Forms.Padding(4);
             this.cbduration.Name = "cbduration";
             this.cbduration.Size = new System.Drawing.Size(250, 27);
-            this.cbduration.TabIndex = 161;
+            this.cbduration.TabIndex = 4;
             this.cbduration.SelectedIndexChanged += new System.EventHandler(this.cbduration_SelectedIndexChanged);
             // 
             // lbltotalpayment
@@ -452,7 +452,7 @@
             this.cbtotalpayment.Margin = new System.Windows.Forms.Padding(4);
             this.cbtotalpayment.Name = "cbtotalpayment";
             this.cbtotalpayment.Size = new System.Drawing.Size(250, 27);
-            this.cbtotalpayment.TabIndex = 163;
+            this.cbtotalpayment.TabIndex = 11;
             this.cbtotalpayment.SelectedIndexChanged += new System.EventHandler(this.cbtotalpayment_SelectedIndexChanged);
             // 
             // txttotalpayment
@@ -463,7 +463,7 @@
             this.txttotalpayment.Margin = new System.Windows.Forms.Padding(4);
             this.txttotalpayment.Name = "txttotalpayment";
             this.txttotalpayment.Size = new System.Drawing.Size(250, 27);
-            this.txttotalpayment.TabIndex = 166;
+            this.txttotalpayment.TabIndex = 12;
             // 
             // lbltotalpayment1
             // 
@@ -485,7 +485,7 @@
             this.txtdateout.Margin = new System.Windows.Forms.Padding(4);
             this.txtdateout.Name = "txtdateout";
             this.txtdateout.Size = new System.Drawing.Size(250, 27);
-            this.txtdateout.TabIndex = 170;
+            this.txtdateout.TabIndex = 6;
             // 
             // txtdatedue
             // 
@@ -495,7 +495,7 @@
             this.txtdatedue.Margin = new System.Windows.Forms.Padding(4);
             this.txtdatedue.Name = "txtdatedue";
             this.txtdatedue.Size = new System.Drawing.Size(250, 27);
-            this.txtdatedue.TabIndex = 169;
+            this.txtdatedue.TabIndex = 5;
             // 
             // lbldateout1
             // 
@@ -542,7 +542,7 @@
             this.cbbookingNo1.Margin = new System.Windows.Forms.Padding(4);
             this.cbbookingNo1.Name = "cbbookingNo1";
             this.cbbookingNo1.Size = new System.Drawing.Size(256, 27);
-            this.cbbookingNo1.TabIndex = 172;
+            this.cbbookingNo1.TabIndex = 0;
             this.cbbookingNo1.SelectedIndexChanged += new System.EventHandler(this.cbbookingNo1_SelectedIndexChanged);
             // 
             // btndelete
@@ -555,7 +555,7 @@
             this.btndelete.Margin = new System.Windows.Forms.Padding(4);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(150, 80);
-            this.btndelete.TabIndex = 171;
+            this.btndelete.TabIndex = 20;
             this.btndelete.Text = "Delete";
             this.btndelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btndelete.UseVisualStyleBackColor = true;
