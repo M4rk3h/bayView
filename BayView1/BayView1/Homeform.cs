@@ -65,8 +65,6 @@ namespace BayView1
                 UpdateBooking.Enabled = false;
                 cancelation.Enabled = false;
                 tssImage.Text = "Set to: " + openFileDialog1.FileName;
-                //Enable other buttons
-                enableAll();
             }
             else
             {
@@ -86,6 +84,8 @@ namespace BayView1
                 ConnectQ.Enabled = false;
                 conn.ConnectionString = conString;
                 conn.Open();
+                //Enable other buttons
+                enableAll();
 
 
                 if (conn.State == System.Data.ConnectionState.Open)
