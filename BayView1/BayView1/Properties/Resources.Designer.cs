@@ -113,9 +113,39 @@ namespace BayView1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Graphicloads_100_Flat_Like {
+            get {
+                object obj = ResourceManager.GetObject("Graphicloads-100-Flat-Like", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Graphicloads_100_Flat_Next {
+            get {
+                object obj = ResourceManager.GetObject("Graphicloads-100-Flat-Next", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Graphicloads_100_Flat_Phonebook {
             get {
                 object obj = ResourceManager.GetObject("Graphicloads-100-Flat-Phonebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Graphicloads_100_Flat_Recyclebin {
+            get {
+                object obj = ResourceManager.GetObject("Graphicloads-100-Flat-Recyclebin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
