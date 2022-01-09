@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cff5b206-3ad5-49ff-a9da-91d0c9890d70": {
+      "ProjectGuid": "cff5b206-3ad5-49ff-a9da-91d0c9890d70",
+      "DisplayName": "BayView1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

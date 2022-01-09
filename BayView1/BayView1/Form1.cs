@@ -21,9 +21,10 @@ namespace BayView1
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        SQLiteConnection dbcon = 
-            new SQLiteConnection(dbConnection.dbsource);
+        // Create an SQL connection
+        SQLiteConnection dbcon = new SQLiteConnection(dbConnection.dbsource);
 
+        // Create a login button event, to check the login details
         private void btnLogin_Click(object sender, EventArgs e)
         {
             try
